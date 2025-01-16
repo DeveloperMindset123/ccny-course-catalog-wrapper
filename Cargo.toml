@@ -1,0 +1,22 @@
+[package]
+name = "ccny-course-catalog-wrapper"
+version = "0.1.0"
+description = "A api wrapper for retrieving course related information from CUNY City College."
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.217", features = ["derive"] }
+anyhow = "1.0.95"
+filepath = "0.2.0"
+tokio-macros = "2.5.0"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12.12", features = [
+    "json",
+    "gzip",
+    "deflate",
+    "stream",
+] }
+serde_json = "1.0.135"
+async-compression = { version = "0.4.18", features = ["futures-io"] }
+futures = "0.3.31"
