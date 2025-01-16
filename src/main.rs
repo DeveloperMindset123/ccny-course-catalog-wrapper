@@ -11,8 +11,9 @@ use filepath::FilePath;
 use std::path::PathBuf;
 // TODO : define a function that will determine the department and retrieve the courses from the particular department.
 
-#[tokio::main]
-pub async fn main() -> Result<()> {
+// #[tokio::main]
+pub fn main() -> Result<()> {
+    let base_url_version2 = "https://app.coursedog.com/api/v1/cm/cty01/courses/search/%24filters";
     let base_url = "https://ccny-undergraduate.catalog.cuny.edu";
 
     // pass query params within an array
@@ -21,7 +22,7 @@ pub async fn main() -> Result<()> {
     let query_params = [
         ("catalogId", "tyrc1I8cy2QhVy5W5L2I"),
         ("skip", "0"),
-        ("limit", "10"),
+        ("limit", "0"),
         ("orderBy", "catalogDisplayName,transcriptDescription,longName,name"),
         ("formatDependents", "false"),
         ("effectiveDatesRange", "2024-08-28,2024-08-28"),
@@ -33,67 +34,88 @@ pub async fn main() -> Result<()> {
 
     // use the json! macro froms serde_json to create the json body
     let payload = serde_json::json!({
-  "condition": "AND",
-  "filters": [
-    {
-      "condition": "and",
-      "filters": [
+    "condition": "AND",
+    "filters": [
         {
-          "id": "status-course",
-          "name": "status",
-          "inputType": "select",
-          "group": "course",
-          "type": "is",
-          "value": "Active"
+            "condition": "and",
+            "filters": [
+                {
+                    "id": "status-course",
+                    "name": "status",
+                    "inputType": "select",
+                    "group": "course",
+                    "type": "is",
+                    "value": "Active"
+                },
+                {
+                    "id": "catalogPrint-course",
+                    "name": "catalogPrint",
+                    "inputType": "boolean",
+                    "group": "course",
+                    "type": "is",
+                    "value": true
+                },
+                {
+                    "id": "career-course",
+                    "name": "career",
+                    "inputType": "careerSelect",
+                    "group": "course",
+                    "type": "is",
+                    "value": "Undergraduate"
+                },
+                {
+                    "id": "attributes-course",
+                    "name": "attributes",
+                    "inputType": "attributeSelect",
+                    "group": "course",
+                    "type": "doesNotContain",
+                    "value": [
+                        "EXPR - EXPR (Experimental)"
+                    ]
+                }
+            ]
         },
         {
-          "id": "catalogPrint-course",
-          "name": "catalogPrint",
-          "inputType": "boolean",
-          "group": "course",
-          "type": "is",
-          "value": true
-        },
-        {
-          "id": "career-course",
-          "name": "career",
-          "inputType": "careerSelect",
-          "group": "course",
-          "type": "is",
-          "value": "Undergraduate"
-        },
-        {
-          "id": "attributes-course",
-          "name": "attributes",
-          "inputType": "attributeSelect",
-          "group": "course",
-          "type": "doesNotContain",
-          "value": [
-            "EXPR - EXPR (Experimental)"
-          ]
+            "id": "departments-course",
+            "name": "departments",
+            "inputType": "select",
+            "group": "course",
+            "type": "contains",
+            "value": [
+                "DIVSCI-CTY"
+            ]
         }
-      ]
-    },
-    {
-      "id": "departments-course",
-      "name": "departments",
-      "inputType": "select",
-      "group": "course",
-      "type": "contains",
-      "value": [
-        "DIVSCI-CTY"
-      ]
-    }
-  ]
+    ]
 });
     // println!("{payload:#?}");        // tested : worked
     let get_header_data = get_headers();    
     // println!("{get_header_data:#?}");        // tested : worked
+    let url = reqwest::Url::parse_with_params(base_url_version2, &query_params)?;
+    // println!("{:?}", url);
+    let create_client = reqwest::blocking::Client::new();
+    let resp = create_client.post(url).json(&serde_json::json!(
+        {
+            "id": "departments-course",
+            "name": "departments",
+            "inputType": "select",
+            "group": "course",
+            "type": "contains",
+            "value": [
+                "DIVSCI-CTY"
+            ]
+        }
+    )).send()?;
+    let response_data : serde_json::Value = resp.json()?;
 
-    let response = client.post("
-https://app.coursedog.com/api/v1/cm/cty01/courses/search/%24filters").form(&query_params).json(&payload).send().await?;
-    let mut response_data : serde_json::Value = response.json().await?;
-    println!("{:#?}", response_data);
+    let string_data : String = serde_json::to_string(&response_data).unwrap();
+    let (file, file_path) = create_file("results.json");
+    save_data_to_file(file, &string_data);
+    println!("{response_data:#?}");
+
+//     let response = client.post("
+// https://app.coursedog.com/api/v1/cm/cty01/courses/search/%24filters").form(&query_params).json(&payload).send().await?;
+//     let mut response_data : serde_json::Value = response.json().await?;
+//     println!("{:#?}", response_data);
 
     // if !response.status().is_success() {
     //     return Err(anyhow::anyhow!("Error with making post request"));
@@ -142,13 +164,13 @@ pub fn get_headers() -> HeaderMap {
     headers
 }
 
-pub async fn create_file(fileName : &str) -> (fs::File, PathBuf) {
+pub fn create_file(fileName : &str) -> (fs::File, PathBuf) {
   let mut file = fs::File::create(fileName).unwrap();
   let filePath = file.path().unwrap();    // Ok("/path/to/file") -> "/path/to/file"
   (file, filePath)
 }
 
-pub async fn save_data_to_file(mut file : fs::File, data : &str) {
+pub fn save_data_to_file(mut file : fs::File, data : &str) {
   file.write_all(data.as_bytes()).expect("failed to write json data to file")
 }
 // {
