@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "_id": "0455371-2013-05-01",
+      "_id": "1526511-2021-07-01",
       "career": "Undergraduate",
-      "code": "CSC 22000",
+      "code": "EAS A9335",
       "components": [
         {
           "attendanceContactUse": true,
@@ -19,26 +19,24 @@
           "code": "LEC",
           "contactHours": 3,
           "customFields": {},
-          "defaultSectionSize": 35,
+          "defaultSectionSize": 4,
           "deliveryMode": [],
           "examSeatSpacing": 1,
           "finalExamType": "Yes",
           "id": "LEC",
           "includeInDynamicDate": false,
-          "instructionMode": "In Person",
+          "instructionMode": "Online",
           "lmsFileType": "Blackboard CourseInfo 4",
           "name": "Lecture",
           "oeeWorkloadHours": 0,
           "optionalComponent": false,
-          "preferredRoomFeatures": [
-            "Academic Scheduling"
-          ],
+          "preferredRoomFeatures": [],
           "providerForAuthentication": "",
           "workloadHours": 3
         }
       ],
-      "courseGroupId": "0455371",
-      "courseNumber": "22000",
+      "courseGroupId": "1526511",
+      "courseNumber": "A9335",
       "credits": {
         "creditHours": {
           "max": 3,
@@ -51,19 +49,79 @@
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
-      "effectiveStartDate": "2013-05-01",
-      "id": "0455371-2013-05-01",
-      "longName": "Algorithms",
-      "name": "Algorithms",
-      "subjectCode": "CSC"
+      "effectiveStartDate": "2021-07-01",
+      "id": "1526511-2021-07-01",
+      "longName": "Applied Resilience by Design",
+      "name": "Applied Resilience by Design",
+      "subjectCode": "EAS"
     },
     {
-      "_id": "0455801-1901-01-01",
+      "_id": "0462841-2015-05-15",
       "career": "Undergraduate",
-      "code": "CSC 44800",
+      "code": "EAS 48800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 5,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 5
+        }
+      ],
+      "courseGroupId": "0462841",
+      "courseNumber": "48800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2015-05-15",
+      "id": "0462841-2015-05-15",
+      "longName": "Climate and Climate Change",
+      "name": "Climate and Climate Change",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462641-2015-01-06",
+      "career": "Undergraduate",
+      "code": "EAS 36500",
       "components": [
         {
           "attendanceContactUse": true,
@@ -97,8 +155,8 @@
           "workloadHours": 3
         }
       ],
-      "courseGroupId": "0455801",
-      "courseNumber": "44800",
+      "courseGroupId": "0462641",
+      "courseNumber": "36500",
       "credits": {
         "creditHours": {
           "max": 3,
@@ -111,19 +169,77 @@
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2015-01-06",
+      "id": "0462641-2015-01-06",
+      "longName": "Coast and Ocean Processes",
+      "name": "Coast and Ocean Processes",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1269231-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 30000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "1269231",
+      "courseNumber": "30000",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
       "effectiveStartDate": "1901-01-01",
-      "id": "0455801-1901-01-01",
-      "longName": "Artificial Intelligence",
-      "name": "Artificial Intelligence",
-      "subjectCode": "CSC"
+      "id": "1269231-1901-01-01",
+      "longName": "Earth and Environmental Science Seminar",
+      "name": "Earth and Environmental Scienc",
+      "subjectCode": "EAS"
     },
     {
-      "_id": "1497831-2019-09-13",
+      "_id": "0461941-2016-01-29",
       "career": "Undergraduate",
-      "code": "CSC 44500",
+      "code": "EAS 10600",
       "components": [
         {
           "attendanceContactUse": true,
@@ -137,297 +253,7 @@
           "attendanceType": "Class Meeting",
           "autoCreate": false,
           "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 30,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 3,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "1497831",
-      "courseNumber": "44500",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "2019-09-13",
-      "id": "1497831-2019-09-13",
-      "longName": "Big Data Management and Analysis",
-      "name": "Big Data Management and Analys",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "1368701-2019-12-31",
-      "career": "Undergraduate",
-      "code": "CSC 59001",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "IND",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 30,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "IND",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Independent Study",
-          "oeeWorkloadHours": 3,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "1368701",
-      "courseNumber": "59001",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "2019-12-31",
-      "id": "1368701-2019-12-31",
-      "longName": "Co-op Study I",
-      "name": "Co-op Study I",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "1368801-2018-02-06",
-      "career": "Undergraduate",
-      "code": "CSC 59002",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 30,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 3,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "1368801",
-      "courseNumber": "59002",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "2018-02-06",
-      "id": "1368801-2018-02-06",
-      "longName": "Co-op Study II",
-      "name": "Co-op Study II",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "1368811-2018-02-06",
-      "career": "Undergraduate",
-      "code": "CSC 59003",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 30,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 3,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "1368811",
-      "courseNumber": "59003",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "2018-02-06",
-      "id": "1368811-2018-02-06",
-      "longName": "Co-op Study III",
-      "name": "Co-op Study III",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "1471211-2018-10-21",
-      "career": "Undergraduate",
-      "code": "CSC 59004",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 25,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "Hybrid",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "1471211",
-      "courseNumber": "59004",
-      "credits": {
-        "creditHours": {
-          "max": 0,
-          "min": 0,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "2018-10-21",
-      "id": "1471211-2018-10-21",
-      "longName": "Co-op Study Preparation",
-      "name": "Co-op Study Preparation",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "0455811-1901-01-01",
-      "career": "Undergraduate",
-      "code": "CSC 45000",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
+          "contactHours": 6,
           "customFields": {},
           "defaultSectionSize": 35,
           "deliveryMode": [],
@@ -444,10 +270,130 @@
             "Academic Scheduling"
           ],
           "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0461941",
+      "courseNumber": "10600",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2016-01-29",
+      "id": "0461941-2016-01-29",
+      "longName": "Earth Systems Science",
+      "name": "Earth Systems Science",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0461991-1901-01-02",
+      "career": "Undergraduate",
+      "code": "EAS 21300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 6,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0461991",
+      "courseNumber": "21300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Life and Physical Sciences"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-02",
+      "id": "0461991-1901-01-02",
+      "longName": "Engineering Geology",
+      "name": "Engineering Geology",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1230111-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 45000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
           "workloadHours": 3
         }
       ],
-      "courseGroupId": "0455811",
+      "courseGroupId": "1230111",
       "courseNumber": "45000",
       "credits": {
         "creditHours": {
@@ -461,437 +407,19 @@
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
       "effectiveStartDate": "1901-01-01",
-      "id": "0455811-1901-01-01",
-      "longName": "Combinatorics and Graph Theory",
-      "name": "Combinatorics and Graph Theory",
-      "subjectCode": "CSC"
+      "id": "1230111-1901-01-01",
+      "longName": "Environmental Field Methods",
+      "name": "Environmental Field Methods",
+      "subjectCode": "EAS"
     },
     {
-      "_id": "0455691-1901-01-01",
+      "_id": "0462721-2015-05-06",
       "career": "Undergraduate",
-      "code": "CSC 42000",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 35,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [
-            "Academic Scheduling"
-          ],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "0455691",
-      "courseNumber": "42000",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "1901-01-01",
-      "id": "0455691-1901-01-01",
-      "longName": "Compiler Construction",
-      "name": "Compiler Construction",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "0455701-1901-01-01",
-      "career": "Undergraduate",
-      "code": "CSC 42200",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 35,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [
-            "Academic Scheduling"
-          ],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "0455701",
-      "courseNumber": "42200",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "1901-01-01",
-      "id": "0455701-1901-01-01",
-      "longName": "Computability",
-      "name": "Computability",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "0455771-1901-01-01",
-      "career": "Undergraduate",
-      "code": "CSC 44000",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 35,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [
-            "Academic Scheduling"
-          ],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "0455771",
-      "courseNumber": "44000",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "1901-01-01",
-      "id": "0455771-1901-01-01",
-      "longName": "Computational Methods in Numerical Analysis",
-      "name": "Mthds In Numer Anal",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "0455861-1901-01-01",
-      "career": "Undergraduate",
-      "code": "CSC 47200",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 35,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [
-            "Academic Scheduling"
-          ],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "0455861",
-      "courseNumber": "47200",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "1901-01-01",
-      "id": "0455861-1901-01-01",
-      "longName": "Computer Graphics",
-      "name": "Computer Graphics",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "0455681-1901-01-01",
-      "career": "Undergraduate",
-      "code": "CSC 41200",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 35,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [
-            "Academic Scheduling"
-          ],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "0455681",
-      "courseNumber": "41200",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "1901-01-01",
-      "id": "0455681-1901-01-01",
-      "longName": "Computer Networks",
-      "name": "Computer Networks",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "0455611-1901-01-01",
-      "career": "Undergraduate",
-      "code": "CSC 34200",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 35,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [
-            "Academic Scheduling"
-          ],
-          "providerForAuthentication": "",
-          "workloadHours": 3
-        }
-      ],
-      "courseGroupId": "0455611",
-      "courseNumber": "34200",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "1901-01-01",
-      "id": "0455611-1901-01-01",
-      "longName": "Computer Organization",
-      "name": "Computer Organization",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "1528861-2021-10-04",
-      "career": "Undergraduate",
-      "code": "CSC 38000",
-      "components": [
-        {
-          "attendanceContactUse": true,
-          "attendanceGenerate": false,
-          "attendanceLeftUse": true,
-          "attendancePresentUse": true,
-          "attendanceReasonUse": true,
-          "attendanceTardyUse": true,
-          "attendanceTemplateOverride": false,
-          "attendanceTimeUse": true,
-          "attendanceType": "Class Meeting",
-          "autoCreate": false,
-          "code": "LEC",
-          "contactHours": 3,
-          "customFields": {},
-          "defaultSectionSize": 30,
-          "deliveryMode": [],
-          "examSeatSpacing": 1,
-          "finalExamType": "Yes",
-          "id": "LEC",
-          "includeInDynamicDate": false,
-          "instructionMode": "In Person",
-          "lmsFileType": "Blackboard CourseInfo 4",
-          "name": "Lecture",
-          "oeeWorkloadHours": 0,
-          "optionalComponent": false,
-          "preferredRoomFeatures": [],
-          "providerForAuthentication": "",
-          "workloadHours": 0
-        }
-      ],
-      "courseGroupId": "1528861",
-      "courseNumber": "38000",
-      "credits": {
-        "creditHours": {
-          "max": 3,
-          "min": 3,
-          "operator": ""
-        }
-      },
-      "customFields": {
-        "catalogAttributes": []
-      },
-      "departmentOwnership": [],
-      "departments": [
-        "CSC-CTY"
-      ],
-      "effectiveEndDate": null,
-      "effectiveStartDate": "2021-10-04",
-      "id": "1528861-2021-10-04",
-      "longName": "Computer Security",
-      "name": "Computer Security",
-      "subjectCode": "CSC"
-    },
-    {
-      "_id": "0455621-1901-01-01",
-      "career": "Undergraduate",
-      "code": "CSC 34300",
+      "code": "EAS 41300",
       "components": [
         {
           "attendanceContactUse": true,
@@ -925,8 +453,1263 @@
           "workloadHours": 4
         }
       ],
-      "courseGroupId": "0455621",
-      "courseNumber": "34300",
+      "courseGroupId": "0462721",
+      "courseNumber": "41300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2015-05-06",
+      "id": "0462721-2015-05-06",
+      "longName": "Environmental Geochemistry",
+      "name": "Environmental Geochemistry",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0461921-2013-05-01",
+      "career": "Undergraduate",
+      "code": "EAS 10300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0461921",
+      "courseNumber": "10300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2013-05-01",
+      "id": "0461921-2013-05-01",
+      "longName": "Environmental Geolog",
+      "name": "Environmental Geolog",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462881-2020-02-26",
+      "career": "Undergraduate",
+      "code": "EAS 46500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462881",
+      "courseNumber": "46500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2020-02-26",
+      "id": "0462881-2020-02-26",
+      "longName": "Environmental Geophysics",
+      "name": "Environmental Geophysics",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1214511-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 47204",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1214511",
+      "courseNumber": "47204",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1214511-1901-01-01",
+      "longName": "Environmental Proj",
+      "name": "Environmental Proj",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462741-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 42600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462741",
+      "courseNumber": "42600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462741-1901-01-01",
+      "longName": "Environmental Remote Sensing and Image Analysis",
+      "name": "Env Rem Sns-Img Anal",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462191-2013-05-01",
+      "career": "Undergraduate",
+      "code": "EAS 30800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0462191",
+      "courseNumber": "30800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2013-05-01",
+      "id": "0462191-2013-05-01",
+      "longName": "ESS Modeling/Databases",
+      "name": "ESS Modeling/Databases",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462011-2015-05-06",
+      "career": "Undergraduate",
+      "code": "EAS 21700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 5,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 5
+        }
+      ],
+      "courseGroupId": "0462011",
+      "courseNumber": "21700",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2015-05-06",
+      "id": "0462011-2015-05-06",
+      "longName": "ESS: Systems Analysis of the Earth",
+      "name": "Systms Anal Of Earth",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1266611-2024-08-28",
+      "career": "Undergraduate",
+      "code": "EAS 40900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 0,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1266611",
+      "courseNumber": "40900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1266611-2024-08-28",
+      "longName": "Fundamentals of Atmospheric Science",
+      "name": "Fundamentals  Of Atm Sci",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462591-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 33000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462591",
+      "courseNumber": "33000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462591-1901-01-01",
+      "longName": "Geographic Info Syst",
+      "name": "Geographic Info Syst",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462871-2020-06-01",
+      "career": "Undergraduate",
+      "code": "EAS 46100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462871",
+      "courseNumber": "46100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2020-06-01",
+      "id": "0462871-2020-06-01",
+      "longName": "Geophysics",
+      "name": "Geophysics",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462581-2013-05-01",
+      "career": "Undergraduate",
+      "code": "EAS 32800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462581",
+      "courseNumber": "32800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2013-05-01",
+      "id": "0462581-2013-05-01",
+      "longName": "Global Environmental Hazards",
+      "name": "Global Environmental Hazards",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462771-2019-02-28",
+      "career": "Undergraduate",
+      "code": "EAS 44600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0462771",
+      "courseNumber": "44600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-02-28",
+      "id": "0462771-2019-02-28",
+      "longName": "Groundwater Hydrology",
+      "name": "Groundwater Hydrology",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1236951-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 30103",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1236951",
+      "courseNumber": "30103",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1236951-1901-01-01",
+      "longName": "Honors",
+      "name": "Honors",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462141-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 30100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462141",
+      "courseNumber": "30100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462141-1901-01-01",
+      "longName": "Honors I-IV",
+      "name": "Honors I-IV",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462171-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 30400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462171",
+      "courseNumber": "30400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462171-1901-01-01",
+      "longName": "Honors I-IV",
+      "name": "Honors I-IV",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462151-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 30200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462151",
+      "courseNumber": "30200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462151-1901-01-01",
+      "longName": "Honors II",
+      "name": "Honors II",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462161-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 30300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462161",
+      "courseNumber": "30300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462161-1901-01-01",
+      "longName": "Honors III",
+      "name": "Honors III",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462611-2019-02-28",
+      "career": "Undergraduate",
+      "code": "EAS 34500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0462611",
+      "courseNumber": "34500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-02-28",
+      "id": "0462611-2019-02-28",
+      "longName": "Hydrology",
+      "name": "Hydrology",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462231-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 31004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0462231",
+      "courseNumber": "31004",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462231-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462221-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 31003",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0462221",
+      "courseNumber": "31003",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462221-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462211-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 31002",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0462211",
+      "courseNumber": "31002",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462211-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462201-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 31001",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "0462201",
+      "courseNumber": "31001",
       "credits": {
         "creditHours": {
           "max": 1,
@@ -939,19 +1722,430 @@
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
       "effectiveStartDate": "1901-01-01",
-      "id": "0455621-1901-01-01",
-      "longName": "Computer Systems Design Laboratory",
-      "name": "Computer Systems Design Lab",
-      "subjectCode": "CSC"
+      "id": "0462201-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "EAS"
     },
     {
-      "_id": "0455851-1901-01-01",
+      "_id": "1246641-1901-01-01",
       "career": "Undergraduate",
-      "code": "CSC 47100",
+      "code": "EAS 31000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1246641",
+      "courseNumber": "31000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1246641-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1497861-2019-09-13",
+      "career": "Undergraduate",
+      "code": "EAS 41000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1497861",
+      "courseNumber": "41000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-09-13",
+      "id": "1497861-2019-09-13",
+      "longName": "Introduction to Geomorphology",
+      "name": "Introduction to Geomorphology",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1497871-2019-09-13",
+      "career": "Undergraduate",
+      "code": "EAS 41900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1497871",
+      "courseNumber": "41900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-09-13",
+      "id": "1497871-2019-09-13",
+      "longName": "Introduction to Scientific Computing",
+      "name": "Introduction to Scientific Cmp",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462751-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 43900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 6,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0462751",
+      "courseNumber": "43900",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0462751-1901-01-01",
+      "longName": "Mineral/Energy Resources",
+      "name": "Mineral/Energy Resources",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0461931-2024-08-28",
+      "career": "Undergraduate",
+      "code": "EAS 10400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3.5,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3.5
+        }
+      ],
+      "courseGroupId": "0461931",
+      "courseNumber": "10400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Life and Physical Sciences"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "0461931-2024-08-28",
+      "longName": "Perspectives on Global Warming",
+      "name": "Perspectives on Global Warming",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1299221-2024-08-28",
+      "career": "Undergraduate",
+      "code": "EAS 44100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1299221",
+      "courseNumber": "44100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1299221-2024-08-28",
+      "longName": "Phase I Environmental Site Assessments",
+      "name": "Phase I Environmental Site",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1299231-2024-08-28",
+      "career": "Undergraduate",
+      "code": "EAS 44200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 0,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1299231",
+      "courseNumber": "44200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1299231-2024-08-28",
+      "longName": "Phase II Environmental Site Assessments",
+      "name": "Phase II Envirnmntl Site Asmt",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462861-2015-05-15",
+      "career": "Undergraduate",
+      "code": "EAS 52800",
       "components": [
         {
           "attendanceContactUse": true,
@@ -985,8 +2179,8 @@
           "workloadHours": 3
         }
       ],
-      "courseGroupId": "0455851",
-      "courseNumber": "47100",
+      "courseGroupId": "0462861",
+      "courseNumber": "52800",
       "credits": {
         "creditHours": {
           "max": 3,
@@ -999,19 +2193,195 @@
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2015-05-15",
+      "id": "0462861-2015-05-15",
+      "longName": "Plate Tectonics/Geodynamics",
+      "name": "Plate Tectonics/Geodynamics",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1346081-2016-11-29",
+      "career": "Undergraduate",
+      "code": "EAS 42700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1346081",
+      "courseNumber": "42700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2016-11-29",
+      "id": "1346081-2016-11-29",
+      "longName": "Remote Sensing of Ocean Processes",
+      "name": "Remote Sensing of Ocean Proces",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1136091-2019-02-28",
+      "career": "Undergraduate",
+      "code": "EAS 41700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1136091",
+      "courseNumber": "41700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-02-28",
+      "id": "1136091-2019-02-28",
+      "longName": "Satellite Meteorology",
+      "name": "Satellite Meteorology",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1299211-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EAS 43000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1299211",
+      "courseNumber": "43000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
       "effectiveStartDate": "1901-01-01",
-      "id": "0455851-1901-01-01",
-      "longName": "Computer Vision",
-      "name": "Computer Vision",
-      "subjectCode": "CSC"
+      "id": "1299211-1901-01-01",
+      "longName": "Sedimentology",
+      "name": "Sedimentology",
+      "subjectCode": "EAS"
     },
     {
-      "_id": "0455331-1901-01-01",
+      "_id": "0462891-1901-01-01",
       "career": "Undergraduate",
-      "code": "CSC 21000",
+      "code": "EAS 56600",
       "components": [
         {
           "attendanceContactUse": true,
@@ -1045,8 +2415,8 @@
           "workloadHours": 3
         }
       ],
-      "courseGroupId": "0455331",
-      "courseNumber": "21000",
+      "courseGroupId": "0462891",
+      "courseNumber": "56600",
       "credits": {
         "creditHours": {
           "max": 3,
@@ -1059,19 +2429,196 @@
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
       "effectiveStartDate": "1901-01-01",
-      "id": "0455331-1901-01-01",
-      "longName": "Computers and Assembly Language Programming",
-      "name": "Assembly Prgrmng",
-      "subjectCode": "CSC"
+      "id": "0462891-1901-01-01",
+      "longName": "Solid Earth Geochemistry",
+      "name": "Solid Earth Geochemistry",
+      "subjectCode": "EAS"
     },
     {
-      "_id": "0455741-1901-01-01",
+      "_id": "1497911-2019-09-13",
       "career": "Undergraduate",
-      "code": "CSC 43500",
+      "code": "EAS 42000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 25,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1497911",
+      "courseNumber": "42000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-09-13",
+      "id": "1497911-2019-09-13",
+      "longName": "Statistical Methods in Earth and Atmospheric Sciences",
+      "name": "Statistical Methods in EAS",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0462031-1901-01-02",
+      "career": "Undergraduate",
+      "code": "EAS 22700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 5,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 5
+        }
+      ],
+      "courseGroupId": "0462031",
+      "courseNumber": "22700",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-02",
+      "id": "0462031-1901-01-02",
+      "longName": "Structural Geology",
+      "name": "Structural Geology",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "1328591-2016-04-12",
+      "career": "Undergraduate",
+      "code": "EAS 44800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1328591",
+      "courseNumber": "44800",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2016-04-12",
+      "id": "1328591-2016-04-12",
+      "longName": "Terrestrial, Aquatic and Atmospheric Systems",
+      "name": "Terrestrial, Aquatic and Atmos",
+      "subjectCode": "EAS"
+    },
+    {
+      "_id": "0461911-1901-01-02",
+      "career": "Undergraduate",
+      "code": "EAS 10100",
       "components": [
         {
           "attendanceContactUse": true,
@@ -1105,8 +2652,8 @@
           "workloadHours": 3
         }
       ],
-      "courseGroupId": "0455741",
-      "courseNumber": "43500",
+      "courseGroupId": "0461911",
+      "courseNumber": "10100",
       "credits": {
         "creditHours": {
           "max": 3,
@@ -1115,23 +2662,24 @@
         }
       },
       "customFields": {
-        "catalogAttributes": []
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
-      "effectiveStartDate": "1901-01-01",
-      "id": "0455741-1901-01-01",
-      "longName": "Concurrency in Operating Systems",
-      "name": "Concurr in Oper Systems",
-      "subjectCode": "CSC"
+      "effectiveStartDate": "1901-01-02",
+      "id": "0461911-1901-01-02",
+      "longName": "The Atmosphere",
+      "name": "The Atmosphere",
+      "subjectCode": "EAS"
     },
     {
-      "_id": "0455951-2021-10-04",
+      "_id": "0461901-2013-05-01",
       "career": "Undergraduate",
-      "code": "CSC 48000",
+      "code": "EAS 10000",
       "components": [
         {
           "attendanceContactUse": true,
@@ -1165,8 +2713,8 @@
           "workloadHours": 3
         }
       ],
-      "courseGroupId": "0455951",
-      "courseNumber": "48000",
+      "courseGroupId": "0461901",
+      "courseNumber": "10000",
       "credits": {
         "creditHours": {
           "max": 3,
@@ -1175,21 +2723,22 @@
         }
       },
       "customFields": {
-        "catalogAttributes": []
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
       },
       "departmentOwnership": [],
       "departments": [
-        "CSC-CTY"
+        "EAS-CTY"
       ],
       "effectiveEndDate": null,
-      "effectiveStartDate": "2021-10-04",
-      "id": "0455951-2021-10-04",
-      "longName": "Cryptography",
-      "name": "Cryptography",
-      "subjectCode": "CSC"
+      "effectiveStartDate": "2013-05-01",
+      "id": "0461901-2013-05-01",
+      "longName": "The Dynamic Earth",
+      "name": "The Dynamic Earth",
+      "subjectCode": "EAS"
     }
   ],
-  "limit": 20,
-  "listLength": 68,
+  "limit": 0,
+  "listLength": 46,
   "skip": 0
 }
