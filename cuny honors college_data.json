@@ -1,0 +1,247 @@
+{
+  "data": [
+    {
+      "_id": "1239801-2017-05-27",
+      "career": "Undergraduate",
+      "code": "MHC 20301",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1239801",
+      "courseNumber": "20301",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [
+          "MHC - MHC (Macaulay Honors College)"
+        ],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "HONOR-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-05-27",
+      "id": "1239801-2017-05-27",
+      "longName": "Science & Technology NYC",
+      "name": "Science & Technology NYC",
+      "subjectCode": "MHC"
+    },
+    {
+      "_id": "1246691-2017-05-27",
+      "career": "Undergraduate",
+      "code": "MHC 20401",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1246691",
+      "courseNumber": "20401",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Individual and Society"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "HONOR-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-05-27",
+      "id": "1246691-2017-05-27",
+      "longName": "Shaping Future Nyc",
+      "name": "Shaping Future Nyc",
+      "subjectCode": "MHC"
+    },
+    {
+      "_id": "1245301-2017-05-27",
+      "career": "Undergraduate",
+      "code": "MHC 10101",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1245301",
+      "courseNumber": "10101",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [
+          "MHC - MHC (Macaulay Honors College)"
+        ],
+        "catalogRequirementDesignation": "Flexible Core - Creative Expression"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "HONOR-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-05-27",
+      "id": "1245301-2017-05-27",
+      "longName": "The Arts in New York City",
+      "name": "The Arts in New York City",
+      "subjectCode": "MHC"
+    },
+    {
+      "_id": "1246681-2017-05-27",
+      "career": "Undergraduate",
+      "code": "MHC 10201",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1246681",
+      "courseNumber": "10201",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - US Experience in its Diversity"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "HONOR-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-05-27",
+      "id": "1246681-2017-05-27",
+      "longName": "The Peopling Of NYC",
+      "name": "The Peopling Of NYC",
+      "subjectCode": "MHC"
+    }
+  ],
+  "limit": 0,
+  "listLength": 4,
+  "skip": 0
+}
