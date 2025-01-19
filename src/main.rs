@@ -10,15 +10,18 @@ use std::{fs, io::Write};
 use std::path::PathBuf;
 use std::collections::HashMap;
 use std::borrow::Borrow;
+use serde::{Deserialize, Serialize};
 
 // This struct is inherited within CourseInfo struct
+#[derive(Deserialize, Serialize, Debug, Clone, PartialEq)]
 pub struct CourseComponents {
-    pub course_type : String,       // (i.e. "LEC")
+    pub course_type : String,           // (i.e. LEC)
+    pub attendance_type : String,       // (i.e. "Class Meeting")
     pub weekly_hours : i32,         // (i.e. 3 hour per week)
     pub class_size : i32,
     pub final_exam : String,
-    pub attendance_type : String,
-    pub exam_seat_spacing : i32   
+    pub exam_seat_spacing : i32,
+    pub instruction_mode : String   
 }
 
 pub struct CourseInfo {
@@ -192,13 +195,39 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
 
     // iterator logic (nested loop to bypass the indexing)
     for course in course_info.as_array().iter() {
-        for course_info in course.iter() {
-            println!("{:?}", course_info["name"]);
+        for course_data in course.iter() {
+            // TODO : create the course instance here
+            
+
+            // println!("{course_component_instance:#?}")
+            // println!("{:#?}", course_data["components"][0]);
+            for data in course_data["components"].as_array().iter() {
+                for inner_data in data.iter() {
+                    // TODO : remove the to_string values
+                    // println!("{:#?}", inner_data["attendanceGenerate"]);
+                    let course_component_instance = CourseComponents {
+                        course_type : serde_json::from_value(inner_data["code"].clone()).unwrap(),
+
+                        weekly_hours : serde_json::from_value(inner_data["contactHours"].clone()).unwrap_or(-1),
+
+                        class_size : serde_json::from_value(inner_data["defaultSectionSize"].clone()).unwrap_or(-1),
+
+                        final_exam : inner_data["finalExamType"].to_string(),
+                        attendance_type : inner_data["attendanceType"].to_string(),
+
+                        exam_seat_spacing : serde_json::from_value(inner_data["examSeatSpacing"].clone()).unwrap_or(-1),
+
+                        instruction_mode : inner_data["instructionMode"].to_string()
+                    };
+                    println!("{course_component_instance:#?}");
+                    // println!("{inner_data:#?}")
+
+            
+                }
+            }
         }
     }
-    // let course_component_instance = CourseComponents {
-    //     course_type : 
-    // }
+
 
     // let course_info = CourseInfo {
     //     unique_id : course_info["_id"],
