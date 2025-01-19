@@ -212,12 +212,12 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
 
                         class_size : serde_json::from_value(inner_data["defaultSectionSize"].clone()).unwrap_or(-1),
 
-                        final_exam : inner_data["finalExamType"].to_string(),
-                        attendance_type : inner_data["attendanceType"].to_string(),
+                        final_exam : serde_json::from_value(inner_data["finalExamType"].clone()).unwrap(),
+                        attendance_type : serde_json::from_value(inner_data["attendanceType"].clone()).unwrap(),
 
                         exam_seat_spacing : serde_json::from_value(inner_data["examSeatSpacing"].clone()).unwrap_or(-1),
 
-                        instruction_mode : inner_data["instructionMode"].to_string()
+                        instruction_mode : serde_json::from_value(inner_data["instructionMode"].clone()).unwrap()
                     };
                     println!("{course_component_instance:#?}");
                     // println!("{inner_data:#?}")
