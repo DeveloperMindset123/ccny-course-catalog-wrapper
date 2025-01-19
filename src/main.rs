@@ -145,10 +145,15 @@ async fn main() -> Result<()> {
     // println!("{courses:#?}");
     // // Save to file
     // save_to_file(&courses, "csc_courses.json")?;
-    let test_hashmap_example = get_department_mappings();
-    println!("{:#?}", test_hashmap_example);
-    println!("Courses fetched and saved successfully!");
+    // let test_hashmap_example = get_department_mappings();
+    // println!("{:#?}", test_hashmap_example);
+    // println!("Courses fetched and saved successfully!");
+
+    // tested : worked
+    // println!("Testing user input : {:?}", input_validation("Some Random Department"));
     Ok(())
+
+
 }
 
 
@@ -205,3 +210,8 @@ pub fn get_department_mappings() -> HashMap<String, String> {
 }
 
 
+// define the function for input validation
+// this will take the user input and return the lower_case version of the user input
+pub fn input_validation(user_input : &str) -> String {
+    user_input.to_owned().to_lowercase()
+}
