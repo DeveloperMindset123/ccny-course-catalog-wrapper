@@ -1,3 +1,7 @@
+// NOTE : upon retrieving the list of courses, additional infomration about the course can be retrieved using the courseGroupId
+
+// GET Method --> https://app.coursedog.com/api/v1/cty01/general/terms : general api to retrieve information regarding all the terms
+
 use anyhow::Result;
 use reqwest;
 use reqwest::header::{HeaderMap, HeaderValue, ACCEPT, CONTENT_TYPE, ORIGIN, REFERER};
@@ -138,9 +142,9 @@ async fn main() -> Result<()> {
     // Example usage: fetch Computer Science courses
     let courses = fetch_courses_by_department("EAS-CTY").await?;
     
-    println!("{courses:#?}");
-    // Save to file
-    save_to_file(&courses, "csc_courses.json")?;
+    // println!("{courses:#?}");
+    // // Save to file
+    // save_to_file(&courses, "csc_courses.json")?;
     let test_hashmap_example = get_department_mappings();
     println!("{:#?}", test_hashmap_example);
     println!("Courses fetched and saved successfully!");
@@ -149,8 +153,54 @@ async fn main() -> Result<()> {
 
 
 // TODO : define a function that will take a user input and format it
+// static function, the department name and their corresponding ID 
+// has been identified manually
+// the keys are very case sensetive
 pub fn get_department_mappings() -> HashMap<String, String> {
-    let test_map = HashMap::from([("Mercury".to_owned(), "0.4".to_owned())]);
+    
+    let test_map = HashMap::from([
+        ("administration".to_owned(), "ADMIN-CTY".to_owned()),
+        ("anthropology".to_owned(), "ANTH-CTY".to_owned()),
+        ("architecture".to_owned(), "ARCH-CTY".to_owned()),
+        ("art".to_owned(), "ART-CTY".to_owned()),
+        ("biology".to_owned(), "BIO-CTY".to_owned()),
+        ("biomedical education".to_owned(), "MED-CTY".to_owned()),
+        ("biomedical engineering".to_owned(), "BME-CTY".to_owned()),
+        ("cuny honors college".to_owned(), "HONOR-CTY".to_owned()),
+        ("center for worker education".to_owned(), "CWE-CTY".to_owned()),
+        ("chemical engineering".to_owned(), "CHE-CTY".to_owned()),
+        ("chemistry".to_owned(), "CHEM-CTY".to_owned()),
+        ("civil engineering".to_owned(), "CE-CTY".to_owned()),
+        ("classical and modern languages and literatures".to_owned(), "LANG-CTY".to_owned()),
+        ("computer science".to_owned(), "CSC-CTY".to_owned()),
+        ("division of science".to_owned(), "DIVSCI-CTY".to_owned()),
+        ("earth and atmospheric science".to_owned(), "EAS-CTY".to_owned()),
+        ("economics and business".to_owned(), "ECO-CTY".to_owned()),
+        ("education".to_owned(), "EDUC-CTY".to_owned()),
+        ("electrical engineering".to_owned(), "EE-CTY".to_owned()),
+        ("engineering".to_owned(), "ENGR-CTY".to_owned()),
+        ("english".to_owned(), "ENGL-CTY".to_owned()),
+        ("history".to_owned(), "HIST-CTY".to_owned()),
+        ("humanities and the arts".to_owned(), "HART-CTY".to_owned()),
+        ("interdisciplinary arts and sciences".to_owned(), "IAS-CTY".to_owned()),
+        ("latin american & latino studies".to_owned(), "LALS-CTY".to_owned()),
+        ("learning leadership and culture".to_owned(), "LRLDC-CTY".to_owned()),
+        ("mathematics".to_owned(), "MATH-CTY".to_owned()),
+        ("mechanical engineering".to_owned(), "ME-CTY".to_owned()),
+        ("media and communication arts".to_owned(), "MCA-CTY".to_owned()),
+        ("music".to_owned(), "MUS-CTY".to_owned()),
+        ("philosophy".to_owned(), "PHIL-CTY".to_owned()),
+        ("physics".to_owned(), "PHY-CTY".to_owned()),
+        ("political science".to_owned(), "PSC-CTY".to_owned()),
+        ("psychology".to_owned(), "PSY-CTY".to_owned()),
+        ("school of biomedical education".to_owned(), "BMED-CTY".to_owned()),
+        ("science".to_owned(), "SCI-CTY".to_owned()),
+        ("social science".to_owned(), "SSCI-CTY".to_owned()),
+        ("sociology".to_owned(), "SOC-CTY".to_owned()),
+        ("teaching and learning".to_owned(), "TCHLR-CTY".to_owned()),
+        ("grove school of engineering".to_owned(), "GROVE-CTY".to_owned()),
+        ("theatre and speech".to_owned(), "THSP-CTY".to_owned())
+        ]);
     test_map
 }
 
