@@ -11,6 +11,30 @@ use std::path::PathBuf;
 use std::collections::HashMap;
 use std::borrow::Borrow;
 
+// This struct is inherited within CourseInfo struct
+pub struct CourseComponents {
+    pub course_type : String,       // (i.e. "LEC")
+    pub weekly_hours : i32,         // (i.e. 3 hour per week)
+    pub class_size : i32,
+    pub final_exam : String,
+    pub attendance_type : String,
+    pub exam_seat_spacing : i32   
+}
+
+pub struct CourseInfo {
+    pub unique_id : String,
+    pub course_name : String,       // course LongName
+    pub career : String,
+    pub course_code : String,
+    pub course_components : CourseComponents,
+    pub effective_start_date : String,          // indicates the time this course was released
+    pub effective_end_date : Option<String>,        // indicates the time the course may end (could be null)
+    pub course_group_id : i32,
+    pub course_number : i32,
+    pub department : Vec<String>,
+    pub subject_code : String,
+    pub credits : i32,          // (i.e. 1,3,4)
+}
 /**
  * Header data that has been removed:
  * "Accept-Encoding"
@@ -162,10 +186,36 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
     }
 
     // otherwise, if department name is valid
-    let courses = fetch_courses_by_department_helper(department_id.borrow()).await?;
-    println!("{:#?}", courses);
+    // note that it's an array of data
+    let course_info = fetch_courses_by_department_helper(department_id.borrow()).await?["data"].clone();
 
-    Ok(courses)
+
+    // iterator logic (nested loop to bypass the indexing)
+    for course in course_info.as_array().iter() {
+        for course_info in course.iter() {
+            println!("{:?}", course_info["name"]);
+        }
+    }
+    // let course_component_instance = CourseComponents {
+    //     course_type : 
+    // }
+
+    // let course_info = CourseInfo {
+    //     unique_id : course_info["_id"],
+    //     course_name : course_info["name"],
+    //     career : course_info["career"],
+    //     course_code : course_info["code"],
+    //     course_components : course_component_instance,
+    //     effective_end_date : Some(course_info["effectiveEndDate"]),
+    //     effective_start_date : course_info["effectiveStartDate"],
+    //     course_group_id : course_info["courseGroupId"],     // NOTE : needed to retrieve further information about a particular course
+    //     course_number : course_info["courseNumber"],
+    //     department : course_info["departments"][0],     // can cause errors
+    //     subject_code : course_info["subjectCode"],
+    //     credits : course_info["credits"]["creditHours"]["max"]
+    // }
+
+    Ok(course_info)
 }
 
 // TODO : define the logic for the function below
@@ -180,7 +230,7 @@ pub async fn fetch_all_courses() -> Result<()> {
         // println!("{course_data:#?}");
         // save the data to the file
         let mut curr_dept = String::from(department);
-        curr_dept.push_str("_data.json");       // append borrowed string
+        curr_dept.push_str(" data.json");       // append borrowed string
         save_to_file(&course_data, &curr_dept);
     }
     Ok(())
@@ -194,7 +244,8 @@ async fn main() -> Result<()> {
     // returns a list cotnianing the list of departments
     println!("{:#?}", get_department_list());
     // let course_fetch_result = fetch_courses_by_department("physics").await?;
-    fetch_all_courses().await?;
+    // fetch_all_courses().await?;
+    let courses_data = fetch_courses_by_department("Biology").await?;
     
     // println!("{course_fetch_result:?}");
     Ok(())
