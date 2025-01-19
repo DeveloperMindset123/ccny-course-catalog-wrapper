@@ -1,4 +1,4 @@
-// NOTE : upon retrieving the list of courses, additional infomration about the course can be retrieved using the courseGroupId
+// NOTE : upon retrieving the list of courses, additional information about the course can be retrieved using the courseGroupId
 
 // GET Method --> https://app.coursedog.com/api/v1/cty01/general/terms : general api to retrieve information regarding all the terms
 
@@ -10,7 +10,7 @@ use std::{fs, io::Write};
 use std::path::PathBuf;
 use std::collections::HashMap;
 use std::borrow::Borrow;
-// define the function to get the header
+
 /**
  * Header data that has been removed:
  * "Accept-Encoding"
@@ -46,7 +46,8 @@ pub fn get_headers() -> HeaderMap {
 // Function to fetch courses by department
 // NOTE : requires prior knowledge of department_code from API payload
 // department name is passed in and the corresponding department code is retrieved
-pub async fn fetch_courses_by_department(department_code: &str) -> Result<serde_json::Value> {
+// this function will be called upon within the higher abstracted function
+pub async fn fetch_courses_by_department_helper(department_code: &str) -> Result<serde_json::Value> {
 
     // BASE API URL where various query parameters needs to be passed
     let base_url = "https://app.coursedog.com/api/v1/cm/cty01/courses/search/%24filters";
@@ -134,34 +135,68 @@ pub async fn fetch_courses_by_department(department_code: &str) -> Result<serde_
 // Helper function to save response to file
 pub fn save_to_file(data: &serde_json::Value, filename: &str) -> Result<PathBuf> {
     let file = fs::File::create(filename)?;
+
+    // to_writer_pretty() : serialize the given data strucuture as a pretty-printed JSON into the I/O stream.
     serde_json::to_writer_pretty(file, data)?;
     Ok(PathBuf::from(filename))
 }
 
+// department_name : this is the user input
+// TODO : define a struct to handle the response type
+// should store Result<SomeStruct> later
+pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde_json::Value, anyhow::Error>{
+    let department_mapping = get_department_mappings();
+    let key_error_handler = String::from("None");
+
+    // pass in the input validation function to convert the department_name to lowercase
+    // reduces any kind of case sensetivity error that may arise
+    let department_id = department_mapping.get(&input_validation(department_name)).unwrap_or(key_error_handler.borrow());
+
+    if department_id == "None" {
+
+        // specify an error message stating the department doesn't exist
+        eprintln!("A department by this name doesn't exist, please refer to the list of departments.");
+
+        // early abruption indicating end of program
+        return Err(anyhow::Error::msg("Program Failed"));
+    }
+
+    // otherwise, if department name is valid
+    let courses = fetch_courses_by_department_helper(department_id.borrow()).await?;
+    println!("{:#?}", courses);
+
+    Ok(courses)
+}
+
+// TODO : define the logic for the function below
+// should store Result<Vec<SomeStruct>> after
+pub async fn fetch_all_courses() -> Result<()> {
+
+    // retrieve list of departments
+    let department_list = get_department_list();
+    for department in department_list.iter() {
+        // println!("current department : {department:?}");
+        let course_data = fetch_courses_by_department(department).await?;
+        // println!("{course_data:#?}");
+        // save the data to the file
+        let mut curr_dept = String::from(department);
+        curr_dept.push_str("_data.json");       // append borrowed string
+        save_to_file(&course_data, &curr_dept);
+    }
+    Ok(())
+}
+
 #[tokio::main]
 async fn main() -> Result<()> {
-    // Example usage: fetch Computer Science courses
-    let courses = fetch_courses_by_department("EAS-CTY").await?;
-    
-    // println!("{courses:#?}");
-    // // Save to file
-    // save_to_file(&courses, "csc_courses.json")?;
     let department_mappings = get_department_mappings();
-    print_hashmap_keys(department_mappings);
+    // print_hashmap_keys(department_mappings);        // experimental function (not sure of use case)
 
-    // borrow() : the ownership of a value is transferred temporarily to an entity and then returned to the original owner entity at the end of the program execution.
-    // let no_key_handler = String::from("Key doesn't exist, please check the list of departments and try again, please be cautious to avoid spelling errors");
-    // let value = department_mappings.get("art").unwrap_or(no_key_handler.borrow());
-    // println!("{value:?}");
-
-    // let no_key_handler_cloned = no_key_handler.clone();
-    // let non_existent_value = department_mappings.get("biology_department").unwrap_or(no_key_handler.borrow());
-    // println!("{non_existent_value:?}");
-    // println!("{:#?}", test_hashmap_example);
-    // println!("Courses fetched and saved successfully!");
-
-    // tested : worked
-    // println!("Testing user input : {:?}", input_validation("Some Random Department"));
+    // returns a list cotnianing the list of departments
+    println!("{:#?}", get_department_list());
+    // let course_fetch_result = fetch_courses_by_department("physics").await?;
+    fetch_all_courses().await?;
+    
+    // println!("{course_fetch_result:?}");
     Ok(())
 
 
@@ -232,4 +267,15 @@ pub fn print_hashmap_keys(hashmap_input : HashMap<String, String>) {
     for (key,value) in hashmap_input.into_iter() {
         println!("current department : {key:?}");
     }
+}
+
+// more appropriate function to isolate list of departments
+pub fn get_department_list() -> Vec<String> {
+    let department_mapping = get_department_mappings();
+    let mut department_list = Vec::new();
+    for (key,value) in department_mapping.into_iter() {
+        department_list.push(String::from(key));
+    }
+
+    department_list
 }

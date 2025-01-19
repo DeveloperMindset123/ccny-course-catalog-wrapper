@@ -1,0 +1,1563 @@
+{
+  "data": [
+    {
+      "_id": "1343221-2021-04-16",
+      "career": "Undergraduate",
+      "code": "CHE 31100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 100,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1343221",
+      "courseNumber": "31100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-04-16",
+      "id": "1343221-2021-04-16",
+      "longName": "Analysis of Chemical Engineering Processes",
+      "name": "Analysis of Chemical Engineeri",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449831-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 58000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449831",
+      "courseNumber": "58000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449831-1901-01-01",
+      "longName": "Bioprocess Engineering",
+      "name": "Bioprocess Engineering",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449671-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 49600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 6,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0449671",
+      "courseNumber": "49600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449671-1901-01-01",
+      "longName": "Chemical Engineering Design Project",
+      "name": "Ch E Design Project",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449351-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 22900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449351",
+      "courseNumber": "22900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449351-1901-01-01",
+      "longName": "Chemical Engineering Thermodynamics I",
+      "name": "Che Thermodynamics 1",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449421-1901-12-31",
+      "career": "Undergraduate",
+      "code": "CHE 33000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449421",
+      "courseNumber": "33000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-12-31",
+      "id": "0449421-1901-12-31",
+      "longName": "Chemical Engineering Thermodynamics II",
+      "name": "Chemical Thermodynamics II",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449621-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 47900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449621",
+      "courseNumber": "47900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449621-1901-01-01",
+      "longName": "Chemical Process Dynamics and Control",
+      "name": "Chem Process Dynamics & Cntrl",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449521-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 43200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449521",
+      "courseNumber": "43200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449521-1901-01-01",
+      "longName": "Chemical Reaction Engineering",
+      "name": "Chemical Reaction Engineering",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449931-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 59812",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449931",
+      "courseNumber": "59812",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449931-1901-01-01",
+      "longName": "Energy Systems Engr",
+      "name": "Energy Systems Engr",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449701-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 49803",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449701",
+      "courseNumber": "49803",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449701-1901-01-01",
+      "longName": "Honors Research in Chemical Engineering I",
+      "name": "Hon Res Che Engr 1",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449751-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 49903",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449751",
+      "courseNumber": "49903",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449751-1901-01-01",
+      "longName": "Honors Research in Chemical Engineering II",
+      "name": "Hon Res Che Engr 2",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449681-2018-03-12",
+      "career": "Undergraduate",
+      "code": "CHE 49800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449681",
+      "courseNumber": "49800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-03-12",
+      "id": "0449681-2018-03-12",
+      "longName": "Independent Research I",
+      "name": "Independent Research I",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449721-2018-03-12",
+      "career": "Undergraduate",
+      "code": "CHE 49900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449721",
+      "courseNumber": "49900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-03-12",
+      "id": "0449721-2018-03-12",
+      "longName": "Independent Research II",
+      "name": "Independent Research II",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449341-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 22800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0449341",
+      "courseNumber": "22800",
+      "credits": {
+        "creditHours": {
+          "max": 5,
+          "min": 5,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449341-1901-01-01",
+      "longName": "Introduction to Chemical Engineering Principles and Practice",
+      "name": "Intro Che Prin Prac",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449391-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 31000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449391",
+      "courseNumber": "31000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449391-1901-01-01",
+      "longName": "Introduction to Materials Science",
+      "name": "Intro Materials Sci",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "1368831-2018-02-06",
+      "career": "Undergraduate",
+      "code": "CHE 31400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1368831",
+      "courseNumber": "31400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-02-06",
+      "id": "1368831-2018-02-06",
+      "longName": "Introduction to Process Safety",
+      "name": "Introduction to Process Safety",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449711-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 49808",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449711",
+      "courseNumber": "49808",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449711-1901-01-01",
+      "longName": "Nanomaterials",
+      "name": "Nanomaterials",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449841-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 59000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449841",
+      "courseNumber": "59000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449841-1901-01-01",
+      "longName": "Nanotechnology",
+      "name": "Nanotechnology",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449771-2022-09-22",
+      "career": "Undergraduate",
+      "code": "CHE 51200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449771",
+      "courseNumber": "51200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-09-22",
+      "id": "0449771-2022-09-22",
+      "longName": "Pharmaceutical Applications of Chemical Engineering",
+      "name": "Pharmaceutical Apps",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449581-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 46700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449581",
+      "courseNumber": "46700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449581-1901-01-01",
+      "longName": "Polymer Science and Engineering",
+      "name": "Polymer Sci & Engr",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449541-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 45200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449541",
+      "courseNumber": "45200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449541-1901-01-01",
+      "longName": "Powder Science and Technology",
+      "name": "Powder Science and Technology",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449561-2017-03-10",
+      "career": "Undergraduate",
+      "code": "CHE 46200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 5,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 5
+        }
+      ],
+      "courseGroupId": "0449561",
+      "courseNumber": "46200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-03-10",
+      "id": "0449561-2017-03-10",
+      "longName": "Separation Operations and Control Laboratory",
+      "name": "Separation Operations and Lab",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449461-2020-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 34500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449461",
+      "courseNumber": "34500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2020-01-01",
+      "id": "0449461-2020-01-01",
+      "longName": "Separations Operations",
+      "name": "Separations Operations",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449661-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 49500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0449661",
+      "courseNumber": "49500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449661-1901-01-01",
+      "longName": "Techniques of Chemical Engineering Design",
+      "name": "Technqs Ch E Design",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449471-2020-01-21",
+      "career": "Undergraduate",
+      "code": "CHE 34600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449471",
+      "courseNumber": "34600",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2020-01-21",
+      "id": "0449471-2020-01-21",
+      "longName": "Transport Operations",
+      "name": "Transport Operations",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449431-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 34100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449431",
+      "courseNumber": "34100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449431-1901-01-01",
+      "longName": "Transport Phenomena I",
+      "name": "Transport Phenomena I",
+      "subjectCode": "CHE"
+    },
+    {
+      "_id": "0449441-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CHE 34200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0449441",
+      "courseNumber": "34200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CHE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0449441-1901-01-01",
+      "longName": "Transport Phenomena II",
+      "name": "Transport Phenomena II",
+      "subjectCode": "CHE"
+    }
+  ],
+  "limit": 0,
+  "listLength": 26,
+  "skip": 0
+}

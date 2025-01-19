@@ -1,0 +1,4060 @@
+{
+  "data": [
+    {
+      "_id": "0455371-2013-05-01",
+      "career": "Undergraduate",
+      "code": "CSC 22000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455371",
+      "courseNumber": "22000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2013-05-01",
+      "id": "0455371-2013-05-01",
+      "longName": "Algorithms",
+      "name": "Algorithms",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455801-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 44800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455801",
+      "courseNumber": "44800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455801-1901-01-01",
+      "longName": "Artificial Intelligence",
+      "name": "Artificial Intelligence",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1497831-2019-09-13",
+      "career": "Undergraduate",
+      "code": "CSC 44500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1497831",
+      "courseNumber": "44500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-09-13",
+      "id": "1497831-2019-09-13",
+      "longName": "Big Data Management and Analysis",
+      "name": "Big Data Management and Analys",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1368701-2019-12-31",
+      "career": "Undergraduate",
+      "code": "CSC 59001",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1368701",
+      "courseNumber": "59001",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-12-31",
+      "id": "1368701-2019-12-31",
+      "longName": "Co-op Study I",
+      "name": "Co-op Study I",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1368801-2018-02-06",
+      "career": "Undergraduate",
+      "code": "CSC 59002",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1368801",
+      "courseNumber": "59002",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-02-06",
+      "id": "1368801-2018-02-06",
+      "longName": "Co-op Study II",
+      "name": "Co-op Study II",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1368811-2018-02-06",
+      "career": "Undergraduate",
+      "code": "CSC 59003",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1368811",
+      "courseNumber": "59003",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-02-06",
+      "id": "1368811-2018-02-06",
+      "longName": "Co-op Study III",
+      "name": "Co-op Study III",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1471211-2018-10-21",
+      "career": "Undergraduate",
+      "code": "CSC 59004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 25,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "Hybrid",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1471211",
+      "courseNumber": "59004",
+      "credits": {
+        "creditHours": {
+          "max": 0,
+          "min": 0,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-10-21",
+      "id": "1471211-2018-10-21",
+      "longName": "Co-op Study Preparation",
+      "name": "Co-op Study Preparation",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455811-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 45000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455811",
+      "courseNumber": "45000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455811-1901-01-01",
+      "longName": "Combinatorics and Graph Theory",
+      "name": "Combinatorics and Graph Theory",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455691-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 42000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455691",
+      "courseNumber": "42000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455691-1901-01-01",
+      "longName": "Compiler Construction",
+      "name": "Compiler Construction",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455701-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 42200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455701",
+      "courseNumber": "42200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455701-1901-01-01",
+      "longName": "Computability",
+      "name": "Computability",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455771-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 44000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455771",
+      "courseNumber": "44000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455771-1901-01-01",
+      "longName": "Computational Methods in Numerical Analysis",
+      "name": "Mthds In Numer Anal",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455861-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 47200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455861",
+      "courseNumber": "47200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455861-1901-01-01",
+      "longName": "Computer Graphics",
+      "name": "Computer Graphics",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455681-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 41200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455681",
+      "courseNumber": "41200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455681-1901-01-01",
+      "longName": "Computer Networks",
+      "name": "Computer Networks",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455611-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 34200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455611",
+      "courseNumber": "34200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455611-1901-01-01",
+      "longName": "Computer Organization",
+      "name": "Computer Organization",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1528861-2021-10-04",
+      "career": "Undergraduate",
+      "code": "CSC 38000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1528861",
+      "courseNumber": "38000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-10-04",
+      "id": "1528861-2021-10-04",
+      "longName": "Computer Security",
+      "name": "Computer Security",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455621-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 34300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0455621",
+      "courseNumber": "34300",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455621-1901-01-01",
+      "longName": "Computer Systems Design Laboratory",
+      "name": "Computer Systems Design Lab",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455851-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 47100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455851",
+      "courseNumber": "47100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455851-1901-01-01",
+      "longName": "Computer Vision",
+      "name": "Computer Vision",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455331-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 21000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455331",
+      "courseNumber": "21000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455331-1901-01-01",
+      "longName": "Computers and Assembly Language Programming",
+      "name": "Assembly Prgrmng",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455741-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 43500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455741",
+      "courseNumber": "43500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455741-1901-01-01",
+      "longName": "Concurrency in Operating Systems",
+      "name": "Concurr in Oper Systems",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455951-2021-10-04",
+      "career": "Undergraduate",
+      "code": "CSC 48000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455951",
+      "courseNumber": "48000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-10-04",
+      "id": "0455951-2021-10-04",
+      "longName": "Cryptography",
+      "name": "Cryptography",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455351-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 21200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0455351",
+      "courseNumber": "21200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455351-1901-01-01",
+      "longName": "Data Structures",
+      "name": "Data Structures",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455941-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 47900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455941",
+      "courseNumber": "47900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455941-1901-01-01",
+      "longName": "Digital Libraries",
+      "name": "Digital Libraries",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455171-2022-08-21",
+      "career": "Undergraduate",
+      "code": "CSC 10400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0455171",
+      "courseNumber": "10400",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-08-21",
+      "id": "0455171-2022-08-21",
+      "longName": "Discrete Mathematical Structures I",
+      "name": "Discrete Structrs 1",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455721-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 43000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455721",
+      "courseNumber": "43000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455721-1901-01-01",
+      "longName": "Distributed Computing",
+      "name": "Distributed Computing",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455711-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 42800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455711",
+      "courseNumber": "42800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455711-1901-01-01",
+      "longName": "Formal Languages and Automata",
+      "name": "Formal Languages and Automata",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1529391-2024-05-28",
+      "career": "Undergraduate",
+      "code": "CSC 10800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 20,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "Hybrid",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1529391",
+      "courseNumber": "10800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Mathematical&QuantitativeReasoning"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-05-28",
+      "id": "1529391-2024-05-28",
+      "longName": "Foundations of Data Science",
+      "name": "Foundations of Data Science",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455341-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 21100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0455341",
+      "courseNumber": "21100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455341-1901-01-01",
+      "longName": "Fundamentals of Computer Systems",
+      "name": "Fundamentals Computer Systems",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455841-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 47000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455841",
+      "courseNumber": "47000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455841-1901-01-01",
+      "longName": "Image Processing",
+      "name": "Image Processing",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455971-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 51001",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "0455971",
+      "courseNumber": "51001",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455971-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455981-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 51002",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0455981",
+      "courseNumber": "51002",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455981-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455991-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 51003",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455991",
+      "courseNumber": "51003",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455991-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0456001-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 51004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0456001",
+      "courseNumber": "51004",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0456001-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0457571-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC I3102",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0457571",
+      "courseNumber": "I3102",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0457571-1901-01-01",
+      "longName": "Info Syst:Data Base",
+      "name": "Info Syst:Data Base",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455521-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 31800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455521",
+      "courseNumber": "31800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455521-1901-01-01",
+      "longName": "Internet Programming",
+      "name": "Internet Programming",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1558071-2024-05-28",
+      "career": "Undergraduate",
+      "code": "CSC 20600",
+      "components": [
+        {
+          "attendanceContactUse": false,
+          "attendanceGenerate": true,
+          "attendanceLeftUse": false,
+          "attendancePresentUse": false,
+          "attendanceReasonUse": false,
+          "attendanceTardyUse": false,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": false,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1558071",
+      "courseNumber": "20600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "deprecatedCourseGroupId": "1cZ2yf3kUR10BBrT2ei0",
+      "deprecatedId": "IcaGUyixRwA9Szcor4XE",
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-05-28",
+      "id": "1558071-2024-05-28",
+      "longName": "Introduction to Blockchain",
+      "name": "Introduction to Blockchain",
+      "requestStatus": "approved",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455961-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 48600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455961",
+      "courseNumber": "48600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455961-1901-01-01",
+      "longName": "Introduction to Computational Complexity",
+      "name": "Cmptnl Complexity",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455151-2021-10-18",
+      "career": "Undergraduate",
+      "code": "CSC 10200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0455151",
+      "courseNumber": "10200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-10-18",
+      "id": "0455151-2021-10-18",
+      "longName": "Introduction to Computing",
+      "name": "Introduction to Computing",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455161-2022-08-21",
+      "career": "Undergraduate",
+      "code": "CSC 10300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455161",
+      "courseNumber": "10300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-08-21",
+      "id": "0455161-2022-08-21",
+      "longName": "Introduction to Computing for Majors",
+      "name": "Intrmd Cmptr Progrm",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1329261-2021-03-15",
+      "career": "Undergraduate",
+      "code": "CSC 46000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 25,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1329261",
+      "courseNumber": "46000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-03-15",
+      "id": "1329261-2021-03-15",
+      "longName": "Introduction to Data Science",
+      "name": "Introduction to Data Science",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455581-2024-08-28",
+      "career": "Undergraduate",
+      "code": "CSC 33600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455581",
+      "courseNumber": "33600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "0455581-2024-08-28",
+      "longName": "Introduction to Database Systems",
+      "name": "Database Systems",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1486571-2021-03-15",
+      "career": "Undergraduate",
+      "code": "CSC 42300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1486571",
+      "courseNumber": "42300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-03-15",
+      "id": "1486571-2021-03-15",
+      "longName": "Introduction to Distributed Algorithms",
+      "name": "Intro to Distributed Algorithm",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1497811-2021-03-01",
+      "career": "Undergraduate",
+      "code": "CSC 44700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 3,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1497811",
+      "courseNumber": "44700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-03-01",
+      "id": "1497811-2021-03-01",
+      "longName": "Introduction to Machine Learning",
+      "name": "Introduction to Machine Learni",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455111-2024-08-28",
+      "career": "Undergraduate",
+      "code": "CSC 10000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0455111",
+      "courseNumber": "10000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [
+          "MEBU - ME_BUSI_1 (Intro Computer Info Sys & Tech)",
+          "MEFI - ME_FINA_1 (Intro Computer Info Sys & Tech)"
+        ]
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "0455111-2024-08-28",
+      "longName": "Introduction to Programming and Computer Science",
+      "name": "Intro Prog & C Sc",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455511-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 31700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455511",
+      "courseNumber": "31700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455511-1901-01-01",
+      "longName": "Introduction to the Internet",
+      "name": "Introduction to the Internet",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455471-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 30400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455471",
+      "courseNumber": "30400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455471-1901-01-01",
+      "longName": "Introduction to Theoretical Computer Science",
+      "name": "Intro to Theoretical Comp Sci",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455791-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 44600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455791",
+      "courseNumber": "44600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455791-1901-01-01",
+      "longName": "Mathematical Optimization Techniques",
+      "name": "Math Opt Techs",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1497801-2019-09-13",
+      "career": "Undergraduate",
+      "code": "CSC 30000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1497801",
+      "courseNumber": "30000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-09-13",
+      "id": "1497801-2019-09-13",
+      "longName": "Mathematics for Computer Science",
+      "name": "Mathematics for Computer Scien",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1549251-2023-05-08",
+      "career": "Undergraduate",
+      "code": "CSC 36000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1549251",
+      "courseNumber": "36000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2023-05-08",
+      "id": "1549251-2023-05-08",
+      "longName": "Modern Distributed Computing",
+      "name": "Modern Distributed Computing",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0456411-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 59944",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0456411",
+      "courseNumber": "59944",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0456411-1901-01-01",
+      "longName": "Neural Computing",
+      "name": "Neural Computing",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455461-2021-03-17",
+      "career": "Undergraduate",
+      "code": "CSC 30100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455461",
+      "courseNumber": "30100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-03-17",
+      "id": "0455461-2021-03-17",
+      "longName": "Numerical Issues in Scientific Programming",
+      "name": "Scientific Prgrmng",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455541-2018-02-06",
+      "career": "Undergraduate",
+      "code": "CSC 33200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455541",
+      "courseNumber": "33200",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-02-06",
+      "id": "0455541-2018-02-06",
+      "longName": "Operating Systems",
+      "name": "Operating Systems",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455361-2013-05-01",
+      "career": "Undergraduate",
+      "code": "CSC 21700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455361",
+      "courseNumber": "21700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2013-05-01",
+      "id": "0455361-2013-05-01",
+      "longName": "Probability and Statistics for Computer Science",
+      "name": "Prob & Stat For Csc",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1214491-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 11300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "1214491",
+      "courseNumber": "11300",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1214491-1901-01-01",
+      "longName": "Programming Lang",
+      "name": "Programming Lang",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455571-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 33500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455571",
+      "courseNumber": "33500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455571-1901-01-01",
+      "longName": "Programming Language Paradigms",
+      "name": "Programming Language Paradigms",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455761-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 43800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455761",
+      "courseNumber": "43800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455761-1901-01-01",
+      "longName": "Real-Time Computing Systems",
+      "name": "Real-Time Computing Systems",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0456071-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 59900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 1,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0456071",
+      "courseNumber": "59900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0456071-1901-01-01",
+      "longName": "Selected Topics in Computer Science",
+      "name": "Selected Topics in Comp Sci",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0456051-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 59866",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 6,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0456051",
+      "courseNumber": "59866",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0456051-1901-01-01",
+      "longName": "Senior Project I",
+      "name": "Senior Project I",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0456061-2022-10-25",
+      "career": "Undergraduate",
+      "code": "CSC 59867",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 6,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0456061",
+      "courseNumber": "59867",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-10-25",
+      "id": "0456061-2022-10-25",
+      "longName": "Senior Project II",
+      "name": "Senior Project II",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455661-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 37500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455661",
+      "courseNumber": "37500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455661-1901-01-01",
+      "longName": "Social Issues in Computing",
+      "name": "Social Issues in Computing",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455381-2018-02-06",
+      "career": "Undergraduate",
+      "code": "CSC 22100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455381",
+      "courseNumber": "22100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-02-06",
+      "id": "0455381-2018-02-06",
+      "longName": "Software Design Laboratory",
+      "name": "Software Design Laboratory",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455531-2019-12-31",
+      "career": "Undergraduate",
+      "code": "CSC 32200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 5,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 5
+        }
+      ],
+      "courseGroupId": "0455531",
+      "courseNumber": "32200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-12-31",
+      "id": "0455531-2019-12-31",
+      "longName": "Software Engineering",
+      "name": "Software Engineering",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455781-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 44200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455781",
+      "courseNumber": "44200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455781-1901-01-01",
+      "longName": "Systems Simulation",
+      "name": "Systems Simulation",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455831-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 45400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455831",
+      "courseNumber": "45400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455831-1901-01-01",
+      "longName": "Topics in Computer Architecture",
+      "name": "Topic In Comp. Arch.",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455911-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 47800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455911",
+      "courseNumber": "47800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455911-1901-01-01",
+      "longName": "Topics in Multimedia and Image Processing",
+      "name": "Topics:Digital Imag",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1366591-2021-03-15",
+      "career": "Undergraduate",
+      "code": "CSC 45600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 25,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1366591",
+      "courseNumber": "45600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-03-15",
+      "id": "1366591-2021-03-15",
+      "longName": "Topics in Software Engineering",
+      "name": "Topics in Software Engineering",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1267861-2021-03-15",
+      "career": "Undergraduate",
+      "code": "CSC 47400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1267861",
+      "courseNumber": "47400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-03-15",
+      "id": "1267861-2021-03-15",
+      "longName": "Visualization",
+      "name": "Visualization",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "1356381-2021-10-04",
+      "career": "Undergraduate",
+      "code": "CSC 49200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 20,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "Hybrid",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 3,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1356381",
+      "courseNumber": "49200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-10-04",
+      "id": "1356381-2021-10-04",
+      "longName": "Web Security",
+      "name": "Web Security",
+      "subjectCode": "CSC"
+    },
+    {
+      "_id": "0455871-1901-01-01",
+      "career": "Undergraduate",
+      "code": "CSC 47300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0455871",
+      "courseNumber": "47300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "CSC-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0455871-1901-01-01",
+      "longName": "Web Site Design",
+      "name": "Web Site Design",
+      "subjectCode": "CSC"
+    }
+  ],
+  "limit": 0,
+  "listLength": 68,
+  "skip": 0
+}

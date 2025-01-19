@@ -1,0 +1,1132 @@
+{
+  "data": [
+    {
+      "_id": "0543611-1901-01-02",
+      "career": "Undergraduate",
+      "code": "MED 20300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 8,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 8
+        }
+      ],
+      "courseGroupId": "0543611",
+      "courseNumber": "20300",
+      "credits": {
+        "creditHours": {
+          "max": 5,
+          "min": 5,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Life and Physical Sciences"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-02",
+      "id": "0543611-1901-01-02",
+      "longName": "Bio-Organic Chemistry",
+      "name": "Bio-Organic Chemistry",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1299381-2022-08-21",
+      "career": "Undergraduate",
+      "code": "MED 22309",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1299381",
+      "courseNumber": "22309",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Mathematical&QuantitativeReasoning"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-08-21",
+      "id": "1299381-2022-08-21",
+      "longName": "Fundamentals of Epidemiology and Biostatistics",
+      "name": "Fundamentals of Epidemiology",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1532241-2022-02-01",
+      "career": "Undergraduate",
+      "code": "MED 37601",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "Hybrid",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1532241",
+      "courseNumber": "37601",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-02-01",
+      "id": "1532241-2022-02-01",
+      "longName": "Fundamentals of Organ Systems, Part 1",
+      "name": "Fundamentals of Organ Systems,",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1532251-2022-02-01",
+      "career": "Undergraduate",
+      "code": "MED 37602",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 9,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "Hybrid",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 9
+        }
+      ],
+      "courseGroupId": "1532251",
+      "courseNumber": "37602",
+      "credits": {
+        "creditHours": {
+          "max": 9,
+          "min": 9,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-02-01",
+      "id": "1532251-2022-02-01",
+      "longName": "Fundamentals of Organ Systems, Part 2",
+      "name": "Fundamentals of Organ Systems,",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "0543671-1901-01-01",
+      "career": "Undergraduate",
+      "code": "MED 31001",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "0543671",
+      "courseNumber": "31001",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0543671-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "0543681-1901-01-01",
+      "career": "Undergraduate",
+      "code": "MED 31002",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0543681",
+      "courseNumber": "31002",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0543681-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "0543691-1901-01-01",
+      "career": "Undergraduate",
+      "code": "MED 31003",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0543691",
+      "courseNumber": "31003",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0543691-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "0543701-1901-01-01",
+      "career": "Undergraduate",
+      "code": "MED 31004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0543701",
+      "courseNumber": "31004",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0543701-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1544551-2023-01-30",
+      "career": "Undergraduate",
+      "code": "MED 22311",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1544551",
+      "courseNumber": "22311",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2023-01-30",
+      "id": "1544551-2023-01-30",
+      "longName": "Introduction to Biostatistics",
+      "name": "Introduction to Biostatistics",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1544541-2023-06-01",
+      "career": "Undergraduate",
+      "code": "MED 22310",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1544541",
+      "courseNumber": "22310",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2023-06-01",
+      "id": "1544541-2023-06-01",
+      "longName": "Introduction to Epidemiology",
+      "name": "Introduction to Epidemiology",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1299391-1901-01-01",
+      "career": "Undergraduate",
+      "code": "MED 20000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1299391",
+      "courseNumber": "20000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1299391-1901-01-01",
+      "longName": "Introduction to Human Genetics",
+      "name": "Introduction to Human Genetics",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1315951-2024-08-28",
+      "career": "Undergraduate",
+      "code": "MED 11209",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1315951",
+      "courseNumber": "11209",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1315951-2024-08-28",
+      "longName": "Introduction to Population Health and Community-Oriented Primary Care",
+      "name": "Intro to Population Health",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1152741-2013-05-01",
+      "career": "Undergraduate",
+      "code": "MED 10000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "Hybrid",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1152741",
+      "courseNumber": "10000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2013-05-01",
+      "id": "1152741-2013-05-01",
+      "longName": "Introduction to the neurobiological actions of drugs of abuse",
+      "name": "Int Drg Abuse Addctn",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "0543621-2024-08-28",
+      "career": "Undergraduate",
+      "code": "MED 20400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0543621",
+      "courseNumber": "20400",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Life and Physical Sciences"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "0543621-2024-08-28",
+      "longName": "Molecules To Cells I",
+      "name": "Molecules To Cells I",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1299401-2024-01-25",
+      "career": "Undergraduate",
+      "code": "MED 30501",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1299401",
+      "courseNumber": "30501",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "1299401-2024-01-25",
+      "longName": "Molecules to Cells II",
+      "name": "Molecules to Cells II",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1549231-2023-12-31",
+      "career": "Undergraduate",
+      "code": "MED 21100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1549231",
+      "courseNumber": "21100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2023-12-31",
+      "id": "1549231-2023-12-31",
+      "longName": "Narrative Medicine for Mentors",
+      "name": "Narrative Medicine for Mentors",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1315371-2020-04-07",
+      "career": "Undergraduate",
+      "code": "MED 39509",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "1315371",
+      "courseNumber": "39509",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2020-04-07",
+      "id": "1315371-2020-04-07",
+      "longName": "Practice of Medicine 2",
+      "name": "Practice of Medicine 2",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "0543601-1901-01-02",
+      "career": "Undergraduate",
+      "code": "MED 10200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 8,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 8
+        }
+      ],
+      "courseGroupId": "0543601",
+      "courseNumber": "10200",
+      "credits": {
+        "creditHours": {
+          "max": 5,
+          "min": 5,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Life and Physical Sciences"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-02",
+      "id": "0543601-1901-01-02",
+      "longName": "Prin Gen Chemistry",
+      "name": "Prin Gen Chemistry",
+      "subjectCode": "MED"
+    },
+    {
+      "_id": "1470251-2018-10-03",
+      "career": "Undergraduate",
+      "code": "MED 10100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 1,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "1470251",
+      "courseNumber": "10100",
+      "credits": {
+        "creditHours": {
+          "max": 0,
+          "min": 0,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "MED-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-10-03",
+      "id": "1470251-2018-10-03",
+      "longName": "Professional Foundations",
+      "name": "Professional Foundations",
+      "subjectCode": "MED"
+    }
+  ],
+  "limit": 0,
+  "listLength": 19,
+  "skip": 0
+}

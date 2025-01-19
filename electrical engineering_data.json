@@ -1,0 +1,2814 @@
+{
+  "data": [
+    {
+      "_id": "1509751-2024-08-28",
+      "career": "Undergraduate",
+      "code": "EE 35900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 15,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "Hybrid",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1509751",
+      "courseNumber": "35900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1509751-2024-08-28",
+      "longName": "Artificial Intelligence Solutions in Electrical Engineering",
+      "name": "AI Solutions in EE",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495581-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495581",
+      "courseNumber": "45100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495581-1901-01-01",
+      "longName": "Communication Electronics",
+      "name": "Communication Electronics",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495441-2021-10-19",
+      "career": "Undergraduate",
+      "code": "EE 42200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495441",
+      "courseNumber": "42200",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-10-19",
+      "id": "0495441-2021-10-19",
+      "longName": "Communication System Design Laboratory",
+      "name": "Communication System Design La",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495271-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 31200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495271",
+      "courseNumber": "31200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495271-1901-01-01",
+      "longName": "Communication Theory",
+      "name": "Communication Theory",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495471-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 42500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495471",
+      "courseNumber": "42500",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495471-1901-01-01",
+      "longName": "Computer Engineering Laboratory",
+      "name": "Computer Engineering Lab",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495481-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 42600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495481",
+      "courseNumber": "42600",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495481-1901-01-01",
+      "longName": "Control Laboratory",
+      "name": "Control Laboratory",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495671-2021-05-31",
+      "career": "Undergraduate",
+      "code": "EE 46000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495671",
+      "courseNumber": "46000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-05-31",
+      "id": "0495671-2021-05-31",
+      "longName": "Data and Computer Communications",
+      "name": "Data and Computer Comm",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0497441-2019-02-07",
+      "career": "Undergraduate",
+      "code": "EE I2400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0497441",
+      "courseNumber": "I2400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-02-07",
+      "id": "0497441-2019-02-07",
+      "longName": "Digital Computers II",
+      "name": "Digital Computers II",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "1350681-2021-10-18",
+      "career": "Undergraduate",
+      "code": "EE 47200",
+      "components": [
+        {
+          "attendanceGenerate": false,
+          "attendanceType": "",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1350681",
+      "courseNumber": "47200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2021-10-18",
+      "id": "1350681-2021-10-18",
+      "longName": "Digital Design using Verilog",
+      "name": "Digital Design using Verilog",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495641-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495641",
+      "courseNumber": "45700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495641-1901-01-01",
+      "longName": "Digital Integrated Circuits",
+      "name": "Digital Integrated Circuits",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495601-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495601",
+      "courseNumber": "45300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495601-1901-01-01",
+      "longName": "Digital Signal Processing",
+      "name": "Digital Signal Processing",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "1214831-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 34400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1214831",
+      "courseNumber": "34400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1214831-1901-01-01",
+      "longName": "Digitial Computer Systems",
+      "name": "Digitial Computer Systems",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495381-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 35700",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495381",
+      "courseNumber": "35700",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495381-1901-01-01",
+      "longName": "Electric Power Engineering",
+      "name": "Electric Power Engineering",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495171-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 22100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495171",
+      "courseNumber": "22100",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495171-1901-01-01",
+      "longName": "Electrical Engineering Laboratory I",
+      "name": "E E Lab 1",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495291-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 32200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495291",
+      "courseNumber": "32200",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495291-1901-01-01",
+      "longName": "Electrical Engineering Laboratory II",
+      "name": "E E Lab 2",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495301-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 32300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495301",
+      "courseNumber": "32300",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495301-1901-01-01",
+      "longName": "Electrical Engineering Laboratory III",
+      "name": "Electrical Engineering Lab 3",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495311-2019-12-31",
+      "career": "Undergraduate",
+      "code": "EE 33000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495311",
+      "courseNumber": "33000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-12-31",
+      "id": "0495311-2019-12-31",
+      "longName": "Electromagnetics",
+      "name": "Electromagnetics",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495541-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 44100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495541",
+      "courseNumber": "44100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495541-1901-01-01",
+      "longName": "Electronic Devices and Semiconductor Materials",
+      "name": "Smicndctr Mat Dev 2",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495181-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 24100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495181",
+      "courseNumber": "24100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495181-1901-01-01",
+      "longName": "Electronics I",
+      "name": "Electronics I",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495371-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 34200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495371",
+      "courseNumber": "34200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495371-1901-01-01",
+      "longName": "Electronics II",
+      "name": "Electronics II",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495631-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495631",
+      "courseNumber": "45600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495631-1901-01-01",
+      "longName": "Elements of Control Theory",
+      "name": "Elements of Control Theory",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495621-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495621",
+      "courseNumber": "45500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495621-1901-01-01",
+      "longName": "Elements of Power Systems",
+      "name": "Elements of Power Systems",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495761-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 51001",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "0495761",
+      "courseNumber": "51001",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495761-1901-01-01",
+      "longName": "Ind Stud Proj",
+      "name": "Ind Stud Proj",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495781-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 51003",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495781",
+      "courseNumber": "51003",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495781-1901-01-01",
+      "longName": "Ind Stud/Proj",
+      "name": "Ind Stud/Proj",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495751-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 51000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495751",
+      "courseNumber": "51000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495751-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495771-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 51002",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0495771",
+      "courseNumber": "51002",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495771-1901-01-01",
+      "longName": "Independent Study Project",
+      "name": "Independent Study Project",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495341-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 33300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495341",
+      "courseNumber": "33300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495341-1901-01-01",
+      "longName": "Introduction to Antennas, Microwaves and Fiber Optics",
+      "name": "Antennas, Microwaves, Fiber Op",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495721-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 47100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495721",
+      "courseNumber": "47100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495721-1901-01-01",
+      "longName": "Introduction to Digital Image Processing",
+      "name": "Intro to Digital Image Process",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495651-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495651",
+      "courseNumber": "45800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495651-1901-01-01",
+      "longName": "Introduction to Lasers",
+      "name": "Introduction to Lasers",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495391-2019-12-31",
+      "career": "Undergraduate",
+      "code": "EE 37100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495391",
+      "courseNumber": "37100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-12-31",
+      "id": "0495391-2019-12-31",
+      "longName": "Linear Feedback Systems",
+      "name": "Linear Feedback Systems",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495131-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 20500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495131",
+      "courseNumber": "20500",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495131-1901-01-01",
+      "longName": "Linear Systems Analysis I",
+      "name": "Linear Systems Analysis I",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495241-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 30600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495241",
+      "courseNumber": "30600",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495241-1901-01-01",
+      "longName": "Linear Systems Analysis II",
+      "name": "Linear Systems Analysis II",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495431-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 42100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495431",
+      "courseNumber": "42100",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495431-1901-01-01",
+      "longName": "Local Area Network Laboratory",
+      "name": "Local Area Network Laboratory",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495521-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 43800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495521",
+      "courseNumber": "43800",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495521-1901-01-01",
+      "longName": "Management Concepts for Engineers",
+      "name": "Management Concepts Engineers",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495661-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495661",
+      "courseNumber": "45900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495661-1901-01-01",
+      "longName": "Microprocessors",
+      "name": "Microprocessors",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495681-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 46200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495681",
+      "courseNumber": "46200",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495681-1901-01-01",
+      "longName": "Photonic Engineering",
+      "name": "Photonic Engineering",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495501-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 42800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495501",
+      "courseNumber": "42800",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495501-1901-01-01",
+      "longName": "Photonics Engineering Laboratory",
+      "name": "Photonics Engineering Lab",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495611-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 45400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495611",
+      "courseNumber": "45400",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495611-1901-01-01",
+      "longName": "Physical Electronics",
+      "name": "Physical Electronics",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495261-2019-12-31",
+      "career": "Undergraduate",
+      "code": "EE 31100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495261",
+      "courseNumber": "31100",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-12-31",
+      "id": "0495261-2019-12-31",
+      "longName": "Probability and Statistics",
+      "name": "Probability and Statistics",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495191-2019-12-31",
+      "career": "Undergraduate",
+      "code": "EE 25900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0495191",
+      "courseNumber": "25900",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-12-31",
+      "id": "0495191-2019-12-31",
+      "longName": "Programming for Electrical Engineering: Part I. UNIX and C: UNIX preliminaries, C program format, da",
+      "name": "Programming For E E",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495351-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 33900",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495351",
+      "courseNumber": "33900",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495351-1901-01-01",
+      "longName": "Semiconductor Materials and Devices",
+      "name": "Semi-condu Materials & Devices",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0496291-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 59866",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 6,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0496291",
+      "courseNumber": "59866",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0496291-1901-01-01",
+      "longName": "Senior Design 1",
+      "name": "Senior Design 1",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0496321-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 59869",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0496321",
+      "courseNumber": "59869",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0496321-1901-01-01",
+      "longName": "Senior Design 2 For Computer Engineering",
+      "name": "Snr Dsgn 2 For Comp Engr",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0496311-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 59868",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0496311",
+      "courseNumber": "59868",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0496311-1901-01-01",
+      "longName": "Senior Design I For Computer Engineering",
+      "name": "Snr Dsgn I For Comp Engr",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0496301-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 59867",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 6,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 6
+        }
+      ],
+      "courseGroupId": "0496301",
+      "courseNumber": "59867",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0496301-1901-01-01",
+      "longName": "Senior Design II",
+      "name": "Senior Design II",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495141-2019-12-31",
+      "career": "Undergraduate",
+      "code": "EE 21000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495141",
+      "courseNumber": "21000",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2019-12-31",
+      "id": "0495141-2019-12-31",
+      "longName": "Switching Systems",
+      "name": "Switching Systems",
+      "subjectCode": "EE"
+    },
+    {
+      "_id": "0495691-1901-01-01",
+      "career": "Undergraduate",
+      "code": "EE 46300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0495691",
+      "courseNumber": "46300",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "EE-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0495691-1901-01-01",
+      "longName": "Wireless Communications",
+      "name": "Wireless Communications",
+      "subjectCode": "EE"
+    }
+  ],
+  "limit": 0,
+  "listLength": 47,
+  "skip": 0
+}

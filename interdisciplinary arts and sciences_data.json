@@ -1,0 +1,2844 @@
+{
+  "data": [
+    {
+      "_id": "1300461-1901-01-01",
+      "career": "Undergraduate",
+      "code": "IAS 23324",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1300461",
+      "courseNumber": "23324",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1300461-1901-01-01",
+      "longName": "Advanced Composition",
+      "name": "Advanced Composition",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1308331-2024-01-25",
+      "career": "Undergraduate",
+      "code": "MATH 18504",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 0,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1308331",
+      "courseNumber": "18504",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "1308331-2024-01-25",
+      "longName": "Basic Ideas in Mathematics (4 credits)",
+      "name": "Basic Ideas in Mathematics",
+      "subjectCode": "MATH"
+    },
+    {
+      "_id": "1238831-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 32181",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1238831",
+      "courseNumber": "32181",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "1238831-2017-12-31",
+      "longName": "Book Talk City /City",
+      "name": "Book Talk City /City",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1323411-2016-02-01",
+      "career": "Undergraduate",
+      "code": "IAS 49000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1323411",
+      "courseNumber": "49000",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2016-02-01",
+      "id": "1323411-2016-02-01",
+      "longName": "Capstone in Interdisciplinary Studies",
+      "name": "Capstone in INTD Studies",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1554261-2024-08-28",
+      "career": "Undergraduate",
+      "code": "IAS 41000",
+      "components": [
+        {
+          "attendanceGenerate": false,
+          "attendanceType": "",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 20,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "",
+          "lmsFileType": "",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1554261",
+      "courseNumber": "41000",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "deprecatedCourseGroupId": "ZxDsPG5m2jvDoc4XDMwo",
+      "deprecatedId": "W8tQjzaV59LGAW1E6UXQ",
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1554261-2024-08-28",
+      "longName": "Capstone in Social Justice and Urban Life",
+      "name": "Cap: Soc Justice & Urban Life",
+      "requestStatus": "approved",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528701-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 10800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528701",
+      "courseNumber": "10800",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528701-2017-12-31",
+      "longName": "Doing Social Research",
+      "name": "Doing Social Research",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0471471-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 20614",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3.5,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3.5
+        }
+      ],
+      "courseGroupId": "0471471",
+      "courseNumber": "20614",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0471471-2024-01-25",
+      "longName": "Early Childhood: Development, Assessment, and Pedagogy in Inclusive Settings",
+      "name": "Devlpmnt, Assmnt, Pedagogy",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0471461-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 20604",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0471461",
+      "courseNumber": "20604",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0471461-2024-01-25",
+      "longName": "Ece I: Thry Dev Prac",
+      "name": "Ece I: Thry Dev Prac",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0472131-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 40800",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 25,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 25
+        }
+      ],
+      "courseGroupId": "0472131",
+      "courseNumber": "40800",
+      "credits": {
+        "creditHours": {
+          "max": 6,
+          "min": 6,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0472131-2024-01-25",
+      "longName": "Ece Student Tchg 1",
+      "name": "Ece Student Tchg 1",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0471901-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 32304",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0471901",
+      "courseNumber": "32304",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0471901-2024-01-25",
+      "longName": "Emergent To Flunt Lt",
+      "name": "Emergent To Flunt Lt",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0472111-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 40500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0472111",
+      "courseNumber": "40500",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0472111-2024-01-25",
+      "longName": "Facilitating Children's Artistic Development",
+      "name": "Fac Yng Chld Art Dev",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0472121-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 40600",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0472121",
+      "courseNumber": "40600",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0472121-2024-01-25",
+      "longName": "Facilitating Children's Musical Development",
+      "name": "Facilitating Yng Chld Mus Dev",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "1473731-2018-12-19",
+      "career": "Undergraduate",
+      "code": "IAS 30300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 10,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "1473731",
+      "courseNumber": "30300",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2018-12-19",
+      "id": "1473731-2018-12-19",
+      "longName": "Honors Research",
+      "name": "Honors Research",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1320681-2015-12-08",
+      "career": "Undergraduate",
+      "code": "IAS 30100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1320681",
+      "courseNumber": "30100",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2015-12-08",
+      "id": "1320681-2015-12-08",
+      "longName": "Honors Research",
+      "name": "Honors Research",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1320691-2015-12-08",
+      "career": "Undergraduate",
+      "code": "IAS 30200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1320691",
+      "courseNumber": "30200",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2015-12-08",
+      "id": "1320691-2015-12-08",
+      "longName": "Honors Research",
+      "name": "Honors Research",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0471881-2024-08-28",
+      "career": "Undergraduate",
+      "code": "EDCE 32204",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0471881",
+      "courseNumber": "32204",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "0471881-2024-08-28",
+      "longName": "How Children Learn Math",
+      "name": "How Children Learn Math",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0528791-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31001",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "0528791",
+      "courseNumber": "31001",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528791-2017-12-31",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528801-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31002",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0528801",
+      "courseNumber": "31002",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528801-2017-12-31",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528811-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31003",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "0528811",
+      "courseNumber": "31003",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528811-2017-12-31",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528821-1901-01-01",
+      "career": "Undergraduate",
+      "code": "IAS 31004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "IND",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "IND",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Independent Study",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528821",
+      "courseNumber": "31004",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "0528821-1901-01-01",
+      "longName": "Independent Study",
+      "name": "Independent Study",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528651-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 10300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528651",
+      "courseNumber": "10300",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528651-2017-12-31",
+      "longName": "Interdisciplinary Global Studies",
+      "name": "Interdisciplinary Global Studi",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1309991-2024-01-25",
+      "career": "Undergraduate",
+      "code": "SPAN 22504",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 0,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1309991",
+      "courseNumber": "22504",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "1309991-2024-01-25",
+      "longName": "Intermediate Spanish",
+      "name": "Intermediate Spanish",
+      "subjectCode": "SPAN"
+    },
+    {
+      "_id": "1232071-2024-01-25",
+      "career": "Undergraduate",
+      "code": "SPAN 12104",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 0,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1232071",
+      "courseNumber": "12104",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - World Cultures & Global Issues"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "1232071-2024-01-25",
+      "longName": "Intro Spanish 1",
+      "name": "Intro Spanish 1",
+      "subjectCode": "SPAN"
+    },
+    {
+      "_id": "1240541-2024-01-25",
+      "career": "Undergraduate",
+      "code": "SPAN 12204",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 0,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 0
+        }
+      ],
+      "courseGroupId": "1240541",
+      "courseNumber": "12204",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - World Cultures & Global Issues"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "1240541-2024-01-25",
+      "longName": "Intro Spanish II",
+      "name": "Intro Spanish II",
+      "subjectCode": "SPAN"
+    },
+    {
+      "_id": "1300451-1901-01-01",
+      "career": "Undergraduate",
+      "code": "IAS 24200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1300451",
+      "courseNumber": "24200",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1300451-1901-01-01",
+      "longName": "Introduction to Interdisciplinary Studies",
+      "name": "Introduction to Interdisciplin",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1300491-1901-01-01",
+      "career": "Undergraduate",
+      "code": "IAS 22300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1300491",
+      "courseNumber": "22300",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1300491-1901-01-01",
+      "longName": "Introduction to Public Administration",
+      "name": "Introduction to Public Adminis",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0472091-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 40200",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0472091",
+      "courseNumber": "40200",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0472091-2024-01-25",
+      "longName": "Lang Devlp & Lit 2",
+      "name": "Lang Devlp & Lit 2",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0528591-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 10000",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528591",
+      "courseNumber": "10000",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - English Composition"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528591-2017-12-31",
+      "longName": "Lit-Art & Hum Exp 1",
+      "name": "Lit-Art & Hum Exp 1",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528611-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 10100",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528611",
+      "courseNumber": "10100",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - English Composition"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528611-2017-12-31",
+      "longName": "Lit-Art & Hum Exp 2",
+      "name": "Lit-Art & Hum Exp 2",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1304501-2024-08-28",
+      "career": "Undergraduate",
+      "code": "MATH 15004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1304501",
+      "courseNumber": "15004",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Mathematical&QuantitativeReasoning"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1304501-2024-08-28",
+      "longName": "Math For Contemporary World",
+      "name": "Math For Contemporary World",
+      "subjectCode": "MATH"
+    },
+    {
+      "_id": "0529001-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31120",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 1,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 1
+        }
+      ],
+      "courseGroupId": "0529001",
+      "courseNumber": "31120",
+      "credits": {
+        "creditHours": {
+          "max": 1,
+          "min": 1,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0529001-2017-12-31",
+      "longName": "Math Lab Intdsc Stud",
+      "name": "Math Lab Intdsc Stud",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1536381-2022-01-01",
+      "career": "Undergraduate",
+      "code": "IAS 31975",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 3,
+          "customFields": {},
+          "defaultSectionSize": 5,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 3
+        }
+      ],
+      "courseGroupId": "1536381",
+      "courseNumber": "31975",
+      "credits": {
+        "creditHours": {
+          "max": 3,
+          "min": 3,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2022-01-01",
+      "id": "1536381-2022-01-01",
+      "longName": "Medical Professions, Authority, and Activism",
+      "name": "Medical Professions, Authority",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528661-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 10400",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528661",
+      "courseNumber": "10400",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Life and Physical Sciences"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528661-2017-12-31",
+      "longName": "Nature & Humans 1",
+      "name": "Nature & Humans 1",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0528671-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 10500",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528671",
+      "courseNumber": "10500",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Flexible Core - Scientific World"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528671-2017-12-31",
+      "longName": "Nature & Humans II",
+      "name": "Nature & Humans II",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1155491-2024-01-25",
+      "career": "Undergraduate",
+      "code": "PSY 31824",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Last Class",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1155491",
+      "courseNumber": "31824",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "1155491-2024-01-25",
+      "longName": "Psychology of Parenting",
+      "name": "Psychology of Parenting",
+      "subjectCode": "PSY"
+    },
+    {
+      "_id": "1304511-2024-08-28",
+      "career": "Undergraduate",
+      "code": "MATH 18004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1304511",
+      "courseNumber": "18004",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": [],
+        "catalogRequirementDesignation": "Required Core - Mathematical&QuantitativeReasoning"
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "1304511-2024-08-28",
+      "longName": "Quantitative Reasoning",
+      "name": "Quantitative Reasoning",
+      "subjectCode": "MATH"
+    },
+    {
+      "_id": "0471801-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 31904",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0471801",
+      "courseNumber": "31904",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0471801-2024-01-25",
+      "longName": "Science In Early Childhood Settings",
+      "name": "Science Early Child",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0529021-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31170",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0529021",
+      "courseNumber": "31170",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0529021-2017-12-31",
+      "longName": "Seminr In Autobiography",
+      "name": "Seminr In Autobiography",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0472101-2024-01-25",
+      "career": "Undergraduate",
+      "code": "EDCE 40300",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 2,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 2
+        }
+      ],
+      "courseGroupId": "0472101",
+      "courseNumber": "40300",
+      "credits": {
+        "creditHours": {
+          "max": 2,
+          "min": 2,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0472101-2024-01-25",
+      "longName": "Social Stud In Ece",
+      "name": "Social Stud In Ece",
+      "subjectCode": "EDCE"
+    },
+    {
+      "_id": "0576411-2024-08-28",
+      "career": "Undergraduate",
+      "code": "SPCH 11104",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0576411",
+      "courseNumber": "11104",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "0576411-2024-08-28",
+      "longName": "Speech Foundations",
+      "name": "Speech Foundations",
+      "subjectCode": "SPCH"
+    },
+    {
+      "_id": "1300481-1901-01-01",
+      "career": "Undergraduate",
+      "code": "IAS 23304",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 30,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1300481",
+      "courseNumber": "23304",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "1901-01-01",
+      "id": "1300481-1901-01-01",
+      "longName": "The Essay",
+      "name": "The Essay",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1554241-2024-05-28",
+      "career": "Undergraduate",
+      "code": "IAS 25000",
+      "components": [
+        {
+          "attendanceGenerate": false,
+          "attendanceType": "",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 25,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "",
+          "lmsFileType": "",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1554241",
+      "courseNumber": "25000",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "deprecatedCourseGroupId": "Ch09uE5Q0e7C4ewlkWKS",
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-05-28",
+      "id": "1554241-2024-05-28",
+      "longName": "The Right to the City",
+      "name": "The Right to the City",
+      "requestStatus": "approved",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0419111-2024-01-25",
+      "career": "Undergraduate",
+      "code": "ANTH 22804",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0419111",
+      "courseNumber": "22804",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "0419111-2024-01-25",
+      "longName": "Urban Anthropology",
+      "name": "Urban Anthropology",
+      "subjectCode": "ANTH"
+    },
+    {
+      "_id": "0529421-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31280",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0529421",
+      "courseNumber": "31280",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0529421-2017-12-31",
+      "longName": "Women & The Law",
+      "name": "Women & The Law",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0529151-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31216",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0529151",
+      "courseNumber": "31216",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0529151-2017-12-31",
+      "longName": "Women And Work",
+      "name": "Women And Work",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "0585051-2024-08-28",
+      "career": "Undergraduate",
+      "code": "WS 10004",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0585051",
+      "courseNumber": "10004",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-08-28",
+      "id": "0585051-2024-08-28",
+      "longName": "Women'S Role",
+      "name": "Women'S Role",
+      "subjectCode": "WS"
+    },
+    {
+      "_id": "0528871-2017-12-31",
+      "career": "Undergraduate",
+      "code": "IAS 31106",
+      "components": [
+        {
+          "attendanceContactUse": true,
+          "attendanceGenerate": false,
+          "attendanceLeftUse": true,
+          "attendancePresentUse": true,
+          "attendanceReasonUse": true,
+          "attendanceTardyUse": true,
+          "attendanceTemplateOverride": false,
+          "attendanceTimeUse": true,
+          "attendanceType": "Class Meeting",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 35,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "In Person",
+          "lmsFileType": "Blackboard CourseInfo 4",
+          "name": "Lecture",
+          "oeeWorkloadHours": 0,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [
+            "Academic Scheduling"
+          ],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "0528871",
+      "courseNumber": "31106",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2017-12-31",
+      "id": "0528871-2017-12-31",
+      "longName": "Works On Paper",
+      "name": "Works On Paper",
+      "subjectCode": "IAS"
+    },
+    {
+      "_id": "1554251-2024-01-25",
+      "career": "Undergraduate",
+      "code": "IAS 26000",
+      "components": [
+        {
+          "attendanceGenerate": false,
+          "attendanceType": "",
+          "autoCreate": false,
+          "code": "LEC",
+          "contactHours": 4,
+          "customFields": {},
+          "defaultSectionSize": 25,
+          "deliveryMode": [],
+          "examSeatSpacing": 1,
+          "finalExamType": "Yes",
+          "id": "LEC",
+          "includeInDynamicDate": false,
+          "instructionMode": "",
+          "lmsFileType": "",
+          "name": "Lecture",
+          "oeeWorkloadHours": 4,
+          "optionalComponent": false,
+          "preferredRoomFeatures": [],
+          "providerForAuthentication": "",
+          "workloadHours": 4
+        }
+      ],
+      "courseGroupId": "1554251",
+      "courseNumber": "26000",
+      "credits": {
+        "creditHours": {
+          "max": 4,
+          "min": 4,
+          "operator": ""
+        }
+      },
+      "customFields": {
+        "catalogAttributes": []
+      },
+      "departmentOwnership": [],
+      "departments": [
+        "IAS-CTY"
+      ],
+      "deprecatedCourseGroupId": "oV52euu57rNC0INtxAZK",
+      "deprecatedId": "wDllpJZL51O3grNcbMkS",
+      "effectiveEndDate": null,
+      "effectiveStartDate": "2024-01-25",
+      "id": "1554251-2024-01-25",
+      "longName": "Writing the City",
+      "name": "Writing the City",
+      "requestStatus": "approved",
+      "subjectCode": "IAS"
+    }
+  ],
+  "limit": 0,
+  "listLength": 48,
+  "skip": 0
+}
