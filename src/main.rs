@@ -9,6 +9,7 @@ use serde_json::json;
 use std::{fs, io::Write};
 use std::path::PathBuf;
 use std::collections::HashMap;
+use std::borrow::Borrow;
 // define the function to get the header
 /**
  * Header data that has been removed:
@@ -145,7 +146,17 @@ async fn main() -> Result<()> {
     // println!("{courses:#?}");
     // // Save to file
     // save_to_file(&courses, "csc_courses.json")?;
-    // let test_hashmap_example = get_department_mappings();
+    let department_mappings = get_department_mappings();
+    print_hashmap_keys(department_mappings);
+
+    // borrow() : the ownership of a value is transferred temporarily to an entity and then returned to the original owner entity at the end of the program execution.
+    // let no_key_handler = String::from("Key doesn't exist, please check the list of departments and try again, please be cautious to avoid spelling errors");
+    // let value = department_mappings.get("art").unwrap_or(no_key_handler.borrow());
+    // println!("{value:?}");
+
+    // let no_key_handler_cloned = no_key_handler.clone();
+    // let non_existent_value = department_mappings.get("biology_department").unwrap_or(no_key_handler.borrow());
+    // println!("{non_existent_value:?}");
     // println!("{:#?}", test_hashmap_example);
     // println!("Courses fetched and saved successfully!");
 
@@ -214,4 +225,11 @@ pub fn get_department_mappings() -> HashMap<String, String> {
 // this will take the user input and return the lower_case version of the user input
 pub fn input_validation(user_input : &str) -> String {
     user_input.to_owned().to_lowercase()
+}
+
+// function used to retrieve list of departments
+pub fn print_hashmap_keys(hashmap_input : HashMap<String, String>) {
+    for (key,value) in hashmap_input.into_iter() {
+        println!("current department : {key:?}");
+    }
 }
