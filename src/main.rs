@@ -11,6 +11,7 @@ use std::path::PathBuf;
 use std::collections::HashMap;
 use std::borrow::Borrow;
 use serde::{Deserialize, Serialize};
+use std::ptr::null;
 
 // This struct is inherited within CourseInfo struct
 #[derive(Deserialize, Serialize, Debug, Clone, PartialEq)]
@@ -24,6 +25,7 @@ pub struct CourseComponents {
     pub instruction_mode : String   
 }
 
+#[derive(Deserialize, Serialize, Debug, Clone, PartialEq)]
 pub struct CourseInfo {
     pub unique_id : String,
     pub course_name : String,       // course LongName
@@ -31,9 +33,11 @@ pub struct CourseInfo {
     pub course_code : String,
     pub course_components : CourseComponents,
     pub effective_start_date : String,          // indicates the time this course was released
-    pub effective_end_date : Option<String>,        // indicates the time the course may end (could be null)
+
+    // #[serde(deserialize_with="deserialize_null_default")]
+    pub effective_end_date : String,        // indicates the time the course may end (could be null)
     pub course_group_id : i32,
-    pub course_number : i32,
+    pub course_number : i64,
     pub department : Vec<String>,
     pub subject_code : String,
     pub credits : i32,          // (i.e. 1,3,4)
@@ -194,18 +198,28 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
 
 
     // iterator logic (nested loop to bypass the indexing)
-    for course in course_info.as_array().iter() {
-        for course_data in course.iter() {
+    for courses in course_info.as_array().iter() {
+        for course_data in courses.iter() {
             // TODO : create the course instance here
-            
-
+            // NOTE : one potential workaround, placing the data into a vector instead
+            // let mut course_component_instance;
             // println!("{course_component_instance:#?}")
             // println!("{:#?}", course_data["components"][0]);
+            let course_group_id : String = serde_json::from_value(course_data["courseGroupId"].clone()).unwrap();
+
+            let course_integer : i32 = course_group_id.parse().expect("Failed to parse");
+            println!("{course_integer:?}");
+            // let course_group_id_num : i32 = serde_json::from_str(&course_group_id).unwrap();
+
+            // println!("current department ID : {course_group_id_num:?}");
+            
+
+            let mut course_component_data : Vec<CourseComponents> = Vec::new();
             for data in course_data["components"].as_array().iter() {
                 for inner_data in data.iter() {
                     // TODO : remove the to_string values
                     // println!("{:#?}", inner_data["attendanceGenerate"]);
-                    let course_component_instance = CourseComponents {
+                    let mut course_component_instance = CourseComponents {
                         course_type : serde_json::from_value(inner_data["code"].clone()).unwrap(),
 
                         weekly_hours : serde_json::from_value(inner_data["contactHours"].clone()).unwrap_or(-1),
@@ -219,13 +233,67 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
 
                         instruction_mode : serde_json::from_value(inner_data["instructionMode"].clone()).unwrap()
                     };
-                    println!("{course_component_instance:#?}");
-                    // println!("{inner_data:#?}")
 
-            
+                    course_component_data.push(course_component_instance);
                 }
             }
+
+            // TODO : process the rest of the data
+            // println!("{course_data:#?}");
+
+            // ternary operator
+            let effective_end_date_placeholder = serde_json::from_value(course_data["effectiveEndDate"].clone()).unwrap_or("null".to_owned());
+            // println!("{effective_end_date_placeholder:?}");
+
+            let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
+
+            // convert to string data
+            let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
+
+            // parse the string to extract the integer
+            let course_number_integer : i64 = serde_json::from_str(&course_number_string).unwrap();
+
+            // let course_group_id_string : String = serde_json::from_value(course_data["courseGroupId"].clone()).unwrap();
+            // println!("{course_group_id_string:?}");
+
+            // let course_group_id_num : i32 = serde_json::from_str(&course_group_id_string).unwrap();
+            
+            // println!("{course_group_id_num:?}");
+
+            
+
+            let mut course_info_instance = CourseInfo {
+                unique_id : serde_json::from_value(course_data["_id"].clone()).unwrap(),
+
+                course_name : serde_json::from_value(course_data["name"].clone()).unwrap(),
+
+                career : serde_json::from_value(course_data["career"].clone()).unwrap(),
+
+                course_code : serde_json::from_value(course_data["code"].clone()).unwrap(),
+
+                course_components : serde_json::from_value(serde_json::to_value(course_component_data[0].clone()).unwrap().clone()).unwrap(),       // only the first instance is relevant
+
+                effective_start_date : serde_json::from_value(course_data["effectiveStartDate"].clone()).unwrap(),
+
+                // TODO : wrap this around a conditional statement
+                // effective_end_date : effective_end_date_instance,
+                effective_end_date : "unknown".to_owned(),
+
+                course_group_id : 102,
+
+                course_number : course_number_integer,
+
+                department : serde_json::from_value(course_data["departments"].clone()).unwrap(),
+
+                subject_code : serde_json::from_value(course_data["subjectCode"].clone()).unwrap(),
+
+                credits : serde_json::from_value(course_data["credits"]["creditHours"]["max"].clone()).unwrap()
+                
+            };
+
+            // println!("{course_info_instance:#?}");
         }
+
     }
 
 
@@ -271,7 +339,7 @@ async fn main() -> Result<()> {
     // print_hashmap_keys(department_mappings);        // experimental function (not sure of use case)
 
     // returns a list cotnianing the list of departments
-    println!("{:#?}", get_department_list());
+    // println!("{:#?}", get_department_list());
     // let course_fetch_result = fetch_courses_by_department("physics").await?;
     // fetch_all_courses().await?;
     let courses_data = fetch_courses_by_department("Biology").await?;
