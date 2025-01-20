@@ -8,7 +8,7 @@ use reqwest::header::{HeaderMap, HeaderValue, ACCEPT, CONTENT_TYPE, ORIGIN, REFE
 use serde_json::json;
 use std::{fs, io::Write};
 use std::path::PathBuf;
-use std::collections::HashMap;
+use std::collections::{HashMap, BTreeMap};
 use std::borrow::Borrow;
 use serde::{Deserialize, Serialize};
 use std::ptr::null;
@@ -54,6 +54,25 @@ pub struct CourseInfo {
  * Header data that has been added:
  * REFERER (most likely what caused the issue with the data retrieval originally)
  */
+
+// course_name : name of the course (i.e. CSC 103, CSC 104)
+// need to determine the appropriate course ID that matches the particular course name
+// can search through the list of courses available and retrieve the course code corresponding to them based on the previous function that has been defined
+// construct a hashmap based on the list of courses, check if the course name matches any 
+// we have to set the course_code as the key and course_group_id as the value corresponding to the key
+pub fn retrieve_specific_course_info(course_name : &str) {
+    let course_name_and_code_mapping : BTreeMap<String, i32> = BTreeMap::new();     // this is where the mapping logic will be stored
+}
+
+pub async fn retrieve_historical_terms() -> Result<()> {
+    let get_request_url = "https://app.coursedog.com/api/v1/cty01/general/terms";
+    // let reqwest_client = reqwest::Client::new();
+    let body = reqwest::get(get_request_url).await?.text().await?;
+    let json_string : serde_json::Value = serde_json::from_str(&body)?;
+    println!("{json_string:#?}");
+
+    Ok(())
+}
 
  // something important to note
  // headers aren't really needed, they will work just fine even with an empty header
@@ -314,6 +333,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
     //     credits : course_info["credits"]["creditHours"]["max"]
     // }
     // println!("The course info vector is : {CourseInfoVector:?}");
+    println!("{:#?}", CourseInfoVector[0]);
     Ok(CourseInfoVector)
 }
 
@@ -344,7 +364,9 @@ async fn main() -> Result<()> {
     // println!("{:#?}", get_department_list());
     // let course_fetch_result = fetch_courses_by_department("physics").await?;
     // fetch_all_courses().await?;
-    let courses_data = fetch_courses_by_department("Biology").await?;
+    // let courses_data = fetch_courses_by_department("Biology").await?;
+
+    retrieve_historical_terms().await?;
     
     // println!("{course_fetch_result:?}");
     Ok(())
