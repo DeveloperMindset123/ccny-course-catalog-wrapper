@@ -174,8 +174,10 @@ pub fn save_to_file(data: &serde_json::Value, filename: &str) -> Result<PathBuf>
 
 // department_name : this is the user input
 // TODO : define a struct to handle the response type
-// should store Result<SomeStruct> later
-pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde_json::Value, anyhow::Error>{
+// should store Result<Vec<SomeStruct>, anyhow::Error> later
+// old return statement : Result<serde_json::Value, anyhow::Error>
+pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<CourseInfo>, anyhow::Error> {
+    let mut CourseInfoVector : Vec<CourseInfo> = Vec::new();        // store results here
     let department_mapping = get_department_mappings();
     let key_error_handler = String::from("None");
 
@@ -208,7 +210,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
             let course_group_id : String = serde_json::from_value(course_data["courseGroupId"].clone()).unwrap();
 
             let course_integer : i32 = course_group_id.parse().expect("Failed to parse");
-            println!("{course_integer:?}");
+            // println!("{course_integer:?}");
             // let course_group_id_num : i32 = serde_json::from_str(&course_group_id).unwrap();
 
             // println!("current department ID : {course_group_id_num:?}");
@@ -279,7 +281,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
                 // effective_end_date : effective_end_date_instance,
                 effective_end_date : "unknown".to_owned(),
 
-                course_group_id : 102,
+                course_group_id : course_integer,
 
                 course_number : course_number_integer,
 
@@ -290,7 +292,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
                 credits : serde_json::from_value(course_data["credits"]["creditHours"]["max"].clone()).unwrap()
                 
             };
-
+            CourseInfoVector.push(course_info_instance);
             // println!("{course_info_instance:#?}");
         }
 
@@ -311,8 +313,8 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
     //     subject_code : course_info["subjectCode"],
     //     credits : course_info["credits"]["creditHours"]["max"]
     // }
-
-    Ok(course_info)
+    // println!("The course info vector is : {CourseInfoVector:?}");
+    Ok(CourseInfoVector)
 }
 
 // TODO : define the logic for the function below
@@ -320,16 +322,16 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
 pub async fn fetch_all_courses() -> Result<()> {
 
     // retrieve list of departments
-    let department_list = get_department_list();
-    for department in department_list.iter() {
-        // println!("current department : {department:?}");
-        let course_data = fetch_courses_by_department(department).await?;
-        // println!("{course_data:#?}");
-        // save the data to the file
-        let mut curr_dept = String::from(department);
-        curr_dept.push_str(" data.json");       // append borrowed string
-        save_to_file(&course_data, &curr_dept);
-    }
+    // let department_list = get_department_list();
+    // for department in department_list.iter() {
+    //     // println!("current department : {department:?}");
+    //     let course_data = fetch_courses_by_department(department).await?;
+    //     // println!("{course_data:#?}");
+    //     // save the data to the file
+    //     let mut curr_dept = String::from(department);
+    //     curr_dept.push_str(" data.json");       // append borrowed string
+    //     // save_to_file(&course_data, &curr_dept);
+    // }
     Ok(())
 }
 
