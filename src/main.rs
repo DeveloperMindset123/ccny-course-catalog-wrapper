@@ -60,16 +60,60 @@ pub struct CourseInfo {
 // can search through the list of courses available and retrieve the course code corresponding to them based on the previous function that has been defined
 // construct a hashmap based on the list of courses, check if the course name matches any 
 // we have to set the course_code as the key and course_group_id as the value corresponding to the key
-pub fn retrieve_specific_course_info(course_name : &str) {
-    let course_name_and_code_mapping : BTreeMap<String, i32> = BTreeMap::new();     // this is where the mapping logic will be stored
+// header related information for this particular API call should remain more or less the same
+pub async fn retrieve_specific_course_info(course_name : &str) -> Result<()>{
+
+    // TODO : implement the logic for this later
+    // should be storing a tuple of values
+    let course_name_and_code_mapping : BTreeMap<String, (i32, String)> = BTreeMap::new();     // this is where the mapping logic will be stored
+
+    let base_url = "https://app.coursedog.com/api/v1/cm/cty01/courses/search/$filters";
+
+    // define the query params that needs to be passed in as part of the POST request
+    let query_params = [
+        ("courseGroupIds", "0571501"),          // NOTE : this group ID should be changing dynamically
+        ("effectiveDatesRange", "2024-08-28,2024-08-28"),       // NOTE : this value should also update dynamically, it's on the course list struct
+
+        // below statements can be the same throughout
+        ("formatDependents", "false"),
+        ("includeRelatedData", "true"),
+        ("includeCrosslisted", "false"),
+        ("includeCourseEquivalencies", "true"),
+        ("includePending", "false"),
+        ("includeMappedDocumentItems", "true"),
+        ("returnResultsWithTotalCount", "false"),
+        ("doNotDisplayAllMappedRevisionsAsDependencies", "true"),
+        ("columns", "departments,courseTypicallyOffered,career,credits,components,topics,catalogAttributes,description,requirementGroup,courseSchedule,customFields.ZK6fC,longName,institution,consent,customFields.cuPathwaysAttribute,subjectCode,courseNumber,customFields.cuLibartsFlag,code,name,college,status,institutionId,rawCourseId,crseOfferNbr,customFields.catalogAttributes,customFields.rawCourseId")
+    ];
+
+    // NOTE : there's no payload involved for this query parameter
+    let client = reqwest::Client::new();
+    let response = client.post(reqwest::Url::parse_with_params(base_url, &query_params)?).headers(get_headers()).send().await?;
+    if !response.status().is_success() {
+        return Err(anyhow::anyhow!("Failed to fetch courses: {}", response.status()));
+    }
+
+    // retrieve the raw text data
+    let response_data_raw = response.text().await?;
+
+    // convert the text data to Json format
+    let json_response : serde_json::Value = serde_json::from_str(&response_data_raw)?;
+
+    println!("{json_response:#?}");
+
+    Ok(())
+
+
+
 }
 
 pub async fn retrieve_historical_terms() -> Result<()> {
+
+    // basic GET request to retrieve all the historical term related information
     let get_request_url = "https://app.coursedog.com/api/v1/cty01/general/terms";
-    // let reqwest_client = reqwest::Client::new();
     let body = reqwest::get(get_request_url).await?.text().await?;
     let json_string : serde_json::Value = serde_json::from_str(&body)?;
-    println!("{json_string:#?}");
+    println!("{json_string:#?}");       // tested : worked
 
     Ok(())
 }
@@ -112,6 +156,7 @@ pub async fn fetch_courses_by_department_helper(department_code: &str) -> Result
         ("effectiveDatesRange", "2024-08-28,2024-08-28"),
         ("columns", "displayName,department,name,courseNumber,subjectCode,code,courseGroupId,credits.creditHours,longName,career,components,customFields.catalogRequirementDesignation,customFields.catalogAttributes")
     ];
+    
 
    // serde_json::json is where json! is coming from
     let payload = json!({
@@ -366,7 +411,8 @@ async fn main() -> Result<()> {
     // fetch_all_courses().await?;
     // let courses_data = fetch_courses_by_department("Biology").await?;
 
-    retrieve_historical_terms().await?;
+    // retrieve_historical_terms().await?;
+    retrieve_specific_course_info("CSC 10300").await?;
     
     // println!("{course_fetch_result:?}");
     Ok(())
