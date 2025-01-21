@@ -61,7 +61,7 @@ pub struct CourseInfo {
 // construct a hashmap based on the list of courses, check if the course name matches any 
 // we have to set the course_code as the key and course_group_id as the value corresponding to the key
 // header related information for this particular API call should remain more or less the same
-pub async fn retrieve_specific_course_info(course_name : &str) -> Result<()>{
+pub async fn retrieve_specific_course_info(course_name : &str, department_name : &str) -> Result<()>{
 
     // TODO : implement the logic for this later
     // should be storing a tuple of values
@@ -311,23 +311,19 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
             let effective_end_date_placeholder = serde_json::from_value(course_data["effectiveEndDate"].clone()).unwrap_or("null".to_owned());
             // println!("{effective_end_date_placeholder:?}");
 
+            // let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
+
+            // steps take for string filtering logic:
+            //
+            // 1. convert to string data
+            // 2. remove any non-numerical values
+            // 3. parse the string and convert it into an integer of type i64
             let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
 
-            // convert to string data
-            let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
-
-            // parse the string to extract the integer
-            let course_number_integer : i64 = serde_json::from_str(&course_number_string).unwrap();
-
-            // let course_group_id_string : String = serde_json::from_value(course_data["courseGroupId"].clone()).unwrap();
-            // println!("{course_group_id_string:?}");
-
-            // let course_group_id_num : i32 = serde_json::from_str(&course_group_id_string).unwrap();
+            // remove any unneccessary values
+            let course_number_string_filtered : String = course_number_string.chars().filter(|c| c.is_digit(10)).collect();
+            let course_number_integer : i64 = course_number_string_filtered.parse().expect("failed to parse integer");
             
-            // println!("{course_group_id_num:?}");
-
-            
-
             let mut course_info_instance = CourseInfo {
                 unique_id : serde_json::from_value(course_data["_id"].clone()).unwrap(),
 
@@ -412,7 +408,9 @@ async fn main() -> Result<()> {
     // let courses_data = fetch_courses_by_department("Biology").await?;
 
     // retrieve_historical_terms().await?;
-    retrieve_specific_course_info("CSC 10300").await?;
+    // retrieve_specific_course_info("CSC 10300").await?;
+
+    get_course_list_by_department("Computer Science").await?;
     
     // println!("{course_fetch_result:?}");
     Ok(())
@@ -488,6 +486,7 @@ pub fn print_hashmap_keys(hashmap_input : HashMap<String, String>) {
 }
 
 // more appropriate function to isolate list of departments
+// this is for users to get a general idea of list of departments that are availale 
 pub fn get_department_list() -> Vec<String> {
     let department_mapping = get_department_mappings();
     let mut department_list = Vec::new();
@@ -496,4 +495,15 @@ pub fn get_department_list() -> Vec<String> {
     }
 
     department_list
+}
+
+// function that isolates and returns list of courses relevant to a particular department
+pub async fn get_course_list_by_department(department_name : &str) -> Result<Vec<String>, anyhow::Error> {
+    let course_list : Vec<String> = Vec::new();
+    // call on the function to retrieve the course
+    let department_courses : Vec<CourseInfo> = fetch_courses_by_department(department_name).await?;
+
+    println!("{department_courses:#?}");
+
+    Ok(course_list)
 }
