@@ -72,25 +72,39 @@ pub async fn retrieve_course_id_by_course_code(course_code : &str, department_na
 // iterate over the returned data and isolate the course name and course code
 // we will need 2 things : a hashmap to map the course name to the course group ID
 // an array to store the name of the courses that will be used for searching purposes
-pub async fn retrieve_course_id_by_course_name(course_name : &str, department_name : &str) -> String {
-    let mut closest_matching_course = String::new();        // result will be stored here
+pub async fn retrieve_course_id_by_course_name(course_name_input : &str, department_name : &str) -> String {
+    let mut closest_course_groupID = String::new();        // result will be stored here
     let mut course_name_list : Vec<String> = Vec::new();    // isolates name of courses based on the retrieved data
-    let mut course_name_and_id_map : HashMap<String, String> = HashMap::new();      
+    let mut course_name_and_id_map : HashMap<String, String> = HashMap::new();         // maps course name to course group ID
+    let mut smallest_course_length = usize::MAX;        // stores the length of smallest course
+    let mut bag_of_words : Vec<usize> = Vec::new();     // stores the length of possible subarrays
 
     let closest_department : String = closest_matching_department(department_name);
-    println!("current closest department is : {closest_department:?}");
+    // println!("current closest department is : {closest_department:?}");
     let mut courses_by_department = fetch_courses_by_department(&closest_department).await.unwrap();
 
     // isolate the courses and store them within course_name_list vector
     // form the hashmap as well
     for course_data in courses_by_department.iter() {
-        course_name_list.push(course_data.course_name.clone());
-        course_name_and_id_map.insert(course_data.course_name.clone(), course_data.course_group_id.to_string());
+        course_name_list.push(course_data.course_name.clone().to_lowercase());
+        course_name_and_id_map.insert(course_data.course_name.clone().to_lowercase(), course_data.course_group_id.to_string());
+        smallest_course_length = std::cmp::min(smallest_course_length, course_data.course_name.clone().len());
+    }
+    
+    // create the bag of word array and search for the closest matching course
+    for val in 0..=smallest_course_length {
+        bag_of_words.push(val);
     }
 
-    println!("{course_name_list:#?}");
-    println!("{course_name_and_id_map:#?}");
-    "unimplemented".to_string()     // placeholer return statement
+    // search for the closest matching course
+    let course_search_engine = ClosestMatch::new(course_name_list.clone(), bag_of_words);
+    // let error_msg : &str = "Course Group ID Does not exist for this course";
+    let closest_matching_course : String = course_search_engine.get_closest(course_name_input.to_string()).unwrap();
+    // NOTE : skipping the error handling in the event that course doesn't exist
+    // since that's not important right now and can be implemented within the backend itself
+    // the value passed into unwrap_or is known as "deref coercion"
+    let course_id : String = course_name_and_id_map.get(&closest_matching_course).unwrap_or(&"Course Group ID Does not exist for this course".into()).to_string();
+    course_id.to_owned()
 }
 
 // course_name : name of the course (i.e. CSC 103, CSC 104)
@@ -445,20 +459,20 @@ async fn main() -> Result<()> {
     // print_hashmap_keys(department_mappings);        // experimental function (not sure of use case)
 
     // returns a list cotnianing the list of departments
-    println!("{:#?}", get_department_list());
+    // println!("{:#?}", get_department_list());
     // let course_fetch_result = fetch_courses_by_department("physics").await?;
     // fetch_all_courses().await?;
     // let courses_data = fetch_courses_by_department("Biology").await?;
 
     // department_name should be passed in as a parameter to find the closest matching department
-    let department_name_filtered : String = closest_matching_department("civil");
+    // let department_name_filtered : String = closest_matching_department("civil");
 
     // TODO : retrieve_course_id_by_course_name : if the user already knows the course name by heart
     // TODO : retrieve_course_id_by_course_code : 
     // 1st param : name of course (in NLP format)
     // 2nd param : name of department 
 
-    retrieve_course_id_by_course_name("fluid", "civil").await;
+    retrieve_course_id_by_course_name("hydraulic", "civil").await;
 
 
     // println!("filtered department name is : {department_name_filtered:?}");
