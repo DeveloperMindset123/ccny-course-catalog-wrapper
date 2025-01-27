@@ -1,7 +1,7 @@
 // NOTE : upon retrieving the list of courses, additional information about the course can be retrieved using the courseGroupId
 
 // GET Method --> https://app.coursedog.com/api/v1/cty01/general/terms : general api to retrieve information regarding all the terms
-
+// TODO : look into the Levenshtein method for string matching as alternative for search lookup and suggesting corresponding value
 use anyhow::Result;
 use reqwest;
 use reqwest::header::{HeaderMap, HeaderValue, ACCEPT, CONTENT_TYPE, ORIGIN, REFERER};
@@ -12,6 +12,7 @@ use std::collections::{HashMap, BTreeMap};
 use std::borrow::Borrow;
 use serde::{Deserialize, Serialize};
 use std::ptr::null;
+use closestmatch::ClosestMatch;     // library to determine the closest matching string
 
 // This struct is inherited within CourseInfo struct
 #[derive(Deserialize, Serialize, Debug, Clone, PartialEq)]
@@ -66,7 +67,6 @@ pub async fn retrieve_specific_course_info(course_name : &str, department_name :
     // TODO : implement the logic for this later
     // should be storing a tuple of values
     let course_name_and_code_mapping : BTreeMap<String, (i32, String)> = BTreeMap::new();     // this is where the mapping logic will be stored
-
     let base_url = "https://app.coursedog.com/api/v1/cm/cty01/courses/search/$filters";
 
     // define the query params that needs to be passed in as part of the POST request
@@ -243,14 +243,14 @@ pub fn save_to_file(data: &serde_json::Value, filename: &str) -> Result<PathBuf>
 pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<CourseInfo>, anyhow::Error> {
     let mut CourseInfoVector : Vec<CourseInfo> = Vec::new();        // store results here
     let department_mapping = get_department_mappings();
-    let key_error_handler = String::from("None");
+    let key_error_handler = String::from("None"); 
 
     // pass in the input validation function to convert the department_name to lowercase
     // reduces any kind of case sensetivity error that may arise
+    // input_validation accepts a &str as a parameter
     let department_id = department_mapping.get(&input_validation(department_name)).unwrap_or(key_error_handler.borrow());
 
     if department_id == "None" {
-
         // specify an error message stating the department doesn't exist
         eprintln!("A department by this name doesn't exist, please refer to the list of departments.");
 
@@ -402,7 +402,7 @@ async fn main() -> Result<()> {
     // print_hashmap_keys(department_mappings);        // experimental function (not sure of use case)
 
     // returns a list cotnianing the list of departments
-    // println!("{:#?}", get_department_list());
+    println!("{:#?}", get_department_list());
     // let course_fetch_result = fetch_courses_by_department("physics").await?;
     // fetch_all_courses().await?;
     // let courses_data = fetch_courses_by_department("Biology").await?;
@@ -410,7 +410,12 @@ async fn main() -> Result<()> {
     // retrieve_historical_terms().await?;
     // retrieve_specific_course_info("CSC 10300").await?;
 
-    get_course_list_by_department("Computer Science").await?;
+    // get_course_list_by_department("Computer Engieering").await?;
+
+    // TODO : implement the closest_matching_department() function
+    // department_name should be passed in as a parameter to find the closest matching department
+    let department_name_filtered : String = closest_matching_department("civil");
+    println!("filtered department name is : {department_name_filtered:?}");
     
     // println!("{course_fetch_result:?}");
     Ok(())
@@ -487,6 +492,7 @@ pub fn print_hashmap_keys(hashmap_input : HashMap<String, String>) {
 
 // more appropriate function to isolate list of departments
 // this is for users to get a general idea of list of departments that are availale 
+// returns all the relevant list of departments within CCNY alone
 pub fn get_department_list() -> Vec<String> {
     let department_mapping = get_department_mappings();
     let mut department_list = Vec::new();
@@ -498,12 +504,56 @@ pub fn get_department_list() -> Vec<String> {
 }
 
 // function that isolates and returns list of courses relevant to a particular department
+// TODO : implement the logic for determining the closest matching department
+// should determine the closest matching department by searcing through the department list
 pub async fn get_course_list_by_department(department_name : &str) -> Result<Vec<String>, anyhow::Error> {
     let course_list : Vec<String> = Vec::new();
     // call on the function to retrieve the course
     let department_courses : Vec<CourseInfo> = fetch_courses_by_department(department_name).await?;
-
     println!("{department_courses:#?}");
 
     Ok(course_list)
+}
+
+// This is a helper function, user should not be seeing this function
+// I have an array of strings
+// I take the smallest length of the department 
+// then I create a bag of words out of it to split the list of departments
+// find the closest matching department and return it
+pub fn find_closest_matching_course(course_name : &str) -> String {
+    let mut resulting_string : String = String::new();      // create an empty new string
+
+    // call on the function to retrieve the list of 
+    "unimplemented".to_string()     // placeholder
+}
+
+// helper function to match and filter based on the closest matching string
+pub fn closest_matching_department(user_input_department_name : &str) -> String {
+    let mut result_string : String = String::new();
+    // get_department_list() is a synchronous function
+    let department_list : Vec<String> = get_department_list();        // returns a vector of Strings
+    let mut min_length = usize::MAX;        // initilize the largest val
+    // create the bagged length of vector
+    // nested loop statement is needed, since we first need the current string
+    // first loop iterates over every individual element within the vector
+    // to determine the smallest length of strings
+    // bag of words : [1..=min_length]
+    for department_name in department_list.iter() {
+        min_length = std::cmp::min(min_length, department_name.len());
+    }
+
+    let mut bag_length_vector : Vec<usize> = Vec::new();        // create an empty vector
+    
+    for i in 1..=min_length {
+        bag_length_vector.push(i);      // push the range of numerical values
+    }
+
+    // create the closestmatching instance string
+    let closest_matching_checker = ClosestMatch::new(department_list, bag_length_vector);
+
+    // search for the string
+    // the get_closest method takes in an owned string
+    // since it's wrapped around
+    result_string = closest_matching_checker.get_closest(user_input_department_name.to_string()).unwrap();
+    result_string
 }
