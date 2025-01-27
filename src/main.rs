@@ -56,6 +56,43 @@ pub struct CourseInfo {
  * REFERER (most likely what caused the issue with the data retrieval originally)
  */
 
+// search for a particular course
+// pub struct SearchCourse {
+//     pub course_name : String,
+//     pub course_id : String
+// }
+
+// retrieve course ID based on prior knowledge of course code
+pub async fn retrieve_course_id_by_course_code(course_code : &str, department_name : &str) -> String {
+    "true".to_string()      // not implemented
+}
+
+// retrieve the course group ID based on prior knowledge of course_name (not to be mistaken)
+// the function should take in the department name as the parameter
+// iterate over the returned data and isolate the course name and course code
+// we will need 2 things : a hashmap to map the course name to the course group ID
+// an array to store the name of the courses that will be used for searching purposes
+pub async fn retrieve_course_id_by_course_name(course_name : &str, department_name : &str) -> String {
+    let mut closest_matching_course = String::new();        // result will be stored here
+    let mut course_name_list : Vec<String> = Vec::new();    // isolates name of courses based on the retrieved data
+    let mut course_name_and_id_map : HashMap<String, String> = HashMap::new();      
+
+    let closest_department : String = closest_matching_department(department_name);
+    println!("current closest department is : {closest_department:?}");
+    let mut courses_by_department = fetch_courses_by_department(&closest_department).await.unwrap();
+
+    // isolate the courses and store them within course_name_list vector
+    // form the hashmap as well
+    for course_data in courses_by_department.iter() {
+        course_name_list.push(course_data.course_name.clone());
+        course_name_and_id_map.insert(course_data.course_name.clone(), course_data.course_group_id.to_string());
+    }
+
+    println!("{course_name_list:#?}");
+    println!("{course_name_and_id_map:#?}");
+    "unimplemented".to_string()     // placeholer return statement
+}
+
 // course_name : name of the course (i.e. CSC 103, CSC 104)
 // need to determine the appropriate course ID that matches the particular course name
 // can search through the list of courses available and retrieve the course code corresponding to them based on the previous function that has been defined
@@ -69,12 +106,18 @@ pub async fn retrieve_specific_course_info(course_name : &str, department_name :
     let course_name_and_code_mapping : BTreeMap<String, (i32, String)> = BTreeMap::new();     // this is where the mapping logic will be stored
     let base_url = "https://app.coursedog.com/api/v1/cm/cty01/courses/search/$filters";
 
+    // TODO : implment logic for retrieving course id based on course_name and department_name
+    // 
+    // to reduce the code complexity, implement this as a helper function
+    // first find the department_name that is the closest matching (make a call to retrieve list of courses within the specific department)
+    // use a struct to store the course name and course ID
+    // search the closest matching course and return the course ID in 
     // define the query params that needs to be passed in as part of the POST request
     let query_params = [
         ("courseGroupIds", "0571501"),          // NOTE : this group ID should be changing dynamically
         ("effectiveDatesRange", "2024-08-28,2024-08-28"),       // NOTE : this value should also update dynamically, it's on the course list struct
 
-        // below statements can be the same throughout
+        // below statements can be the same throughout (meaning they are static query params)
         ("formatDependents", "false"),
         ("includeRelatedData", "true"),
         ("includeCrosslisted", "false"),
@@ -407,15 +450,18 @@ async fn main() -> Result<()> {
     // fetch_all_courses().await?;
     // let courses_data = fetch_courses_by_department("Biology").await?;
 
-    // retrieve_historical_terms().await?;
-    // retrieve_specific_course_info("CSC 10300").await?;
-
-    // get_course_list_by_department("Computer Engieering").await?;
-
-    // TODO : implement the closest_matching_department() function
     // department_name should be passed in as a parameter to find the closest matching department
     let department_name_filtered : String = closest_matching_department("civil");
-    println!("filtered department name is : {department_name_filtered:?}");
+
+    // TODO : retrieve_course_id_by_course_name : if the user already knows the course name by heart
+    // TODO : retrieve_course_id_by_course_code : 
+    // 1st param : name of course (in NLP format)
+    // 2nd param : name of department 
+
+    retrieve_course_id_by_course_name("fluid", "civil").await;
+
+
+    // println!("filtered department name is : {department_name_filtered:?}");
     
     // println!("{course_fetch_result:?}");
     Ok(())
