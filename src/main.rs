@@ -1,17 +1,18 @@
 // NOTE : upon retrieving the list of courses, additional information about the course can be retrieved using the courseGroupId
 
 // GET Method --> https://app.coursedog.com/api/v1/cty01/general/terms : general api to retrieve information regarding all the terms
-
+// TODO : look into the Levenshtein method for string matching as alternative for search lookup and suggesting corresponding value
 use anyhow::Result;
 use reqwest;
 use reqwest::header::{HeaderMap, HeaderValue, ACCEPT, CONTENT_TYPE, ORIGIN, REFERER};
 use serde_json::json;
 use std::{fs, io::Write};
 use std::path::PathBuf;
-use std::collections::HashMap;
+use std::collections::{HashMap, BTreeMap};
 use std::borrow::Borrow;
 use serde::{Deserialize, Serialize};
 use std::ptr::null;
+use closestmatch::ClosestMatch;     // library to determine the closest matching string
 
 // This struct is inherited within CourseInfo struct
 #[derive(Deserialize, Serialize, Debug, Clone, PartialEq)]
@@ -55,6 +56,144 @@ pub struct CourseInfo {
  * REFERER (most likely what caused the issue with the data retrieval originally)
  */
 
+// retrieve course ID based on prior knowledge of course code
+pub async fn retrieve_course_id_by_course_code(course_code : &str, department_name : &str) -> String {
+    "true".to_string()      // not implemented
+}
+
+// retrieve the course group ID based on prior knowledge of course_name (not to be mistaken)
+// the function should take in the department name as the parameter
+// iterate over the returned data and isolate the course name and course code
+// we will need 2 things : a hashmap to map the course name to the course group ID
+// an array to store the name of the courses that will be used for searching purposes
+pub async fn retrieve_course_id_by_course_name(course_name_input : &str, department_name : &str) -> String {
+    let mut closest_course_groupID = String::new();        // result will be stored here
+    let mut course_name_list : Vec<String> = Vec::new();    // isolates name of courses based on the retrieved data
+    let mut course_name_and_id_map : HashMap<String, String> = HashMap::new();         // maps course name to course group ID
+    let mut smallest_course_length = usize::MAX;        // stores the length of smallest course
+    let mut bag_of_words : Vec<usize> = Vec::new();     // stores the length of possible subarrays
+
+    let closest_department : String = closest_matching_department(department_name);
+    // println!("current closest department is : {closest_department:?}");
+    let mut courses_by_department = fetch_courses_by_department(&closest_department).await.unwrap();
+
+    // isolate the courses and store them within course_name_list vector
+    // form the hashmap as well
+    for course_data in courses_by_department.iter() {
+        course_name_list.push(course_data.course_name.clone().to_lowercase());
+        course_name_and_id_map.insert(course_data.course_name.clone().to_lowercase(), course_data.course_group_id.to_string());
+        smallest_course_length = std::cmp::min(smallest_course_length, course_data.course_name.clone().len());
+    }
+    
+    // create the bag of word array and search for the closest matching course
+    for val in 0..=smallest_course_length {
+        bag_of_words.push(val);
+    }
+
+    // search for the closest matching course
+    let course_search_engine = ClosestMatch::new(course_name_list.clone(), bag_of_words);
+    // let error_msg : &str = "Course Group ID Does not exist for this course";
+    let closest_matching_course : String = course_search_engine.get_closest(course_name_input.to_string()).unwrap();
+    // NOTE : skipping the error handling in the event that course doesn't exist
+    // since that's not important right now and can be implemented within the backend itself
+    // the value passed into unwrap_or is known as "deref coercion"
+    let course_id : String = course_name_and_id_map.get(&closest_matching_course).unwrap_or(&"Course Group ID Does not exist for this course".into()).to_string();
+    course_id.to_owned()
+}
+
+// function to print the type
+fn print_type_of<T>(_ : &T) {
+    println!("{}", std::any::type_name::<T>());
+}
+
+// course_name : name of the course (i.e. CSC 103, CSC 104)
+// need to determine the appropriate course ID that matches the particular course name
+// can search through the list of courses available and retrieve the course code corresponding to them based on the previous function that has been defined
+// construct a hashmap based on the list of courses, check if the course name matches any 
+// we have to set the course_code as the key and course_group_id as the value corresponding to the key
+// header related information for this particular API call should remain more or less the same
+pub async fn retrieve_specific_course_info(course_name : &str, department_name : &str) -> Result<()>{
+
+    // TODO : implement the logic for this later
+
+    // NOTE : if the first value of the course_group_id starts with a 1, that means we don't have to prepend a 0 to the existing string
+    // otherwise however we do have to prepend a 0 to the string
+    // to ensure that all courses can be searched
+
+    // should be storing a tuple of values
+    let course_name_and_code_mapping : BTreeMap<String, (i32, String)> = BTreeMap::new();     // this is where the mapping logic will be stored
+    let base_url = "https://app.coursedog.com/api/v1/cm/cty01/courses/search/$filters";
+    let mut complete_course_group_id : String = String::new();
+    let course_group_id : &str = &retrieve_course_id_by_course_name(course_name, department_name).await;
+
+    // check and test the control group ID
+    println!("Length of course group ID : {:?}", course_group_id.len());
+    // control flow to determine whether course group id is 6 or 7 characters long
+    if course_group_id.len() < 7 {
+        complete_course_group_id = "0".to_owned() + course_group_id;   
+        println!("prepended 0 to the string and the complete course group id is : {complete_course_group_id:?}");
+    } else {
+        println!("did not prepend 0 to the string");
+        complete_course_group_id = course_group_id.to_string();
+    }
+
+
+    let course_group_id_ref : &str = &complete_course_group_id;
+    println!("retrieved course group id is : {course_group_id:?}");
+    // to reduce the code complexity, implement this as a helper function
+    // first find the department_name that is the closest matching (make a call to retrieve list of courses within the specific department)
+    // use a struct to store the course name and course ID
+    // search the closest matching course and return the course ID in 
+    // define the query params that needs to be passed in as part of the POST request
+    let query_params = [
+        ("courseGroupIds", course_group_id_ref),          // NOTE : this group ID should be changing dynamically
+        ("effectiveDatesRange", "2024-08-28,2024-08-28"),       // NOTE : this value should also update dynamically, it's on the course list struct
+
+        // below statements can be the same throughout (meaning they are static query params)
+        ("formatDependents", "false"),
+        ("includeRelatedData", "true"),
+        ("includeCrosslisted", "false"),
+        ("includeCourseEquivalencies", "true"),
+        ("includePending", "false"),
+        ("includeMappedDocumentItems", "true"),
+        ("returnResultsWithTotalCount", "false"),
+        ("doNotDisplayAllMappedRevisionsAsDependencies", "true"),
+        ("columns", "departments,courseTypicallyOffered,career,credits,components,topics,catalogAttributes,description,requirementGroup,courseSchedule,customFields.ZK6fC,longName,institution,consent,customFields.cuPathwaysAttribute,subjectCode,courseNumber,customFields.cuLibartsFlag,code,name,college,status,institutionId,rawCourseId,crseOfferNbr,customFields.catalogAttributes,customFields.rawCourseId")
+    ];
+    print_type_of(&query_params);
+
+    // NOTE : there's no payload involved for this query parameter
+    let client = reqwest::Client::new();
+    let response = client.post(reqwest::Url::parse_with_params(base_url, &query_params)?).headers(get_headers()).send().await?;
+    if !response.status().is_success() {
+        return Err(anyhow::anyhow!("Failed to fetch courses: {}", response.status()));
+    }
+
+    // retrieve the raw text data
+    let response_data_raw = response.text().await?;
+
+    // convert the text data to Json format
+    let json_response : serde_json::Value = serde_json::from_str(&response_data_raw)?;
+
+    println!("{json_response:#?}");
+
+    Ok(())
+
+
+
+}
+
+pub async fn retrieve_historical_terms() -> Result<()> {
+
+    // basic GET request to retrieve all the historical term related information
+    let get_request_url = "https://app.coursedog.com/api/v1/cty01/general/terms";
+    let body = reqwest::get(get_request_url).await?.text().await?;
+    let json_string : serde_json::Value = serde_json::from_str(&body)?;
+    println!("{json_string:#?}");       // tested : worked
+
+    Ok(())
+}
+
  // something important to note
  // headers aren't really needed, they will work just fine even with an empty header
  // what's important is the payload and query params that are being passed in
@@ -93,6 +232,7 @@ pub async fn fetch_courses_by_department_helper(department_code: &str) -> Result
         ("effectiveDatesRange", "2024-08-28,2024-08-28"),
         ("columns", "displayName,department,name,courseNumber,subjectCode,code,courseGroupId,credits.creditHours,longName,career,components,customFields.catalogRequirementDesignation,customFields.catalogAttributes")
     ];
+    
 
    // serde_json::json is where json! is coming from
     let payload = json!({
@@ -174,17 +314,19 @@ pub fn save_to_file(data: &serde_json::Value, filename: &str) -> Result<PathBuf>
 
 // department_name : this is the user input
 // TODO : define a struct to handle the response type
-// should store Result<SomeStruct> later
-pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde_json::Value, anyhow::Error>{
+// should store Result<Vec<SomeStruct>, anyhow::Error> later
+// old return statement : Result<serde_json::Value, anyhow::Error>
+pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<CourseInfo>, anyhow::Error> {
+    let mut CourseInfoVector : Vec<CourseInfo> = Vec::new();        // store results here
     let department_mapping = get_department_mappings();
-    let key_error_handler = String::from("None");
+    let key_error_handler = String::from("None"); 
 
     // pass in the input validation function to convert the department_name to lowercase
     // reduces any kind of case sensetivity error that may arise
+    // input_validation accepts a &str as a parameter
     let department_id = department_mapping.get(&input_validation(department_name)).unwrap_or(key_error_handler.borrow());
 
     if department_id == "None" {
-
         // specify an error message stating the department doesn't exist
         eprintln!("A department by this name doesn't exist, please refer to the list of departments.");
 
@@ -208,7 +350,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
             let course_group_id : String = serde_json::from_value(course_data["courseGroupId"].clone()).unwrap();
 
             let course_integer : i32 = course_group_id.parse().expect("Failed to parse");
-            println!("{course_integer:?}");
+            // println!("{course_integer:?}");
             // let course_group_id_num : i32 = serde_json::from_str(&course_group_id).unwrap();
 
             // println!("current department ID : {course_group_id_num:?}");
@@ -245,23 +387,19 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
             let effective_end_date_placeholder = serde_json::from_value(course_data["effectiveEndDate"].clone()).unwrap_or("null".to_owned());
             // println!("{effective_end_date_placeholder:?}");
 
+            // let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
+
+            // steps take for string filtering logic:
+            //
+            // 1. convert to string data
+            // 2. remove any non-numerical values
+            // 3. parse the string and convert it into an integer of type i64
             let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
 
-            // convert to string data
-            let course_number_string : String = serde_json::from_value(course_data["courseNumber"].clone()).unwrap();
-
-            // parse the string to extract the integer
-            let course_number_integer : i64 = serde_json::from_str(&course_number_string).unwrap();
-
-            // let course_group_id_string : String = serde_json::from_value(course_data["courseGroupId"].clone()).unwrap();
-            // println!("{course_group_id_string:?}");
-
-            // let course_group_id_num : i32 = serde_json::from_str(&course_group_id_string).unwrap();
+            // remove any unneccessary values
+            let course_number_string_filtered : String = course_number_string.chars().filter(|c| c.is_digit(10)).collect();
+            let course_number_integer : i64 = course_number_string_filtered.parse().expect("failed to parse integer");
             
-            // println!("{course_group_id_num:?}");
-
-            
-
             let mut course_info_instance = CourseInfo {
                 unique_id : serde_json::from_value(course_data["_id"].clone()).unwrap(),
 
@@ -279,7 +417,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
                 // effective_end_date : effective_end_date_instance,
                 effective_end_date : "unknown".to_owned(),
 
-                course_group_id : 102,
+                course_group_id : course_integer,
 
                 course_number : course_number_integer,
 
@@ -290,7 +428,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
                 credits : serde_json::from_value(course_data["credits"]["creditHours"]["max"].clone()).unwrap()
                 
             };
-
+            CourseInfoVector.push(course_info_instance);
             // println!("{course_info_instance:#?}");
         }
 
@@ -311,8 +449,9 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
     //     subject_code : course_info["subjectCode"],
     //     credits : course_info["credits"]["creditHours"]["max"]
     // }
-
-    Ok(course_info)
+    // println!("The course info vector is : {CourseInfoVector:?}");
+    println!("{:#?}", CourseInfoVector[0]);
+    Ok(CourseInfoVector)
 }
 
 // TODO : define the logic for the function below
@@ -320,29 +459,44 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<serde
 pub async fn fetch_all_courses() -> Result<()> {
 
     // retrieve list of departments
-    let department_list = get_department_list();
-    for department in department_list.iter() {
-        // println!("current department : {department:?}");
-        let course_data = fetch_courses_by_department(department).await?;
-        // println!("{course_data:#?}");
-        // save the data to the file
-        let mut curr_dept = String::from(department);
-        curr_dept.push_str(" data.json");       // append borrowed string
-        save_to_file(&course_data, &curr_dept);
-    }
+    // let department_list = get_department_list();
+    // for department in department_list.iter() {
+    //     // println!("current department : {department:?}");
+    //     let course_data = fetch_courses_by_department(department).await?;
+    //     // println!("{course_data:#?}");
+    //     // save the data to the file
+    //     let mut curr_dept = String::from(department);
+    //     curr_dept.push_str(" data.json");       // append borrowed string
+    //     // save_to_file(&course_data, &curr_dept);
+    // }
     Ok(())
 }
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    let department_mappings = get_department_mappings();
+    // let department_mappings = get_department_mappings();
     // print_hashmap_keys(department_mappings);        // experimental function (not sure of use case)
 
     // returns a list cotnianing the list of departments
     // println!("{:#?}", get_department_list());
     // let course_fetch_result = fetch_courses_by_department("physics").await?;
     // fetch_all_courses().await?;
-    let courses_data = fetch_courses_by_department("Biology").await?;
+    // let courses_data = fetch_courses_by_department("Biology").await?;
+
+    // department_name should be passed in as a parameter to find the closest matching department
+    // let department_name_filtered : String = closest_matching_department("civil");
+
+    // TODO : retrieve_course_id_by_course_name : if the user already knows the course name by heart
+    // TODO : retrieve_course_id_by_course_code : 
+    // 1st param : name of course (in NLP format)
+    // 2nd param : name of department 
+
+    // retrieve_course_id_by_course_name("hydraulic", "civil").await;
+    retrieve_specific_course_info("advanced ecology", "biology").await;
+    retrieve_specific_course_info("machine learning", "computer science").await;
+
+
+    // println!("filtered department name is : {department_name_filtered:?}");
     
     // println!("{course_fetch_result:?}");
     Ok(())
@@ -418,6 +572,8 @@ pub fn print_hashmap_keys(hashmap_input : HashMap<String, String>) {
 }
 
 // more appropriate function to isolate list of departments
+// this is for users to get a general idea of list of departments that are availale 
+// returns all the relevant list of departments within CCNY alone
 pub fn get_department_list() -> Vec<String> {
     let department_mapping = get_department_mappings();
     let mut department_list = Vec::new();
@@ -426,4 +582,59 @@ pub fn get_department_list() -> Vec<String> {
     }
 
     department_list
+}
+
+// function that isolates and returns list of courses relevant to a particular department
+// TODO : implement the logic for determining the closest matching department
+// should determine the closest matching department by searcing through the department list
+pub async fn get_course_list_by_department(department_name : &str) -> Result<Vec<String>, anyhow::Error> {
+    let course_list : Vec<String> = Vec::new();
+    // call on the function to retrieve the course
+    let department_courses : Vec<CourseInfo> = fetch_courses_by_department(department_name).await?;
+    println!("{department_courses:#?}");
+
+    Ok(course_list)
+}
+
+// This is a helper function, user should not be seeing this function
+// I have an array of strings
+// I take the smallest length of the department 
+// then I create a bag of words out of it to split the list of departments
+// find the closest matching department and return it
+pub fn find_closest_matching_course(course_name : &str) -> String {
+    let mut resulting_string : String = String::new();      // create an empty new string
+
+    // call on the function to retrieve the list of 
+    "unimplemented".to_string()     // placeholder
+}
+
+// helper function to match and filter based on the closest matching string
+pub fn closest_matching_department(user_input_department_name : &str) -> String {
+    let mut result_string : String = String::new();
+    // get_department_list() is a synchronous function
+    let department_list : Vec<String> = get_department_list();        // returns a vector of Strings
+    let mut min_length = usize::MAX;        // initilize the largest val
+    // create the bagged length of vector
+    // nested loop statement is needed, since we first need the current string
+    // first loop iterates over every individual element within the vector
+    // to determine the smallest length of strings
+    // bag of words : [1..=min_length]
+    for department_name in department_list.iter() {
+        min_length = std::cmp::min(min_length, department_name.len());
+    }
+
+    let mut bag_length_vector : Vec<usize> = Vec::new();        // create an empty vector
+    
+    for i in 1..=min_length {
+        bag_length_vector.push(i);      // push the range of numerical values
+    }
+
+    // create the closestmatching instance string
+    let closest_matching_checker = ClosestMatch::new(department_list, bag_length_vector);
+
+    // search for the string
+    // the get_closest method takes in an owned string
+    // since it's wrapped around
+    result_string = closest_matching_checker.get_closest(user_input_department_name.to_string()).unwrap();
+    result_string
 }
