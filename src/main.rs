@@ -56,12 +56,6 @@ pub struct CourseInfo {
  * REFERER (most likely what caused the issue with the data retrieval originally)
  */
 
-// search for a particular course
-// pub struct SearchCourse {
-//     pub course_name : String,
-//     pub course_id : String
-// }
-
 // retrieve course ID based on prior knowledge of course code
 pub async fn retrieve_course_id_by_course_code(course_code : &str, department_name : &str) -> String {
     "true".to_string()      // not implemented
@@ -107,6 +101,11 @@ pub async fn retrieve_course_id_by_course_name(course_name_input : &str, departm
     course_id.to_owned()
 }
 
+// function to print the type
+fn print_type_of<T>(_ : &T) {
+    println!("{}", std::any::type_name::<T>());
+}
+
 // course_name : name of the course (i.e. CSC 103, CSC 104)
 // need to determine the appropriate course ID that matches the particular course name
 // can search through the list of courses available and retrieve the course code corresponding to them based on the previous function that has been defined
@@ -116,19 +115,38 @@ pub async fn retrieve_course_id_by_course_name(course_name_input : &str, departm
 pub async fn retrieve_specific_course_info(course_name : &str, department_name : &str) -> Result<()>{
 
     // TODO : implement the logic for this later
+
+    // NOTE : if the first value of the course_group_id starts with a 1, that means we don't have to prepend a 0 to the existing string
+    // otherwise however we do have to prepend a 0 to the string
+    // to ensure that all courses can be searched
+
     // should be storing a tuple of values
     let course_name_and_code_mapping : BTreeMap<String, (i32, String)> = BTreeMap::new();     // this is where the mapping logic will be stored
     let base_url = "https://app.coursedog.com/api/v1/cm/cty01/courses/search/$filters";
+    let mut complete_course_group_id : String = String::new();
+    let course_group_id : &str = &retrieve_course_id_by_course_name(course_name, department_name).await;
 
-    // TODO : implment logic for retrieving course id based on course_name and department_name
-    // 
+    // check and test the control group ID
+    println!("Length of course group ID : {:?}", course_group_id.len());
+    // control flow to determine whether course group id is 6 or 7 characters long
+    if course_group_id.len() < 7 {
+        complete_course_group_id = "0".to_owned() + course_group_id;   
+        println!("prepended 0 to the string and the complete course group id is : {complete_course_group_id:?}");
+    } else {
+        println!("did not prepend 0 to the string");
+        complete_course_group_id = course_group_id.to_string();
+    }
+
+
+    let course_group_id_ref : &str = &complete_course_group_id;
+    println!("retrieved course group id is : {course_group_id:?}");
     // to reduce the code complexity, implement this as a helper function
     // first find the department_name that is the closest matching (make a call to retrieve list of courses within the specific department)
     // use a struct to store the course name and course ID
     // search the closest matching course and return the course ID in 
     // define the query params that needs to be passed in as part of the POST request
     let query_params = [
-        ("courseGroupIds", "0571501"),          // NOTE : this group ID should be changing dynamically
+        ("courseGroupIds", course_group_id_ref),          // NOTE : this group ID should be changing dynamically
         ("effectiveDatesRange", "2024-08-28,2024-08-28"),       // NOTE : this value should also update dynamically, it's on the course list struct
 
         // below statements can be the same throughout (meaning they are static query params)
@@ -142,6 +160,7 @@ pub async fn retrieve_specific_course_info(course_name : &str, department_name :
         ("doNotDisplayAllMappedRevisionsAsDependencies", "true"),
         ("columns", "departments,courseTypicallyOffered,career,credits,components,topics,catalogAttributes,description,requirementGroup,courseSchedule,customFields.ZK6fC,longName,institution,consent,customFields.cuPathwaysAttribute,subjectCode,courseNumber,customFields.cuLibartsFlag,code,name,college,status,institutionId,rawCourseId,crseOfferNbr,customFields.catalogAttributes,customFields.rawCourseId")
     ];
+    print_type_of(&query_params);
 
     // NOTE : there's no payload involved for this query parameter
     let client = reqwest::Client::new();
@@ -455,7 +474,7 @@ pub async fn fetch_all_courses() -> Result<()> {
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    let department_mappings = get_department_mappings();
+    // let department_mappings = get_department_mappings();
     // print_hashmap_keys(department_mappings);        // experimental function (not sure of use case)
 
     // returns a list cotnianing the list of departments
@@ -472,7 +491,9 @@ async fn main() -> Result<()> {
     // 1st param : name of course (in NLP format)
     // 2nd param : name of department 
 
-    retrieve_course_id_by_course_name("hydraulic", "civil").await;
+    // retrieve_course_id_by_course_name("hydraulic", "civil").await;
+    retrieve_specific_course_info("advanced ecology", "biology").await;
+    retrieve_specific_course_info("machine learning", "computer science").await;
 
 
     // println!("filtered department name is : {department_name_filtered:?}");
