@@ -5,13 +5,15 @@
 // It refers to a cache replacement algorithm that removes the data item that has been accesses the least recently when the cachce reaches it's capacity
 // operates on the principle that the data most recently accessed is likely to be accesses again in the near future.
 
-use custom_hashmap;
+use custom_hashmap::CustomHashMap;
 use std::hash::Hash;
 use std::mem;
 use std::marker::Copy;
 
 // struct of double linked list
 // since LRU Cache uses Double Linked List under the hood
+
+#[derive(Clone, Debug, Copy)]
 struct Node<K,V> {
     key : K,
     value : V,
@@ -20,10 +22,12 @@ struct Node<K,V> {
 }
 
 // LRU Cache implementation using custom_hashmap and double linked list
+#[derive(Clone, Debug)]
 pub struct CustomLruCache<K, V> {
 
     // Hashmap stores key to node index mapping
-    map : custom_hashmap::CustomHashMap<K, usize>,
+    // map : custom_hashmap::CustomHashMap<K, usize>,
+    map : CustomHashMap<K, usize>,
 
     // vector stores nodes based on index
     nodes : Vec<Option<Node<K,V>>>,
@@ -35,7 +39,7 @@ pub struct CustomLruCache<K, V> {
     head : Option<usize>,
 
     // Tail node of Double Linked List
-    tail : Option<usize>
+    tail : Option<usize>,
 
     // maximum capacity
     capacity : usize,
@@ -62,10 +66,10 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
     // get value by, moving accessed item by front
     // returns an immutable reference, meaning we simply want the value 
     // without the intention of making any in-place modification to the cache
-    pub fn get(&self, key : &K) -> Option<&V> {
+    pub fn get(&mut self, key : &K) -> Option<&V> {
 
         // get node index from map
-        let node_idx = *self.map.get(key)?;     // using ? could cause error
+        let node_idx = self.map.get(key.clone())?;     // using ? could cause error
 
         // Move node to the front of the list (since it was just accessed and likely to be accessed again)
         // logic of prepending a node to a double linked list
@@ -79,7 +83,7 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
     // get mutable reference to value
     // this method should execute with the intention of modifying the reference
     pub fn get_mut(&mut self, key : &K) -> Option<&mut V> {
-        let node_idx = *self.map.get(key)?;
+        let node_idx = self.map.get(key.clone())?;
         self.move_to_front(node_idx);
         self.nodes[node_idx].as_mut().map(|node| &mut node.value)
     }
@@ -89,7 +93,7 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
     pub fn insert(&mut self, key : K, value : V) {
 
         // If key exists, update value and move to front
-        if let Some(&node_idx) = self.map.get(&key) {
+        if let Some(node_idx) = self.map.get(key.clone()) {
             if let Some(node) = self.nodes[node_idx].as_mut() {
                 node.value = value;         // update the value wtihin the existing node
                 self.move_to_front(node_idx);           // remove and prepend the node
@@ -139,8 +143,8 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
 
     // remove item from cache
     pub fn remove(&mut self, key : &K) -> Option<V> {
-        let node_idx = self.map.remove(key)?;
-        self.remove_node(node_idx);     // remove_node() : private helper method
+        let node_idx = self.map.remove(key.clone())?;
+        self.remove_node(node_idx)     // remove_node() : private helper method
     }
 
     // clear the cache, removing all items
@@ -162,7 +166,7 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
 
     // check if the cache is empty
     pub fn is_empty(&self) -> bool {
-        self.map.is_empty()         // TODO : self.map[0] == None return True (somethign along that logic)
+        self.map.is_empty()         
     }
 
     // below are the set of private helper methods that are being used by the above methods
@@ -177,15 +181,16 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
             return;
         }
 
-        let node = self.nodes[node_idx].as_mut().unwrap();
+        let mut binding = self.nodes[node_idx].clone();
+        let node = binding.as_mut().unwrap();
 
         // update adjacent nodes
-        if let Some(prev) = node.prev {
-            self.nodes[prev].as_mut().unwrap().next = node.next;
+        if let Some(prev) = node.clone().prev {
+            self.nodes[prev].clone().as_mut().unwrap().next = node.next;
         }
 
         if let Some(next) = node.next {
-            self.nodes[next].as_mut().unwrap.prev = node.prev;
+            self.nodes[next].clone().as_mut().unwrap().prev = node.prev;
         }
 
         // update tail if moving tail
@@ -236,7 +241,7 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
     fn evict_tail(&mut self) {
         if let Some(tail) = self.tail {
             if let Some(node) = &self.nodes[tail] {
-                self.map.remove(&node.key);
+                self.map.remove(node.key.clone());
                 self.remove_node(tail);
             }
         }
@@ -251,16 +256,16 @@ mod tests {
 
     #[test]
     fn test_basic_operations() {
-        let mut cache = LruCache::new(2);
+        let mut cache = CustomLruCache::new(2);
         
         // Test insertion
-        cache.put(1, "one");
-        cache.put(2, "two");
+        cache.insert(1, "one");
+        cache.insert(2, "two");
         assert_eq!(cache.get(&1), Some(&"one"));
         assert_eq!(cache.get(&2), Some(&"two"));
         
         // Test eviction
-        cache.put(3, "three");
+        cache.insert(3, "three");
         assert_eq!(cache.get(&1), None); // Should be evicted
         assert_eq!(cache.get(&2), Some(&"two"));
         assert_eq!(cache.get(&3), Some(&"three"));
@@ -268,18 +273,18 @@ mod tests {
 
     #[test]
     fn test_update_existing() {
-        let mut cache = LruCache::new(2);
-        cache.put(1, "one");
-        cache.put(1, "ONE");
+        let mut cache = CustomLruCache::new(2);
+        cache.insert(1, "one");
+        cache.insert(1, "ONE");
         assert_eq!(cache.get(&1), Some(&"ONE"));
         assert_eq!(cache.len(), 1);
     }
 
     #[test]
     fn test_clear() {
-        let mut cache = LruCache::new(2);
-        cache.put(1, "one");
-        cache.put(2, "two");
+        let mut cache = CustomLruCache::new(2);
+        cache.insert(1, "one");
+        cache.insert(2, "two");
         cache.clear();
         assert!(cache.is_empty());
         assert_eq!(cache.get(&1), None);

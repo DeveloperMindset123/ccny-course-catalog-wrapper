@@ -42,8 +42,7 @@ impl CourseStorage {
     /// let storage = CourseStorage::new(1000);
     /// ```
     pub fn new(capacity : usize) -> Self {
-        // TODO : implement the logic for this
-        unimplemented!("Not yet implemented");   
+        todo!("Not yet implemented");   
     }
 
     /// Inserts a course into storage
@@ -56,8 +55,7 @@ impl CourseStorage {
     /// storage.insert(course_info);
     /// ```
     pub fn insert(&mut self, course : CourseInfo) {
-        // TODO : implement the logic for this
-        unimplemented!("Not yet implemented");
+        todo!("Not yet implemented");
     }
 
     // Additional methods...
