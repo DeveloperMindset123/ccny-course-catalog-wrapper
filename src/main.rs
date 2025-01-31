@@ -56,16 +56,12 @@ pub struct CourseInfo {
  * REFERER (most likely what caused the issue with the data retrieval originally)
  */
 
-// retrieve course ID based on prior knowledge of course code
-pub async fn retrieve_course_id_by_course_code(course_code : &str, department_name : &str) -> String {
-    "true".to_string()      // not implemented
-}
-
 // retrieve the course group ID based on prior knowledge of course_name (not to be mistaken)
 // the function should take in the department name as the parameter
 // iterate over the returned data and isolate the course name and course code
 // we will need 2 things : a hashmap to map the course name to the course group ID
 // an array to store the name of the courses that will be used for searching purposes
+// TODO : implemenet the struct for data processing
 pub async fn retrieve_course_id_by_course_name(course_name_input : &str, department_name : &str) -> String {
     let mut closest_course_groupID = String::new();        // result will be stored here
     let mut course_name_list : Vec<String> = Vec::new();    // isolates name of courses based on the retrieved data
@@ -324,7 +320,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
     // pass in the input validation function to convert the department_name to lowercase
     // reduces any kind of case sensetivity error that may arise
     // input_validation accepts a &str as a parameter
-    let department_id = department_mapping.get(&input_validation(department_name)).unwrap_or(key_error_handler.borrow());
+    let department_id = department_mapping.get(&closest_matching_department(&input_validation(department_name))).unwrap_or(key_error_handler.borrow());
 
     if department_id == "None" {
         // specify an error message stating the department doesn't exist
@@ -398,7 +394,13 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
 
             // remove any unneccessary values
             let course_number_string_filtered : String = course_number_string.chars().filter(|c| c.is_digit(10)).collect();
-            let course_number_integer : i64 = course_number_string_filtered.parse().expect("failed to parse integer");
+            let course_number_integer : i64 = course_number_string_filtered.parse().unwrap_or(64);
+
+            if course_number_integer == 64 {
+                println!("{:?}",course_number_string_filtered);
+            }
+
+            // println!("current course number : {course_number_integer:?}");
             
             let mut course_info_instance = CourseInfo {
                 unique_id : serde_json::from_value(course_data["_id"].clone()).unwrap(),
@@ -429,75 +431,50 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
                 
             };
             CourseInfoVector.push(course_info_instance);
-            // println!("{course_info_instance:#?}");
+            println!("{CourseInfoVector:#?}");
         }
 
     }
 
-
-    // let course_info = CourseInfo {
-    //     unique_id : course_info["_id"],
-    //     course_name : course_info["name"],
-    //     career : course_info["career"],
-    //     course_code : course_info["code"],
-    //     course_components : course_component_instance,
-    //     effective_end_date : Some(course_info["effectiveEndDate"]),
-    //     effective_start_date : course_info["effectiveStartDate"],
-    //     course_group_id : course_info["courseGroupId"],     // NOTE : needed to retrieve further information about a particular course
-    //     course_number : course_info["courseNumber"],
-    //     department : course_info["departments"][0],     // can cause errors
-    //     subject_code : course_info["subjectCode"],
-    //     credits : course_info["credits"]["creditHours"]["max"]
-    // }
-    // println!("The course info vector is : {CourseInfoVector:?}");
-    println!("{:#?}", CourseInfoVector[0]);
+    // println!("{:#?}", CourseInfoVector[0]);
     Ok(CourseInfoVector)
 }
 
-// TODO : define the logic for the function below
-// should store Result<Vec<SomeStruct>> after
-pub async fn fetch_all_courses() -> Result<()> {
 
+// should store Result<Vec<SomeStruct>> after
+// This one isn't very reliable and can lead to crashes and the thread panicking
+pub async fn fetch_all_courses() -> Result<Vec<Vec<CourseInfo>>> {
+    let mut all_course_data : Vec<Vec<CourseInfo>> = Vec::new();
     // retrieve list of departments
-    // let department_list = get_department_list();
-    // for department in department_list.iter() {
-    //     // println!("current department : {department:?}");
-    //     let course_data = fetch_courses_by_department(department).await?;
-    //     // println!("{course_data:#?}");
-    //     // save the data to the file
-    //     let mut curr_dept = String::from(department);
-    //     curr_dept.push_str(" data.json");       // append borrowed string
-    //     // save_to_file(&course_data, &curr_dept);
-    // }
-    Ok(())
+    let department_list = get_department_list();
+    for department in department_list.iter() {
+        // println!("current department : {department:?}");
+        let course_data = fetch_courses_by_department(department).await?;
+        all_course_data.push(course_data);
+        // println!("{course_data:#?}");
+        // save the data to the file
+        let mut curr_dept = String::from(department);
+        // curr_dept.push_str(" data.json");       // append borrowed string
+        // save_to_file(&course_data, &curr_dept);
+    }
+
+    println!("{all_course_data:#?}");
+    Ok(all_course_data)
 }
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    // let department_mappings = get_department_mappings();
-    // print_hashmap_keys(department_mappings);        // experimental function (not sure of use case)
-
-    // returns a list cotnianing the list of departments
-    // println!("{:#?}", get_department_list());
-    // let course_fetch_result = fetch_courses_by_department("physics").await?;
-    // fetch_all_courses().await?;
-    // let courses_data = fetch_courses_by_department("Biology").await?;
-
-    // department_name should be passed in as a parameter to find the closest matching department
-    // let department_name_filtered : String = closest_matching_department("civil");
-
-    // TODO : retrieve_course_id_by_course_name : if the user already knows the course name by heart
-    // TODO : retrieve_course_id_by_course_code : 
     // 1st param : name of course (in NLP format)
     // 2nd param : name of department 
 
+    // testing purposes
     // retrieve_course_id_by_course_name("hydraulic", "civil").await;
-    retrieve_specific_course_info("advanced ecology", "biology").await;
-    retrieve_specific_course_info("machine learning", "computer science").await;
+    println!("{:#?}",fetch_courses_by_department("elec").await.unwrap());
+    // retrieve_specific_course_info("advanced ecology", "biology").await;
+    // retrieve_specific_course_info("assembly", "computer science").await;
 
+    // fetch_all_courses().await.unwrap();
 
-    // println!("filtered department name is : {department_name_filtered:?}");
-    
     // println!("{course_fetch_result:?}");
     Ok(())
 
@@ -511,7 +488,7 @@ async fn main() -> Result<()> {
 // the keys are very case sensetive
 pub fn get_department_mappings() -> HashMap<String, String> {
     
-    let test_map = HashMap::from([
+    let department_map = HashMap::from([
         ("administration".to_owned(), "ADMIN-CTY".to_owned()),
         ("anthropology".to_owned(), "ANTH-CTY".to_owned()),
         ("architecture".to_owned(), "ARCH-CTY".to_owned()),
@@ -554,7 +531,7 @@ pub fn get_department_mappings() -> HashMap<String, String> {
         ("grove school of engineering".to_owned(), "GROVE-CTY".to_owned()),
         ("theatre and speech".to_owned(), "THSP-CTY".to_owned())
         ]);
-    test_map
+    department_map
 }
 
 
@@ -594,18 +571,6 @@ pub async fn get_course_list_by_department(department_name : &str) -> Result<Vec
     println!("{department_courses:#?}");
 
     Ok(course_list)
-}
-
-// This is a helper function, user should not be seeing this function
-// I have an array of strings
-// I take the smallest length of the department 
-// then I create a bag of words out of it to split the list of departments
-// find the closest matching department and return it
-pub fn find_closest_matching_course(course_name : &str) -> String {
-    let mut resulting_string : String = String::new();      // create an empty new string
-
-    // call on the function to retrieve the list of 
-    "unimplemented".to_string()     // placeholder
 }
 
 // helper function to match and filter based on the closest matching string
