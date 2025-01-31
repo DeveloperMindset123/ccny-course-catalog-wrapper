@@ -157,12 +157,12 @@ impl<K : Hash + Eq + Clone, V : Copy> CustomLruCache<K,V> {
 
     // get current number of items within cache
     pub fn len(&self) -> usize {
-        self.map.len()          // TODO : implement the .len() method within custom_hashmap (One potential approach : I simply have to return the curr_size value within the len() method)
+        self.map.len()          
     }
 
     // check if the cache is empty
     pub fn is_empty(&self) -> bool {
-        self.map.is_empty()         // self.map[0] == None return True (somethign along that logic)
+        self.map.is_empty()         // TODO : self.map[0] == None return True (somethign along that logic)
     }
 
     // below are the set of private helper methods that are being used by the above methods

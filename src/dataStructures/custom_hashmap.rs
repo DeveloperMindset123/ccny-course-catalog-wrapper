@@ -304,6 +304,10 @@ impl<T : Clone + Hash + PartialEq, V : Copy> CustomHashMap<T,V> {
         self.curr_size = 0;        
         self. arr = [Self::INIT; DEFAULT_MAX_SIZE as usize];        
     }
+
+    pub fn len(&self) -> usize {
+        self.curr_size
+    }
 }
 
 // hash_key implementation
