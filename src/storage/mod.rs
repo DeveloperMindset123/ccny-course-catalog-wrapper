@@ -2,6 +2,8 @@
 use std::collections::{HashMap};
 use crate::models::{CourseInfo, CompactCourseInfo};     // absolute import from models dir
 use crate::utils::StringInterner;                       // absolute import from utils dir
+use lru::LruCache;
+use std::num::NonZeroUsize;
 
 const BLOCK_SIZE : usize = 16;      // global 
 
