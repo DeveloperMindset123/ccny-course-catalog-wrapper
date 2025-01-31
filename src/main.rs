@@ -488,7 +488,7 @@ async fn main() -> Result<()> {
 // the keys are very case sensetive
 pub fn get_department_mappings() -> HashMap<String, String> {
     
-    let test_map = HashMap::from([
+    let department_map = HashMap::from([
         ("administration".to_owned(), "ADMIN-CTY".to_owned()),
         ("anthropology".to_owned(), "ANTH-CTY".to_owned()),
         ("architecture".to_owned(), "ARCH-CTY".to_owned()),
@@ -531,7 +531,7 @@ pub fn get_department_mappings() -> HashMap<String, String> {
         ("grove school of engineering".to_owned(), "GROVE-CTY".to_owned()),
         ("theatre and speech".to_owned(), "THSP-CTY".to_owned())
         ]);
-    test_map
+    department_map
 }
 
 
@@ -571,18 +571,6 @@ pub async fn get_course_list_by_department(department_name : &str) -> Result<Vec
     println!("{department_courses:#?}");
 
     Ok(course_list)
-}
-
-// This is a helper function, user should not be seeing this function
-// I have an array of strings
-// I take the smallest length of the department 
-// then I create a bag of words out of it to split the list of departments
-// find the closest matching department and return it
-pub fn find_closest_matching_course(course_name : &str) -> String {
-    let mut resulting_string : String = String::new();      // create an empty new string
-
-    // call on the function to retrieve the list of 
-    "unimplemented".to_string()     // placeholder
 }
 
 // helper function to match and filter based on the closest matching string
