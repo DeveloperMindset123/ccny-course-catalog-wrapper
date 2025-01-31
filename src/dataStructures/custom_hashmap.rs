@@ -302,11 +302,18 @@ impl<T : Clone + Hash + PartialEq, V : Copy> CustomHashMap<T,V> {
     // the definition is essentially similar to the constructor method
     pub fn clear(&mut self) {
         self.curr_size = 0;        
-        self. arr = [Self::INIT; DEFAULT_MAX_SIZE as usize];        
+        self.arr = [Self::INIT; DEFAULT_MAX_SIZE as usize];        
     }
 
     pub fn len(&self) -> usize {
         self.curr_size
+    }
+
+    pub fn is_empty(&self) -> bool {
+        if self.len() == 0 {
+            return true;
+        }
+        false
     }
 }
 
