@@ -77,6 +77,8 @@ pub async fn find_course_by_name_and_dept(
 
 
 // example code to understand how iter(), filter() and fold() method works within an array
+// tested on rust playground
+//
 // code below is from rust playground
 //
 // fn collect_and_iter() {

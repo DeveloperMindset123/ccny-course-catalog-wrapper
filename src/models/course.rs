@@ -29,5 +29,3 @@ pub struct CourseInfo {
     pub subject_code : String,
     pub credits : i32
 }
-
-// TODO : continue implementing this.

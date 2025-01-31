@@ -12,7 +12,7 @@ pub struct CompactCourseComponents {
 }
 
 /// Compact course information for storage
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub struct CompactCourseInfo {
     pub unique_id : String,     // maintained as string due to the alphanumerical values
     pub name_id : u32,          // reference to interned string
@@ -24,3 +24,11 @@ pub struct CompactCourseInfo {
     pub credits : u8
 }
 
+impl CompactCourseInfo {
+
+    // TODO : Prototype version only, main logic still requires implementation
+    // TODO : refer to src/CourseStorageImpl for starter code
+    pub fn from_course_info(course_id : &mut some_ref, name_id : String, dept_id : String) {
+        todo!("implement this.");
+    }
+}
