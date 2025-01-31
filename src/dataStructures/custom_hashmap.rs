@@ -10,7 +10,7 @@ const DEFAULT_MAX_SIZE : u64 = 256;
 
 // maintains a current size, and it's underlying key value pairs.
 #[derive(Debug, Clone)]
-pub struct HashMap<T,V> {
+pub struct CustomHashMap<T,V> {
     curr_size : usize,
 
     // [Type of data for the elements; size of the overall array]
@@ -54,11 +54,11 @@ impl<T,V> KeyValue<T,V> {
 // V : Copy
 // Meaning, T and V will be the placeholder types
 // and those types will inherit the traits listed automatically
-impl<T : Clone + Hash + PartialEq, V : Copy> HashMap<T,V> {
+impl<T : Clone + Hash + PartialEq, V : Copy> CustomHashMap<T,V> {
     const INIT : Option<KeyValue<T,V>> = None;      // we use const to avoid running into borrow/ownership related errors that may arise
 
-    pub fn new() -> HashMap<T,V> {
-        HashMap {
+    pub fn new() -> CustomHashMap<T,V> {
+        CustomHashMap {
             curr_size : 0,
             arr : [Self::INIT; DEFAULT_MAX_SIZE as usize],
         }
@@ -296,7 +296,7 @@ impl<T : Clone + Hash + PartialEq, V : Copy> HashMap<T,V> {
     }
 
     // clears the hashmap
-    // similar to the drain method within the std::collections::HashMap
+    // similar to the drain method within the std::collections::CustomHashMap
     //
     // overwrite the existing array to remove everything
     // the definition is essentially similar to the constructor method
@@ -325,7 +325,7 @@ fn test_can_get_item() {
     let value : i32 = 1;
 
     // instantiate a hashmap of key type string and value of i32
-    let mut my_hash : HashMap<String, i32> = HashMap::new();
+    let mut my_hash : CustomHashMap<String, i32> = CustomHashMap::new();
     my_hash.insert(key.clone(), value);
 
     let result = my_hash.get(key).unwrap();
@@ -335,7 +335,7 @@ fn test_can_get_item() {
 
 // Tested in rust playground
 // fn main() {
-//     let mut my_hashmap : HashMap<i32,i32> = HashMap::new();
+//     let mut my_hashmap : CustomHashMap<i32,i32> = CustomHashMap::new();
 //     let key = 1;
 //     let val = 10;
     
