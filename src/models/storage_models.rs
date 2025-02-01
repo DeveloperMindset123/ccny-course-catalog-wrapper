@@ -2,7 +2,7 @@
 
 /// Compact representation of course components
 /// This component is part of CompactCourseInfo struct
-#[derive(Clone,Copy)]
+#[derive(Clone,Copy,Debug)]
 pub struct CompactCourseComponents {
     // pack multiple fields into a single u32
     pub data : u32,     // contains course_type, attendance_type, instruction_mode as bit flags
@@ -12,7 +12,7 @@ pub struct CompactCourseComponents {
 }
 
 /// Compact course information for storage
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Copy)]
 pub struct CompactCourseInfo {
     pub unique_id : String,     // maintained as string due to the alphanumerical values
     pub name_id : u32,          // reference to interned string

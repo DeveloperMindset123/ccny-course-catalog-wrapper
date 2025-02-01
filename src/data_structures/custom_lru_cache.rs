@@ -5,7 +5,7 @@
 // It refers to a cache replacement algorithm that removes the data item that has been accesses the least recently when the cachce reaches it's capacity
 // operates on the principle that the data most recently accessed is likely to be accesses again in the near future.
 
-use custom_hashmap::CustomHashMap;
+use crate::custom_hashmap::CustomHashMap;
 use std::hash::Hash;
 use std::mem;
 use std::marker::Copy;
@@ -14,11 +14,11 @@ use std::marker::Copy;
 // since LRU Cache uses Double Linked List under the hood
 
 #[derive(Clone, Debug, Copy)]
-struct Node<K,V> {
-    key : K,
-    value : V,
-    prev : Option<usize>,            // prev pointer
-    next : Option<usize>,            // next pointer
+pub struct Node<K,V> {
+    pub key : K,
+    pub value : V,
+    pub prev : Option<usize>,            // prev pointer
+    pub next : Option<usize>,            // next pointer
 }
 
 // LRU Cache implementation using custom_hashmap and double linked list
@@ -27,22 +27,22 @@ pub struct CustomLruCache<K, V> {
 
     // Hashmap stores key to node index mapping
     // map : custom_hashmap::CustomHashMap<K, usize>,
-    map : CustomHashMap<K, usize>,
+    pub map : CustomHashMap<K, usize>,
 
     // vector stores nodes based on index
-    nodes : Vec<Option<Node<K,V>>>,
+    pub nodes : Vec<Option<Node<K,V>>>,
 
     // Free list for node reuse
-    free : Vec<usize>,
+    pub free : Vec<usize>,
 
     // Head node of Double Linked List
-    head : Option<usize>,
+    pub head : Option<usize>,
 
     // Tail node of Double Linked List
-    tail : Option<usize>,
+    pub tail : Option<usize>,
 
     // maximum capacity
-    capacity : usize,
+    pub capacity : usize,
 }
 
 // Attach traits to generic types

@@ -3,8 +3,10 @@ use std::collections::{HashMap};
 use crate::models::{CourseInfo, CompactCourseInfo};     // absolute import from models dir
 use crate::utils::StringInterner;                       // absolute import from utils dir
 // use lru::LruCache;
-use crate::dataStructure::custom_hashmap::CustomHashMap;
-use crate::dataStructure::custom_lru_cache::CustomLruCache;
+// mod dataStructures;
+use crate::custom_hashmap::CustomHashMap;
+use crate::custom_lru_cache::CustomLruCache;
+// use crate::data_structures::{custom_hashmap, custom_lru_cache};
 use std::marker::Copy;
 // use std::num::NonZeroUsize;
 
@@ -20,11 +22,11 @@ pub struct CourseStorage {
     pub string_interner : StringInterner,
 
     // indices for fast lookups
-    pub code_index : HashMap<u32, usize>,
-    pub id_index : HashMap<String, usize>,
+    pub code_index : CustomHashMap<u32, usize>,
+    pub id_index : CustomHashMap<String, usize>,
 
     // cache for frequently accessed items
-    pub cache : LruCache<usize, CourseInfo>,
+    pub cache : CustomLruCache<usize, CourseInfo>,
 }
 
 #[derive(Clone,Debug)]
@@ -34,6 +36,9 @@ pub struct Block<T> {
     access_count : u32,
 }
 
+
+// The Default trait in rust allows the process of defining a "default" value for a type
+// similar to "defaultdict" in python
 impl<T> Block<T> 
 where 
     T: Default + Copy,
@@ -98,11 +103,86 @@ impl CourseStorage {
         // get or create block
         let block_id = self.get_or_create_block();
 
-        // store in block
-        // TODO : continue this implementation tommorow.
+        // Store in block
+        if let Some(block) = &mut self.blocks[block_id] {
+            // Find empty slot in block
+            for i in 0..BLOCK_SIZE {
+                if block.data[i].is_empty() {
+                    block.data[i] = compact;
+                    block.modified = true;
+                    block.access_count += 1;
+                    
+                    // NOTE : code_index and id_index are both hashmaps here
+                    // update indices
+                    self.code_index.insert(compact.course_code, block_id);
+                    self.id_index.insert(course.unique_id.clone(), block_id);
+
+                    // update cache
+                    self.cache.insert(block_id, course);
+                    return;
+                }
+            }
+        }
         
     }
 
-    // Additional methods...
+    // retrieves information about course based on code ID
+    // TODO : fix the implementation of this function (since the code isn't something that's entirely numerical values within string)
+    // (i.e MATH 391, CSC 212, etc.)
+    //
+    // TODO : implement a function to parse the numerical and non-numerical values
+    // need to parse and filter out the non-numerical values and numerical values
+    pub fn get_by_code(&mut self, code : &str) -> Option<CourseInfo> {
+        // convert code into numeric format
+        let code_num = self.pack_course_code(code);
+
+        // check cache first
+        if let Some(&block_id) = self.code_index.get(code_num) {
+            if let Some(course) = self.cache.get(&block_id) {
+                return Some(course.clone());
+            }
+
+            // not in cache, get from block
+            if let Some(block) = &mut self.blocks[block_id] {
+                block.access_count += 1;        // increment by 1 since particular data within block has been accessed
+
+                // Find in block
+                for item in block.data.iter() {
+                    if item.course_code == code_num {
+                        // convert back into course info
+                        // using the helper function to_course_info
+                        let course = item.to_course_info(&self.string_interner);
+
+                        // update cahce
+                        self.cache.insert(block_id, course.clone());
+                        return Some(course);
+                    }
+                }
+            }
+        }
+        None
+    }
+
+    pub fn get_by_id(&mut self, id : &str) -> Option<CourseInfo> {
+        if let Some(&block_id) = self.id_index.get(id.to_string()) {
+            if let Some(course) = self.cache.get(&block_id) {
+                return Some(course.clone());
+            }
+
+            if let Some(block) = &mut self.blocks[block_id] {
+                block.access_count += 1;
+
+                // Find in block
+                for item in block.data.iter() {
+                    if item.unique_id == id {
+                        let course = item.to_course_info(&self.string_interner);
+                        self.cache.insert(block_id, course.clone());
+                        return Some(course);
+                    }
+                }
+            }
+        }
+        None
+    }
 }
 

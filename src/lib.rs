@@ -33,11 +33,13 @@ mod models;
 mod storage;
 mod api;
 mod utils;
+mod data_structures;
 
 pub use models::{CourseInfo, CourseComponents};
 pub use storage::CourseStorage;
 pub use api::{fetch_courses_by_department};         // fetch_all_courses isn't being used
 pub use utils::StringInterner;
+pub use data_structures::{custom_hashmap, custom_lru_cache};
 
 pub fn add(x : i32, y : i32) -> i32 {
     x + y
