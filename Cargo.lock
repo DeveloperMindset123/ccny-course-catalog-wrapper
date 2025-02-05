@@ -104,7 +104,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ccny-course-catalog-wrapper"
+name = "ccny-course-catalog"
 version = "0.1.0"
 dependencies = [
  "anyhow",

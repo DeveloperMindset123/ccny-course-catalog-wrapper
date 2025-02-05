@@ -1,4 +1,4 @@
-use ccny_course_catalog_wrapper::CCNYCourseCatalog;
+use ccny_course_catalog::CCNYCourseCatalog;
 use tokio;
 use anyhow::Result;
 

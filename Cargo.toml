@@ -1,5 +1,5 @@
 [package]
-name = "ccny-course-catalog-wrapper"
+name = "ccny-course-catalog"
 version = "0.1.0"
 description = "A api wrapper for retrieving course related information from CUNY City College."
 license = "MIT OR Apache-2.0"
