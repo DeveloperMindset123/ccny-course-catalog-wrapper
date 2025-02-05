@@ -2,6 +2,10 @@
 use crate::api::department::{fetch_courses_by_department};
 use crate::api::course_finder;
 use crate::CourseInfo;
+use std::path::PathBuf;
+use std::collections::HashMap;
+use std::{fs, io::Write};
+use anyhow::Result;
 
 // function that isolates and returns list of courses relevant to a particular department
 pub async fn get_course_list_by_department(department_name : &str) -> Result<Vec<String>, anyhow::Error> {
@@ -31,14 +35,4 @@ pub fn print_hashmap_keys(hashmap_input : HashMap<String, String>) {
     for (key,value) in hashmap_input.into_iter() {
         println!("current department : {key:?}");
     }
-}
-
-// function that isolates and returns list of courses relevant to a particular department
-pub async fn get_course_list_by_department(department_name : &str) -> Result<Vec<String>, anyhow::Error> {
-    let course_list : Vec<String> = Vec::new();
-    // call on the function to retrieve the course
-    let department_courses : Vec<CourseInfo> = fetch_courses_by_department(department_name).await?;
-    println!("{department_courses:#?}");
-
-    Ok(course_list)
 }

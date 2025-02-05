@@ -5,6 +5,10 @@ description = "A api wrapper for retrieving course related information from CUNY
 license = "MIT OR Apache-2.0"
 edition = "2021"
 
+[[bin]]
+name = "experimental"
+path = "src/bin/experimental.rs"
+
 [dependencies]
 serde = { version = "1.0.217", features = ["derive"] }
 anyhow = "1.0.95"

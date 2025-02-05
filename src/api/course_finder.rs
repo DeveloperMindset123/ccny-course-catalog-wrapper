@@ -101,7 +101,7 @@ pub async fn retrieve_course_id_by_course_name(course_name_input : &str, departm
 // construct a hashmap based on the list of courses, check if the course name matches any 
 // we have to set the course_code as the key and course_group_id as the value corresponding to the key
 // header related information for this particular API call should remain more or less the same
-pub async fn retrieve_specific_course_info(course_name : &str, department_name : &str) -> Result<()>{
+pub async fn retrieve_specific_course_info(course_name : &str, department_name : &str) -> Result<serde_json::Value>{
     // NOTE : if the first value of the course_group_id starts with a 1, that means we don't have to prepend a 0 to the existing string
     // otherwise however we do have to prepend a 0 to the string
     // to ensure that all courses can be searched
@@ -113,7 +113,6 @@ pub async fn retrieve_specific_course_info(course_name : &str, department_name :
     let course_group_id : &str = &retrieve_course_id_by_course_name(course_name, department_name).await;
 
     // check and test the control group ID
-    println!("Length of course group ID : {:?}", course_group_id.len());
     // control flow to determine whether course group id is 6 or 7 characters long
     if course_group_id.len() < 7 {
         complete_course_group_id = "0".to_owned() + course_group_id;   
@@ -160,7 +159,7 @@ pub async fn retrieve_specific_course_info(course_name : &str, department_name :
     // convert the text data to Json format
     let json_response : serde_json::Value = serde_json::from_str(&response_data_raw)?;
 
-    println!("{json_response:#?}");
+    // println!("{json_response:#?}");
 
-    Ok(())
+    Ok(json_response)
 }
