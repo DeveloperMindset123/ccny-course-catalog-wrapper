@@ -1,8 +1,7 @@
 // relevant imports
 use reqwest;
 use anyhow::Result;
-use crate::models::CourseInfo;
-use crate::CourseComponents;
+use crate::models::{CourseInfo, CourseComponents};
 use serde_json::json;
 use closestmatch::ClosestMatch;
 use std::borrow::Borrow;

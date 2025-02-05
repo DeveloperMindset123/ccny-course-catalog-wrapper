@@ -1,7 +1,7 @@
 // stores utility functions that handles the saving and retrival logic of files
 use crate::api::department::{fetch_courses_by_department};
 use crate::api::course_finder;
-use crate::CourseInfo;
+use crate::models::CourseInfo;
 use std::path::PathBuf;
 use std::collections::HashMap;
 use std::{fs, io::Write};
