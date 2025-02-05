@@ -1,3 +1,5 @@
+// Stores all relevant structs here
+
 use serde::{Deserialize, Serialize};
 
 // redefining CourseComponents here, could throw potential error
