@@ -21,7 +21,7 @@ tokio-macros = "2.5.0"
 serde = { version = "1.0.217", features = ["derive"] }
 serde_json = "1.0.135"
 filepath="0.2.0"
-async-compression={version="0.4.18", features=["futures-io"]}
+async-compression={version="0.4.18", features=["futures-io"] }
 closestMatch="=0.1.2"
 lru="0.13.0"
 ```
