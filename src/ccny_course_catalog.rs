@@ -312,6 +312,13 @@ impl CCNYCourseCatalog {
         retrieve_specific_course_info(&self.course_name, &self.department_name).await
     }
 
+    /// Setter methods allows modification of department and courses.
+    /// Setter logic examples
+    /// ```
+    /// course_instance.set_department_name("electrical engineering");
+    /// course_instance.set_course_name("statistics");
+    /// ```
+
     pub fn set_department_name(&mut self, new_department_name : &str) {
         self.department_name = String::from(new_department_name);
     }
