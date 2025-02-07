@@ -1,7 +1,4 @@
-// NOTE : upon retrieving the list of courses, additional information about the course can be retrieved using the courseGroupId
-
-// GET Method --> https://app.coursedog.com/api/v1/cty01/general/terms : general api to retrieve information regarding all the terms
-// TODO : look into the Levenshtein method for string matching as alternative for search lookup and suggesting corresponding value
+// relevant imports
 use anyhow::Result;
 use reqwest;
 use reqwest::header::{HeaderMap, HeaderValue, ACCEPT, CONTENT_TYPE, ORIGIN, REFERER};
@@ -174,9 +171,6 @@ pub async fn retrieve_specific_course_info(course_name : &str, department_name :
     println!("{json_response:#?}");
 
     Ok(())
-
-
-
 }
 
 pub async fn retrieve_historical_terms() -> Result<()> {

@@ -1,3 +1,5 @@
+// Stores all relevant structs here
+
 use serde::{Deserialize, Serialize};
 
 // redefining CourseComponents here, could throw potential error
@@ -29,5 +31,3 @@ pub struct CourseInfo {
     pub subject_code : String,
     pub credits : i32
 }
-
-// TODO : continue implementing this.
