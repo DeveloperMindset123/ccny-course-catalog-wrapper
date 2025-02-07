@@ -4,7 +4,7 @@ version = "0.1.1"
 description = "A api wrapper for retrieving course related information from CUNY City College."
 license = "MIT OR Apache-2.0"
 edition = "2021"
-repository = "github.com/DeveloperMindset123/ccny-course-catalog-wrapper"
+repository = "https://github.com/DeveloperMindset123/ccny-course-catalog-wrapper"
 readme = "./README.md"
 
 [[bin]]
