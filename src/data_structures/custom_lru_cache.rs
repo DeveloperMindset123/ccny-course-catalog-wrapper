@@ -5,7 +5,7 @@
 // It refers to a cache replacement algorithm that removes the data item that has been accesses the least recently when the cachce reaches it's capacity
 // operates on the principle that the data most recently accessed is likely to be accesses again in the near future.
 
-use crate::custom_hashmap::CustomHashMap;
+use crate::data_structures::custom_hashmap::CustomHashMap;
 use std::hash::Hash;
 use std::mem;
 use std::marker::Copy;
