@@ -1,7 +1,7 @@
 // This is the file that will handle the implementation logic
 // This will be the user facing file
 use anyhow::Result;
-use crate::api::department::fetch_courses_by_department;
+use crate::api::department::{self, fetch_courses_by_department};
 use crate::models::CourseInfo;
 use crate::api::course_finder::retrieve_specific_course_info;
 use serde::{Deserialize, Serialize};
@@ -310,6 +310,11 @@ impl CCNYCourseCatalog {
         // call on the function
         // retrieve_specific_course_info
         retrieve_specific_course_info(&self.course_name, &self.department_name).await
+    }
+    
+    /// Returns list of departments available within CUNY City College of New York.
+    pub fn get_department_list(&self) -> Vec<String> {
+        department::get_department_list()
     }
 
     /// Setter methods allows modification of department and courses.
