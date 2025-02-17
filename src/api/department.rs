@@ -26,7 +26,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
     let department_mapping = get_department_mappings();
     let key_error_handler = String::from("None"); 
     let department_id = department_mapping.get(&closest_matching_department(&input_validation(department_name))).unwrap_or(key_error_handler.borrow());
-
+    // let mut course_integer = 0;
     if department_id == "None" {
         eprintln!("A department by this name doesn't exist, please refer to the list of departments.");
         return Err(anyhow::Error::msg("Program Failed"));
@@ -37,7 +37,16 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
     for courses in course_info.as_array().iter() {
         for course_data in courses.iter() {
             let course_group_id : String = serde_json::from_value(course_data["courseGroupId"].clone()).unwrap();
-            let course_integer : i32 = course_group_id.parse().expect("Failed to parse");
+
+            // println!("current course group id {course_group_id:?}");
+            // if course_group_id.parse::<i32>().is_ok() {
+            //     course_integer = course_group_id.parse().expect("Failed to parse");
+            // } else {
+            //     continue;
+            // }
+            // // let course_integer : i32 = course_group_id.parse().expect("Failed to parse");
+
+            // println!("current course integer : {course_integer:?}");
             let mut course_component_data : Vec<CourseComponents> = Vec::new();
             for data in course_data["components"].as_array().iter() {
                 for inner_data in data.iter() {
@@ -68,7 +77,13 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
             if course_number_integer == 64 {
                 println!("{:?}",course_number_string_filtered);
             }
-            
+            // let credits = course_data["credits"]["creditHours"]["max"].clone().to_string();
+            // println!("{credits:?}");
+
+            // let credits_numerical : i32 = 
+            // println!("{:?}",serde_json::from_value(course_data["credits"]["creditHours"]["max"].clone()).unwrap());
+
+            // println!("credits converted val : {credits_converted:?}");
             let mut course_info_instance = CourseInfo {
                 unique_id : serde_json::from_value(course_data["_id"].clone()).unwrap(),
 
@@ -82,9 +97,9 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
 
                 effective_start_date : serde_json::from_value(course_data["effectiveStartDate"].clone()).unwrap(),
 
-                effective_end_date : "unknown".to_owned(),
+                effective_end_date : "unknown".to_owned(),      // remains the same throughout
 
-                course_group_id : course_integer,
+                course_group_id : course_group_id,
 
                 course_number : course_number_integer,
 
@@ -92,7 +107,7 @@ pub async fn fetch_courses_by_department(department_name : &str) -> Result<Vec<C
 
                 subject_code : serde_json::from_value(course_data["subjectCode"].clone()).unwrap(),
 
-                credits : serde_json::from_value(course_data["credits"]["creditHours"]["max"].clone()).unwrap()
+                credits : course_data["credits"]["creditHours"]["max"].clone().to_string()
                 
             };
             CourseInfoVector.push(course_info_instance);

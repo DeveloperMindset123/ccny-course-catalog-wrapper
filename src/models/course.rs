@@ -25,9 +25,9 @@ pub struct CourseInfo {
     pub course_components : CourseComponents,
     pub effective_start_date : String,
     pub effective_end_date : String,
-    pub course_group_id : i32,
+    pub course_group_id : String,       // originally i32
     pub course_number : i64,
     pub department : Vec<String>,
     pub subject_code : String,
-    pub credits : i32
+    pub credits : String
 }

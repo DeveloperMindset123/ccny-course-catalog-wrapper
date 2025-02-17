@@ -24,13 +24,16 @@ use anyhow::Result;
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    let mut course_instance = CCNYCourseCatalog::new(String::from("computer science"), Some(String::from("data structures")));
+    let mut course_instance = CCNYCourseCatalog::new(String::from("computer science"), Some(String::from("algorithms")));
 
     // return tyep of list_of_courses
     // Result<Vec<CourseInfo>, anyhow::Error>
     let mut list_of_courses = course_instance.get_courses_list().await;
     let mut course_info = course_instance.get_course_info().await;
-    println!("{course_info:#?}");
+    // println!("{course_info:#?}");
+
+    let department_list = course_instance.get_department_list();
+    println!("{department_list:#?}");
     Ok(())
     
 // Resulting Output:
