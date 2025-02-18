@@ -6,7 +6,7 @@ A library that fetches information related to list of courses and particular cou
 
 - **Retrieve Course Information** : Retrieve information about a particular course provided as part of constructor parameter, this will retrieve data in regards to seat sizing, instruction mode, class sizes, attendance requirement, semesters during which the class is offered, etc.
 
-[API Documentation](https://docs.rs/ccny-course-catalog/0.1.3/ccny_course_catalog/) : To get better understanding of implementation details.
+[API Documentation](https://docs.rs/ccny-course-catalog/0.1.4/ccny_course_catalog/) : To get better understanding of implementation details.
 
 #### Installation:
 - While not all of the dependancies are needed for the methods module, if you do wish to use the features module, some additional dependancies such as serde and reqwest will be needed.
@@ -300,7 +300,7 @@ course_instance.set_course_name("statistics");
 ```
 
 ### Getting Help
-- If the [API Documentation](https://docs.rs/ccny-course-catalog/0.1.3/ccny_course_catalog/) doesn't help and you happen to be stuck on something, there's also examples within the **bin** folder containing executable code.
+- If the [API Documentation](https://docs.rs/ccny-course-catalog/0.1.4/ccny_course_catalog/) doesn't help and you happen to be stuck on something, there's also examples within the **bin** folder containing executable code.
 
 - However, if that doesn't work or solve your problem, or if there's a feature request you would like to make, you can reach out to me in the following:
 

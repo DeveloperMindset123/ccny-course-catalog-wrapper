@@ -32,7 +32,7 @@ async fn main() -> Result<()> {
     let mut course_info = course_instance.get_course_info().await;
     // println!("{course_info:#?}");
 
-    let department_list = course_instance.get_department_list();
+    let department_list = CCNYCourseCatalog::get_department_list();
     println!("{department_list:#?}");
     Ok(())
     

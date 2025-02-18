@@ -313,7 +313,12 @@ impl CCNYCourseCatalog {
     }
     
     /// Returns list of departments available within CUNY City College of New York.
-    pub fn get_department_list(&self) -> Vec<String> {
+    /// ```rust
+    /// // example usage
+    /// // this code snippet should be within a function
+    /// let department_list = CCNYCourseCatalog::get_department_list();
+    /// ```
+    pub fn get_department_list() -> Vec<String> {
         department::get_department_list()
     }
 
